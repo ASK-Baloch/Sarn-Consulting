@@ -1,14 +1,12 @@
-// src/app/page.tsx
-export const revalidate = 30; // Revalidate this page every 30 seconds
-
-import { client, urlFor } from "../../sanity.client";
-import { allPostsQuery } from "../../sanity.query";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import { urlFor } from "../../../sanity.client";
+import { client } from "../../../sanity.client";
+import { allPostsQuery } from "../../../sanity.query";
 
-export default async function HomePage() {
+const BlogsListing = async () => {
   const posts = await client.fetch(allPostsQuery);
-
   return (
     <div style={{ padding: "2rem" }}>
       <h1>My Blog</h1>
@@ -37,4 +35,6 @@ export default async function HomePage() {
       </p>
     </div>
   );
-}
+};
+
+export default BlogsListing;

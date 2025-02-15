@@ -1,7 +1,7 @@
 # Sarn Consulting - Modern Business Consulting Platform 🌐
 
-**A high-performance consulting website built with Next.js 14, React 18, and Sanity CMS**  
-*Delivering lightning-fast business solutions through cutting-edge web technology*
+**Sarn consulting website built with Next.js 14, React 18, and Sanity CMS**  
+*Delivering lightning-fast Tax solutions For all your finances*
 
 ## 🚀 Key Features
 - **Next.js 14 App Router** with React Server Components (RSC) for optimal performance
@@ -33,7 +33,7 @@
 ## 🔧 Installation
 ```bash
 # Clone repository
-git clone https://github.com/your-username/sarn-consulting.git
+git clone https://github.com/ASK-Baloch/sarn-consulting.git
 
 # Install dependencies
 npm install
