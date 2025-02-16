@@ -122,8 +122,8 @@ const MobileNavbar: React.FC = () => {
             className="mb-5"*/}
           <Dropdown menu={{ items: userMenuItems }} trigger={["click"]}>
             <div className="flex items-center cursor-pointer bg-white border border-gray-200 rounded-md hover:bg-gray-100 transition px-2 py-1 bottom-0 absolute left-0">
-              <Avatar icon={<UserOutlined />} />
-              <span className="ml-2 text-black">User</span>
+              {/* <Avatar icon={<UserOutlined />} />
+              <span className="ml-2 text-black">User</span> */}
             </div>
           </Dropdown>
 

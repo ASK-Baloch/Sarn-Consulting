@@ -8,7 +8,7 @@ import { allPostsQuery } from "../../../sanity.query";
 const BlogsListing = async () => {
   const posts = await client.fetch(allPostsQuery);
   return (
-    <div style={{ padding: "2rem" }}>
+    <div style={{ padding: "2rem" }} >
       <h1>My Blog</h1>
       {posts.map((post: any) => (
         <div key={post._id} style={{ marginBottom: "2rem" }}>

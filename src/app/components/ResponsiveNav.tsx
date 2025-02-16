@@ -12,35 +12,35 @@ export default function ResponsiveNavbar() {
     const screens = useBreakpoint();
     const [isSerciceCard, setServiceCard] = useState(false)
     const [isAboutCard, setAboutCard] = useState(false)
-    const userMenuItems = [
-        {
-            key: "profile",
-            label: (
-                <Link href="/profile" className="text-black font-bold">
-                    Profile
-                </Link>
-            ),
-        },
-        {
-            key: "settings",
-            label: (
-                <Link href="/settings" className="text-black font-bold">
-                    Settings
-                </Link>
-            ),
-        },
-        {
-            key: "logout",
-            label: <span className="text-black font-bold">Logout</span>,
-        },
-    ];
+    // const userMenuItems = [
+    //     {
+    //         key: "profile",
+    //         label: (
+    //             <Link href="/profile" className="text-black font-bold">
+    //                 Profile
+    //             </Link>
+    //         ),
+    //     },
+    //     {
+    //         key: "settings",
+    //         label: (
+    //             <Link href="/settings" className="text-black font-bold">
+    //                 Settings
+    //             </Link>
+    //         ),
+    //     },
+    //     {
+    //         key: "logout",
+    //         label: <span className="text-black font-bold">Logout</span>,
+    //     },
+    // ];
 
 
 
     const renderDesktopNav = () => (
-        <header className="sticky top-0 z-50 bg-gray-50 shadow-md p-2 overflow- ">
-            <div className="flex items-center justify-around mx-5">
-                <div className="mr-5">
+        <header className="sticky top-0 z-50 bg-gray-50 shadow-md p-2 items-center justify-between flex ">
+     
+                <div className="ml-16">
                     <Link href="/" className="text-2xl  text-black">
                         <div className="text-2xl font-medium text-orange-500 flex-wrap">
                             SARN <span className="text-black">Consulting</span>
@@ -48,8 +48,8 @@ export default function ResponsiveNavbar() {
 
                     </Link>
                 </div>
-                <div className="flex flex-1 ">
-                    <div className="flex flex-1 mx-32 justify-between ">
+                <div className="flex  mr-10">
+                <div className="flex  mr-16 justify-between gap-16 ">
 
                         <Link href="/" className="text-black font-medium hover:text-orange-500 hover:underline hover:scale-110  ">
                             Home
@@ -101,20 +101,8 @@ export default function ResponsiveNavbar() {
                         </Link>
                     </div>
                 </div>
-                <div className="flex items-center space-x-4 text-black p-1">
-                    <Input.Search
-                        placeholder="Search..."
-                        allowClear
-                        className="w-48 text-black "
-                    />
-                    <Dropdown menu={{ items: userMenuItems }} trigger={["click"]}>
-                        <div className="flex items-center cursor-pointer bg-white border border-gray-200 rounded-md hover:bg-gray-100 transition px-2 ">
-                            <Avatar icon={<UserOutlined className="p-10 bg-black" />} />
-                            <span className="ml-2 text-black">User</span>
-                        </div>
-                    </Dropdown>
-                </div>
-            </div>
+              
+        
         </header>
     );
 

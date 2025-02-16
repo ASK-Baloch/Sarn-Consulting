@@ -11,7 +11,7 @@ export default function HeroCarousel() {
                 <div className="relative h-screen w-full">
 
                     <img
-                        src="/carousel.jpg"
+                        src="/red-2.jpg"
                         alt="Slide 1"
                         className="absolute inset-0 object-cover w-full h-full z-10 filter opacity-30"
                     />
@@ -22,9 +22,14 @@ export default function HeroCarousel() {
                             <h3 className="text-3xl font-medium text-gray-100">  We Handle All Your Taxes </h3><span className="inline-block bg-orange-500 text-white px-3 py-3 rounded-full shadow-lg transform hover:scale-105 transition duration-300  mb-5 font-medium align-middle items-center justify-center">BEST FINNCIAL ADVICE</span>
                         </div>
 
-                        <button className="z-50 bg-blue-600 text-orange-50 px-6  rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300 hover:text-orange-500 ">
-                            Explore More
-                        </button>
+                       <button className="z-50 bg-blue-600 text-orange-50 px-6  rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300 hover:text-orange-500 flex items-center justify-center gap-3 ">
+                                <span><img
+                                    src="/icons/down-arrow.png"
+                                    width={25}
+                                    height={25}
+                                    className="invert "
+                                /></span>Explore More
+                            </button>
 
                     </div>
 
@@ -33,7 +38,7 @@ export default function HeroCarousel() {
                 {
                     <div className="relative h-screen w-full">
                         <img
-                            src="/carousel.jpg"
+                            src="/red-8.jpg"
                             alt="Slide 2"
                             className="absolute inset-0 object-cover w-full h-full z-10 filter opacity-30"
                         />
@@ -44,8 +49,13 @@ export default function HeroCarousel() {
                                 <h3 className="text-3xl font-medium text-gray-100">  Tax Consultants of Your Own </h3><span className="inline-block bg-orange-500 text-white px-3 py-3 rounded-full shadow-lg transform hover:scale-105 transition duration-300  mb-5 font-medium items-center justify-center">Elite Financial Insights</span>
                             </div>
                             
-                            <button className="z-50 bg-blue-600 text-orange-50 px-6  rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300 hover:text-orange-500 ">
-                                Explore More
+                            <button className="z-50 bg-blue-600 text-orange-50 px-6  rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300 hover:text-orange-500 flex items-center justify-center gap-3 ">
+                                <span><img
+                                    src="/icons/down-arrow.png"
+                                    width={25}
+                                    height={25}
+                                    className="invert "
+                                /></span>Explore More
                             </button>
 
                         </div>
