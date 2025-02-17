@@ -1,44 +1,22 @@
 "use client";
 
 import React from "react";
-import { Menu, Input, Avatar, Dropdown, Grid } from "antd";
-import { UserOutlined } from "@ant-design/icons";
+import { Grid } from "antd";
+
 import Link from "next/link";
 import MobileNavbar from "./MobileNav";
 import { useState } from 'react'
 const { useBreakpoint } = Grid;
 
-export default function ResponsiveNavbar() {
+export default function Navbar() {
     const screens = useBreakpoint();
     const [isSerciceCard, setServiceCard] = useState(false)
     const [isAboutCard, setAboutCard] = useState(false)
-    // const userMenuItems = [
-    //     {
-    //         key: "profile",
-    //         label: (
-    //             <Link href="/profile" className="text-black font-bold">
-    //                 Profile
-    //             </Link>
-    //         ),
-    //     },
-    //     {
-    //         key: "settings",
-    //         label: (
-    //             <Link href="/settings" className="text-black font-bold">
-    //                 Settings
-    //             </Link>
-    //         ),
-    //     },
-    //     {
-    //         key: "logout",
-    //         label: <span className="text-black font-bold">Logout</span>,
-    //     },
-    // ];
-
+   
 
 
     const renderDesktopNav = () => (
-        <header className="sticky top-0 z-50 bg-gray-50 shadow-md p-2 items-center justify-between flex ">
+        <header className="sticky top-0 z-10 bg-gray-100 shadow-md drop-shadow-lg p-4 items-center justify-between flex ">
      
                 <div className="ml-16">
                     <Link href="/" className="text-2xl  text-black">
@@ -60,7 +38,7 @@ export default function ResponsiveNavbar() {
 
                             <span className=" text-black font-medium hover:text-orange-500  hoverhover:scale-110">About</span>
                           {isAboutCard && (
-                                <div className="absolute left-0  py-2 w-56 rounded-md shadow-lg bg-white  text-black flex flex-col gap-7 :">
+                                <div className="absolute left-0  py-2 w-56 rounded-md shadow-lg bg-white  text-black flex flex-col gap-1 :">
                                     <Link href="#" className=" px-4 py-2 :bg-gray-200 hover:text-orange-500 hover:underline hover:scale-110">Who We Are</Link>
                                     <Link href="#" className=" px-4 py-2 :bg-gray-200 hover:text-orange-500 hover:underline hover:scale-110">Our Approach</Link>
                                 
@@ -77,7 +55,7 @@ export default function ResponsiveNavbar() {
                             {isSerciceCard && (
 
 
-                                <div className="absolute left-0  py-2 w-56 rounded-md shadow-lg bg-white  text-black flex flex-col gap-7 :">
+                                <div className="absolute left-0  py-2 w-56 rounded-md shadow-lg bg-white  text-black flex flex-col gap-1 :">
                                     <Link href="#" className=" px-4 py-2 :bg-gray-200 hover:text-orange-500 hover:underline hover:scale-110">Who We Are</Link>
                                     <Link href="#" className=" px-4 py-2 :bg-gray-200 hover:text-orange-500 hover:underline hover:scale-110">Our Approach</Link>
                                     <Link href="#" className=" px-4 py-2 :bg-gray-200 hover:text-orange-500 hover:underline hover:scale-110">Future as We See</Link>

@@ -1,6 +1,10 @@
+import { SchemaTypeDefinition } from "sanity";
 import post from "./post";
 
-// sanity/schemas/index.ts
-export default [
-  post
-]
+
+const schema: { types: SchemaTypeDefinition[] } = {
+  types: [post],
+};
+
+
+export default schema;

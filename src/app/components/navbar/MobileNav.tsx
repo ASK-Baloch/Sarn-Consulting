@@ -1,33 +1,19 @@
 "use client";
 
 import React, { useState } from "react";
-import { Menu, Button, Drawer, Input, Avatar, Dropdown, Space } from "antd";
-import type { MenuProps } from "antd";
-import { MenuOutlined, UserOutlined } from "@ant-design/icons";
+import {  Button, Drawer } from "antd";
+import { MenuOutlined } from "@ant-design/icons";
 import Link from "next/link";
 
-// Define user menu items with proper typing
-const userMenuItems: MenuProps["items"] = [
-  {
-    key: "profile",
-    label: <Link href="/profile">Profile</Link>,
-  },
-  {
-    key: "settings",
-    label: <Link href="/settings">Settings</Link>,
-  },
-  {
-    key: "logout",
-    label: <span>Logout</span>,
-  },
-];
+
+
 
 const MobileNavbar: React.FC = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [isSerciceCard, setServiceCard] = useState(false)
   const [isAboutCard, setAboutCard] = useState(false)
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-md">
+    <header className="sticky top-0 z-50 bg-gray-200  shadow-md drop-shadow-lg p-4">
       <div className="flex items-center px-5 p-2 justify-between">
         {/* Logo */}
         <div>
@@ -37,7 +23,7 @@ const MobileNavbar: React.FC = () => {
             </div>
           </Link>
         </div>
-        {/* Hamburger Menu Button */}
+      
         <div className="flex justify-end ">
           <Button
             type="primary "
@@ -46,13 +32,13 @@ const MobileNavbar: React.FC = () => {
           />
         </div>
       </div>
-      {/* Drawer for Mobile Navigation */}
+
       <Drawer
         title="Menu"
         placement="right"
         closable={true}
         onClose={() => setDrawerOpen(false)}
-        open={drawerOpen} // For Ant Design v5, use "open"
+        open={drawerOpen} 
       >
         <div
           className=""
@@ -116,16 +102,7 @@ const MobileNavbar: React.FC = () => {
           </div>
         </div>
         <div className="mt-5">
-          {/* <Input.Search
-            placeholder="Search..."
-            allowClear
-            className="mb-5"*/}
-          <Dropdown menu={{ items: userMenuItems }} trigger={["click"]}>
-            <div className="flex items-center cursor-pointer bg-white border border-gray-200 rounded-md hover:bg-gray-100 transition px-2 py-1 bottom-0 absolute left-0">
-              {/* <Avatar icon={<UserOutlined />} />
-              <span className="ml-2 text-black">User</span> */}
-            </div>
-          </Dropdown>
+        
 
         </div>
       </Drawer>
