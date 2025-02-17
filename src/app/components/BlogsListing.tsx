@@ -8,11 +8,11 @@ import { allPostsQuery } from "../../../sanity.query";
 const BlogsListing = async () => {
   const posts = await client.fetch(allPostsQuery);
   return (
-    <div style={{ padding: "2rem" }}>
-      <h1>My Blog</h1>
+    <div className="bg-gray-100 text-black overflow-hidden " style={{ padding: "2rem" }} >
+      <h1 className="font-bold text-1xl flex justify-center mb-5">My Blog</h1>
       {posts.map((post: any) => (
         <div key={post._id} style={{ marginBottom: "2rem" }}>
-          <h2>
+          <h2 className="font-medium ">
             <Link href={`/${post.slug.current}`}>{post.title}</Link>
           </h2>
           {post.image && (
@@ -31,7 +31,7 @@ const BlogsListing = async () => {
         </div>
       ))}
       <p>
-        <Link href="/studio">Go to Studio</Link>
+       
       </p>
     </div>
   );
