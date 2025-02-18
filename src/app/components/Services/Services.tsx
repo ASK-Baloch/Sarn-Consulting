@@ -1,6 +1,6 @@
 const Services = () => {
     return (
-        <div className="bg-gray-50 w-full py-16">
+        <div className="bg-gray-200 w-full py-16">
             <div className="max-w-5xl mx-auto px-6 md:px-12 text-center">
                 <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900">
                     Our Services

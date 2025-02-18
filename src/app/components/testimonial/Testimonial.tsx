@@ -8,11 +8,10 @@ const Testimonial = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
+      setIsMobile(window.innerWidth < 1020);
     };
 
-    handleResize(); // Check on first load
-    window.addEventListener("resize", handleResize);
+    handleResize();     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
@@ -24,25 +23,26 @@ const Testimonial = () => {
    <div className = "w-full max-h-screen bg-gray-200 shadow-sm flex flex-col p-3" >
 
 
-      <div className="flex p-4">
-        <div className="flex flex-col relative -top-36 cursor-pointer">
+      <div className="flex p-4 ">
+        <div className="flex flex-col relative -top-36 ">
           <TestimonialCard
+            
             heading="Highly recommend the team"
             quote="&quot;SARN CONSULTING is a trusted partner for anyone seeking expert tax advice and services. Their professionalism, expertise, and dedication to client success make them a top choice in the industry.&quot;"
             name="Nazim Iqbal"
           />
           <TestimonialCard
-            heading="Highly recommend the team"
-            quote="&quot;SARN CONSULTING is a trusted partner for anyone seeking expert tax advice and services. Their professionalism, expertise, and dedication to client success make them a top choice in the industry.&quot;"
-            name="Nazim Iqbal"
+            heading="Professional and Efficient Service"
+            quote="&quot;Recently I employed the services of SARN, a company specializing in tax finances. There representative sat with me and helped me sort out my firms jumbled up paperwork. I found them to be very professional and efficient. I would not hesitate to to recommend them to anyone.&quot;"
+            name="Adil Mehmood"
           />
         </div>
 
         <div>
           <TestimonialCard
-            heading="Highly recommend the team"
-            quote="&quot;SARN CONSULTING is a trusted partner for anyone seeking expert tax advice and services. Their professionalism, expertise, and dedication to client success make them a top choice in the industry.&quot;"
-            name="Iqbal"
+            heading="Great Service and Long-term Reliability"
+            quote="&quot;Recommended. Great service. Mr. Anees has been bookkeeping and filing tax records for my business since last 2 years. He and his team are very professional.Best tax consultant. We are using their services for the last 10 years and always found them honest and professional.&quot;"
+            name="Ahmed Hussain"
           />
         </div>
       </div>
