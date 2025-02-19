@@ -21,7 +21,7 @@ export default function HeroCarousel() {
                             <h3 className="text-3xl font-medium text-gray-100">
                                 We Handle All Your Taxes
                             </h3>
-                            <span className="bg-orange-500 text-white px-4 py-2 rounded-full shadow-lg transform hover:scale-105 transition duration-300">
+                            <span className="bg-[#3C73DA] text-white px-4 py-2 rounded-full shadow-lg transform hover:scale-105 transition duration-300">
                                 BEST FINANCIAL ADVICE
                             </span>
                         </div>

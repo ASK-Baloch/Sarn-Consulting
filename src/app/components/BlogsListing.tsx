@@ -8,7 +8,7 @@ import { allPostsQuery } from "../../../sanity.query";
 const BlogsListing = async () => {
   const posts = await client.fetch(allPostsQuery);
   return (
-    <div className="bg-gray-100 text-black overflow-hidden p-8 flex flex-col items-center">
+    <div className="bg-gray-100 text-black overflow-hidden p-8 pt-32 flex flex-col items-center ">
       <h1 className="font-bold text-2xl sm:text-3xl text-center my-12">Recent Blogs</h1>
       <div className="flex flex-wrap justify-center gap-4 w-full max-w-6xl ">
         {posts.map((post: any) => (
