@@ -1,5 +1,8 @@
 import aboutData from "@/data/about.json";
 import { notFound } from "next/navigation";
+import CardLayout from "@/app/components/CardLayout";
+import { alltitleQuery } from "../../../../sanity.query";
+import { client } from "../../../../sanity.client";
 
 interface ContentSection {
   type: "paragraph" | "bullet_points" | "quote";
@@ -29,13 +32,15 @@ export default async function AboutPage({ params }: Props) {
     const { slug } = await params;
     const pageSlug = slug?.[0] || "who-we-are";
   const aboutContent = aboutDataTyped.content[pageSlug];
+  const recentBlogs = await client.fetch(alltitleQuery); 
 
   if (!aboutContent) return notFound();
 
   return (
+    <CardLayout title={aboutContent.title} description={aboutContent.description} blogs={recentBlogs}>
     <div className="max-w-3xl mx-auto p-6">
-      <h1 className="text-3xl font-bold text-gray-900">{aboutContent.title}</h1>
-      <p className="text-lg text-gray-600 mt-2">{aboutContent.description}</p>
+      {/* <h1 className="text-3xl font-bold text-gray-900">{aboutContent.title}</h1>
+      <p className="text-lg text-gray-600 mt-2">{aboutContent.description}</p> */}
 
       <div className="mt-6 space-y-4">
         {aboutContent.content.map((about, index) => {
@@ -65,5 +70,6 @@ export default async function AboutPage({ params }: Props) {
         })}
       </div>
     </div>
+    </CardLayout>
   );
 }

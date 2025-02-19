@@ -28,7 +28,7 @@ const BlogsListing = async () => {
               </div>
             )}
             <h2 className="font-medium text-lg mt-3 mx-3">
-              <Link href={`/${post.slug.current}`} className="hover:text-[#3C73DA]">
+              <Link href={`/blog/${post.slug.current}`} className="hover:text-[#3C73DA]">
                 {post.title}
               </Link>
             </h2>

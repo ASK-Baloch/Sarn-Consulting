@@ -14,7 +14,7 @@ export default function HeroCarousel() {
                         alt="Slide 1"
                         fill
                         priority
-                        className="absolute inset-0 object-cover w-full h-full z-10 opacity-30"
+                        className="absolute inset-0 object-cover w-full h-full z-10 opacity-10"
                     />
                     <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
                         <div className="flex flex-col items-center gap-4">
@@ -44,7 +44,7 @@ export default function HeroCarousel() {
                         alt="Slide 2"
                         fill
                         priority
-                        className="absolute inset-0 object-cover w-full h-full z-10 opacity-30"
+                        className="absolute inset-0 object-cover w-full h-full z-10 opacity-10"
                     />
                     <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
                         <div className="flex flex-col items-center gap-4">

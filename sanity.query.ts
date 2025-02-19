@@ -15,4 +15,10 @@ export const allPostsQuery = `*[_type == "post"]{
     description,
     content
   }`
+
+  export const alltitleQuery = `*[_type == "post"] | order(_createdAt desc) {
+    title,
+    description,
+    "slug": slug.current
+  }`;
   

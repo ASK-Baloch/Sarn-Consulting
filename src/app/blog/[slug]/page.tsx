@@ -1,8 +1,9 @@
-import { client, urlFor } from '../../../sanity.client'
-import { singlePostQuery } from '../../../sanity.query'
+import { client, urlFor } from '../../../../sanity.client'
+import { alltitleQuery, singlePostQuery } from '../../../../sanity.query'
 import { PortableText } from '@portabletext/react'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
+import CardLayout from '../../components/CardLayout'
 
 export async function generateStaticParams() {
   const posts = await client.fetch(`*[_type == "post"]{ "slug": slug.current }`)
@@ -11,12 +12,14 @@ export async function generateStaticParams() {
 
 export default async function PostPage({ params }: { params: { slug: string } }) {
   const post = await client.fetch(singlePostQuery, { slug: params.slug })
+  const recentBlogs = await client.fetch(alltitleQuery); 
 
   if (!post) return notFound()
 
   return (
-    <main className="flex">
-      <div className="bg-gray-200 text-black w-[70%] p-6 md:p-3">
+    <CardLayout title={post.title} description={post.description} blogs={recentBlogs}>
+    {/* <main className="flex">
+      <div className=" text-black ">
         <h1 className="font-bold text-3xl text-center">{post.title}</h1>
         {post.image && (
           <div className="flex justify-center my-4">
@@ -31,11 +34,20 @@ export default async function PostPage({ params }: { params: { slug: string } })
         )}
         <p>{post.description}</p>
         <PortableText value={post.content} />
-      </div>
-      <div className="bg-gray-100 w-[30%] shadow-md text-black p-5">
-        <h1 className='text-3xl font-bold mb-3'>Recent Blogs</h1>
-        <h1 className="hover:text-[#3C73DA] cursor-pointer transition-transform hover:scale-105">{post.title}</h1>
-      </div>
-    </main>
+        </div>
+        </main> */}
+      {post.image && (
+        <div className="flex justify-center my-4">
+          <Image
+            src={urlFor(post.image).url()}
+            alt={post.title}
+            width={800}  // Wider width
+            height={500} // Adjusted height for squarer shape
+            className="rounded-lg object-cover"
+          />
+        </div>
+    )}
+    <PortableText value={post.content} />
+    </CardLayout>
   )
 }
