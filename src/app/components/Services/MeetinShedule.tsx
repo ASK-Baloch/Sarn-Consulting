@@ -6,11 +6,11 @@ const MeetingShedule = () => {
                 <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl mb-6">
                     Start your
                     <br className="hidden md:block" />
-                    <span className="text-orange-600"> growth journey </span>
+                    <span className="text-[#3C73DA]"> growth journey </span>
                     with
                 </h1>
 
-                    <div className="text-2xl font-medium text-orange-500 flex-wrap">
+                    <div className="text-2xl font-medium text-[#3C73DA] flex-wrap">
                         SARN <span className="text-black">Consulting</span>
                     </div>
                 
@@ -23,7 +23,7 @@ const MeetingShedule = () => {
 
 
                 <div className="mt-10">
-                    <button className="inline-block bg-orange-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors duration-200 md:px-10 md:py-4 md:text-xl">
+                    <button className="inline-block bg-[#3C73DA] text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-[#3C73DA] transition-colors duration-200 md:px-10 md:py-4 md:text-xl">
                         Schedule a Call
                     </button>
                 </div>

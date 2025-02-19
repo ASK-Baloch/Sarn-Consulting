@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import {  Button, Drawer } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 import Link from "next/link";
+import Image from "next/image";
 
 
 
@@ -17,10 +18,13 @@ const MobileNavbar: React.FC = () => {
       <div className="flex items-center px-5 p-2 justify-between">
         {/* Logo */}
         <div>
-          <Link href="/" className="text-2xl font-bold text-blue-500">
-            <div className="text-2xl font-bold text-orange-500">
-              SARN <span className="text-black">Consulting</span>
-            </div>
+          <Link href="/" className="text-2xl  text-black">
+            <Image
+              src={"/SARNLOGO.jpg"}
+              alt="logo"
+              height={100}
+              width={100}
+            />
           </Link>
         </div>
       
@@ -47,7 +51,7 @@ const MobileNavbar: React.FC = () => {
           <div className=" flex flex-col gap-12 font-bold  ">
             <Link
               href="/"
-              className="text-black  hover:text-orange-500 hover:underline hover:scale-110 ml-3 "
+              className="text-black  hover:text-[#3C73DA] hover:underline hover:scale-110 ml-3 "
             >
               Home
             </Link>
@@ -55,11 +59,11 @@ const MobileNavbar: React.FC = () => {
               onMouseEnter={() => setAboutCard(true)}
               onMouseLeave={() => setAboutCard(false)}>
 
-              <span className=" text-black font-medium hover:text-orange-500 hover:underline hover:scale-110 ">About</span>
+              <span className=" text-black font-medium hover:text-[#3C73DA] hover:underline hover:scale-110 ">About</span>
               {isAboutCard && (
                 <div className="absolute   w-56 rounded-md shadow-lg bg-white  text-black flex flex-col  z-5  ">
-                  <Link href="#" className=" px-4 py-2 hover:text-orange-500 hover:underline hover:scale-110">Who We Are</Link>
-                  <Link href="#" className=" px-4 py-2 hover:text-orange-500 hover:underline hover:scale-110">Our Approach</Link>
+                  <Link href="#" className=" px-4 py-2 hover:text-[#3C73DA] hover:underline hover:scale-110">Who We Are</Link>
+                  <Link href="#" className=" px-4 py-2 hover:text-[#3C73DA] hover:underline hover:scale-110">Our Approach</Link>
 
                 </div>
               )}
@@ -69,18 +73,18 @@ const MobileNavbar: React.FC = () => {
               onMouseEnter={() => setServiceCard(true)}
               onMouseLeave={() => setServiceCard(false)}>
 
-              <span className=" text-black font-medium hover:text-orange-500 hover:underline hover:scale-110">Services</span>
+              <span className=" text-black font-medium hover:text-[#3C73DA] hover:underline hover:scale-110">Services</span>
               {isSerciceCard && (
 
 
                 <div className="absolute   py-2 w-56 rounded-md shadow-lg bg-white  text-black flex flex-col flex-1 z-4 justify-end">
-                  <Link href="#" className=" px-4 py-2 hover:text-orange-500 hover:underline hover:scale-110">Our Approach</Link>
-                  <Link href="#" className=" px-4 py-2 hover:text-orange-500 hover:underline hover:scale-110">Future as We See</Link>
-                  <Link href="#" className=" px-4 py-2 hover:text-orange-500 hover:underline hover:scale-110">Range of Services</Link>
-                  <Link href="#" className=" px-4 py-2 hover:text-orange-500 hover:underline hover:scale-110">Practice Area</Link>
-                  <Link href="#" className=" px-4 py-2 hover:text-orange-500 hover:underline hover:scale-110">Sector Specialization</Link>
-                  <Link href="#" className=" px-4 py-2 hover:text-orange-500 hover:underline hover:scale-110">Core Team</Link>
-                  <Link href="#" className=" px-4 py-2 hover:text-orange-500 hover:underline hover:scale-110">Who We Are</Link>
+                  <Link href="#" className=" px-4 py-2 hover:text-[#3C73DA] hover:underline hover:scale-110">Our Approach</Link>
+                  <Link href="#" className=" px-4 py-2 hover:text-[#3C73DA] hover:underline hover:scale-110">Future as We See</Link>
+                  <Link href="#" className=" px-4 py-2 hover:text-[#3C73DA] hover:underline hover:scale-110">Range of Services</Link>
+                  <Link href="#" className=" px-4 py-2 hover:text-[#3C73DA] hover:underline hover:scale-110">Practice Area</Link>
+                  <Link href="#" className=" px-4 py-2 hover:text-[#3C73DA] hover:underline hover:scale-110">Sector Specialization</Link>
+                  <Link href="#" className=" px-4 py-2 hover:text-[#3C73DA] hover:underline hover:scale-110">Core Team</Link>
+                  <Link href="#" className=" px-4 py-2 hover:text-[#3C73DA] hover:underline hover:scale-110">Who We Are</Link>
                 </div>
 
 
@@ -89,13 +93,13 @@ const MobileNavbar: React.FC = () => {
             </div>
             <Link
               href="/blog"
-              className="text-black font-medium hover:text-orange-500 hover:underline hover:scale-110 ml-3"
+              className="text-black font-medium hover:text-[#3C73DA] hover:underline hover:scale-110 ml-3"
             >
               Blog
             </Link>
             <Link
               href="/contact"
-              className="text-black font-medium hover:text-orange-500 hover:underline hover:scale-110 ml-3"
+              className="text-black font-medium hover:text-[#3C73DA] hover:underline hover:scale-110 ml-3"
             >
               Contact
             </Link>
