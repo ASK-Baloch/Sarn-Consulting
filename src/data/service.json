@@ -1,0 +1,57 @@
+{
+    "services": [
+      { "label": "Business Registration", "slug": "business-registration" },
+      { "label": "Company Formation", "slug": "company-formation" },
+      { "label": "Partnership Forum", "slug": "partnership-forum" },
+      { "label": "Private Limited Company", "slug": "private-limited-company" },
+      { "label": "Taxation", "slug": "taxation" },
+      { "label": "Bookkeeping", "slug": "bookkeeping" },
+      { "label": "License and Others", "slug": "license-and-others" },
+      { "label": "IPO Services", "slug": "ipo-services" },
+      { "label": "Legal Services", "slug": "legal-services" },
+      { "label": "HR", "slug": "hr" }
+    ],
+    "content": {
+      "business-registration": {
+        "title": "Business Registration",
+        "description": "Simplify your business registration process with our expert guidance.",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "We help entrepreneurs and businesses register their entities quickly and efficiently."
+          },
+          {
+              "type": "bullet_points",
+              "items": [
+                  "Step-by-step assistance in business registration",
+                  "Ensuring compliance with legal requirements",
+                  "Quick and hassle-free processing"
+                ]
+            },
+            {
+              "type": "paragraph",
+              "text": "We help entrepreneurs and businesses register their entities quickly and efficiently."
+            }
+        ]
+      },
+      "company-formation": {
+        "title": "Company Formation",
+        "description": "Start your company with the right structure and legal compliance.",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Our team provides end-to-end support in setting up your company legally and efficiently."
+          },
+          {
+            "type": "bullet_points",
+            "items": [
+              "Legal documentation and filing",
+              "Company structure consultation",
+              "Government registration assistance"
+            ]
+          }
+        ]
+      }
+    }
+  }
+  

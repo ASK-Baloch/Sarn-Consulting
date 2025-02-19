@@ -1,0 +1,40 @@
+{
+    "about": [
+      { "label": "Who We Are", "slug": "who-we-are" },
+      { "label": "Our Approach", "slug": "our-approach" },
+      { "label": "Future as We See", "slug": "future-with-us" },
+      { "label": "Range of Services", "slug": "range-of-services" },
+      { "label": "Practice Area", "slug": "practice-area" },
+      { "label": "Sector Specialization", "slug": "sector-specialization" },
+      { "label": "Core Team", "slug": "core-team" }
+    ],
+    "content": {
+      "who-we-are": {
+        "title": "Who We Are",
+        "description": "We are a team of professionals dedicated to delivering top-tier consulting services across industries.",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "With years of experience in multiple domains, our team ensures strategic solutions tailored to your needs."
+          },
+          {
+            "type": "bullet_points",
+            "items": [
+              "Expert consultants with vast industry experience",
+              "Customer-centric approach for personalized solutions",
+              "Innovative strategies for long-term business growth"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "At Sarn Consulting, we believe in transparency, efficiency, and results-driven solutions to help businesses thrive."
+          },
+          {
+            "type": "quote",
+            "text": "Our mission is to empower businesses with cutting-edge insights and strategies that drive success."
+          }
+        ]
+      }
+    }
+  }
+  
