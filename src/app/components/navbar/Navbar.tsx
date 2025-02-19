@@ -7,11 +7,13 @@ import Link from "next/link";
 import MobileNavbar from "./MobileNav";
 import { useState } from 'react'
 import Image from "next/image";
+import aboutData from "@/data/about.json";
+import servicesData from "@/data/service.json";
 const { useBreakpoint } = Grid;
 
 export default function Navbar() {
     const screens = useBreakpoint();
-    const [isSerciceCard, setServiceCard] = useState(false)
+    const [isServiceCard, setServiceCard] = useState(false)
     const [isAboutCard, setAboutCard] = useState(false)
    
 
@@ -36,22 +38,43 @@ export default function Navbar() {
                         <Link href="/" className="text-black font-medium hover:text-[#3C73DA] hover:underline hover:scale-110  ">
                             Home
                         </Link>
-                        <div className="relative  ml-3 cursor-pointer"
+                        {/* <div className="relative  ml-3 cursor-pointer"
                             onMouseEnter={() => setAboutCard(true)}
                             onMouseLeave={() => setAboutCard(false)}>
 
-                        <span className=" text-black font-medium hover:text-[#3C73DA]  hoverhover:scale-110">About</span>
-                          {isAboutCard && (
+                        {/* <span className=" text-black font-medium hover:text-[#3C73DA]  hoverhover:scale-110">About</span> */}
+                          {/* {isAboutCard && (
                                 <div className="absolute left-0  py-2 w-56 rounded-md shadow-lg bg-white  text-black flex flex-col gap-1 :">
                                     <Link href="#" className=" px-4 py-2 :bg-gray-200 hover:text-[#3C73DA] hover:underline hover:scale-110">Who We Are</Link>
                                     <Link href="#" className=" px-4 py-2 :bg-gray-200 hover:text-[#3C73DA] hover:underline hover:scale-110">Our Approach</Link>
                                 
                                 </div>
-                          )} 
+                          )}  */} 
                           
-                        </div>
+                        {/* </div> */}
+                        <div className="relative ml-3 cursor-pointer"
+                            onMouseEnter={() => setAboutCard(true)}
+                            onMouseLeave={() => setAboutCard(false)}
+                            >
+                            <span className="text-black font-medium hover:text-[#3C73DA] hover:scale-110">
+                                About
+                            </span>
+                            {isAboutCard && (
+                                <div className="absolute left-0 py-2 w-56 rounded-md shadow-lg bg-white text-black flex flex-col gap-1">
+                                {aboutData.about.map((about) => (
+                                    <Link
+                                    key={about.slug}
+                                    href={`/about/${about.slug}`}
+                                    className="px-4 py-2 hover:text-[#3C73DA] hover:underline hover:scale-110"
+                                    >
+                                    {about.label}
+                                    </Link>
+                                ))}
+                                </div>
+                            )}
+                            </div>
 
-                        <div className="relative  ml-3 cursor-pointer"
+                        {/* <div className="relative  ml-3 cursor-pointer"
                             onMouseEnter={() => setServiceCard(true)}
                             onMouseLeave={() => setServiceCard(false)}>
 
@@ -72,7 +95,29 @@ export default function Navbar() {
 
                             )}
 
+                        </div> */}
+                        <div className="relative ml-3 cursor-pointer"
+                            onMouseEnter={() => setServiceCard(true)}
+                            onMouseLeave={() => setServiceCard(false)}
+                            >
+                            <span className="text-black font-medium hover:text-[#3C73DA] hover:scale-110">
+                                Services
+                            </span>
+                            {isServiceCard && (
+                                <div className="absolute left-0 py-2 w-56 rounded-md shadow-lg bg-white text-black flex flex-col gap-1">
+                                {servicesData.services.map((service) => (
+                                    <Link
+                                    key={service.slug}
+                                    href={`/services/${service.slug}`}
+                                    className="px-4 py-2 hover:text-[#3C73DA] hover:underline hover:scale-110"
+                                    >
+                                    {service.label}
+                                    </Link>
+                                ))}
+                                </div>
+                            )}
                         </div>
+                        
 
 
                         <Link href="/" className="text-black font-medium hover:text-[#3C73DA] hover:underline hover:scale-110  ml-3">
