@@ -1,3 +1,5 @@
+export const revalidate = 30;
+
 import { client, urlFor } from '../../../../sanity.client'
 import { alltitleQuery, singlePostQuery } from '../../../../sanity.query'
 import { PortableText } from '@portabletext/react'
@@ -11,7 +13,8 @@ export async function generateStaticParams() {
 }
 
 export default async function PostPage({ params }: { params: { slug: string } }) {
-  const post = await client.fetch(singlePostQuery, { slug: params.slug })
+  const { slug } = await Promise.resolve(params);
+  const post = await client.fetch(singlePostQuery, { slug })
   const recentBlogs = await client.fetch(alltitleQuery); 
 
   if (!post) return notFound()

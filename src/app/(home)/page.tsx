@@ -1,3 +1,5 @@
+export const revalidate = 30;
+
 import HeroCarousel from "../components/Craousal";
 import BlogsListing from "../components/BlogsListing";
 import HeroSection from "../components/hero/HeroSection";
