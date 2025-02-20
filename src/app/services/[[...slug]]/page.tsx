@@ -1,6 +1,6 @@
 import servicesData from "@/data/service.json";
 import { notFound } from "next/navigation";
-import CardLayout from "@/app/components/CardLayout";
+import CardLayout from "../../../components/CardLayout";
 import { alltitleQuery } from "../../../../sanity.query";
 import { client } from "../../../../sanity.client";
 interface ContentSection {

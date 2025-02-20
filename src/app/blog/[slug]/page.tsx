@@ -5,7 +5,7 @@ import { alltitleQuery, singlePostQuery } from '../../../../sanity.query'
 import { PortableText } from '@portabletext/react'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
-import CardLayout from '../../components/CardLayout'
+import CardLayout from '../../../components/CardLayout'
 
 export async function generateStaticParams() {
   const posts = await client.fetch(`*[_type == "post"]{ "slug": slug.current }`)

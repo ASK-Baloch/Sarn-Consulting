@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { urlFor } from "../../../sanity.client";
-import { client } from "../../../sanity.client";
-import { allPostsQuery } from "../../../sanity.query";
+import { urlFor } from "../../sanity.client";
+import { client } from "../../sanity.client";
+import { allPostsQuery } from "../../sanity.query";
 
 const BlogsListing = async () => {
   const posts = await client.fetch(allPostsQuery);
