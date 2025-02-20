@@ -9,8 +9,6 @@ const testimonials = [
         name: "Nazim Iqbal",
         imagesrc:"/person-1.jpg",
         specialization:"Gray Suit Adviser"
-        
-
     },
     {
         quote:
@@ -24,7 +22,7 @@ const testimonials = [
             "Working with the team has been a fantastic experience! Their dedication to our project's success was unmatched, and we highly recommend them.",
         name: "John Doe",
         imagesrc:"/person-3.jpg",
-        specialization:"Blue Ocean Consultin"
+        specialization:"Blue Ocean Consulting"
     },
 ];
 
@@ -54,22 +52,23 @@ const TestimonialMobileView = () => {
                     {testimonials.map((testimonial, index) => (
                         <div
                             key={index}
-                            className="min-w-full bg-white rounded-xl p-6 shadow-md text-center"
+                            className="min-w-full bg-white rounded-xl p-6 shadow-lg text-center relative"
                         >
-                            <p className="text-gray-700 mb-4">&quot;{testimonial.quote}&quot;</p>
+                            <div className="absolute top-[-36px] left-1/2 transform -translate-x-1/2 bg-white p-2 rounded-full shadow-md">
+                                <Image 
+                                    src={testimonial.imagesrc}
+                                    height={80}
+                                    width={80}
+                                    className="rounded-full border-2 border-gray-300"
+                                    alt="image"
+                                />
+                            </div>
+                            <p className="text-gray-700 mt-12 mb-4 font-medium italic">&quot;{testimonial.quote}&quot;</p>
                             <div className="flex flex-col justify-center items-center">
-                            <Image 
-                            src={testimonial.imagesrc}
-                            height={100}
-                            width={100}
-                            alt="image"
-                             />
-
-                                <div className="font-semibold text-[#3C73DA]">{testimonial.name}</div>
-                             <div className="text-gray-700 text-sm">{testimonial.specialization}</div>
+                                <div className="font-semibold text-[#3C73DA] text-lg">{testimonial.name}</div>
+                                <div className="text-gray-700 text-sm">{testimonial.specialization}</div>
                             </div>
                         </div>
-
                     ))}
                 </div>
             </div>

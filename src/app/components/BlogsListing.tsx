@@ -1,40 +1,96 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { urlFor } from "../../../sanity.client";
 import { client } from "../../../sanity.client";
 import { allPostsQuery } from "../../../sanity.query";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const BlogsListing = async () => {
-  const posts = await client.fetch(allPostsQuery);
+const BlogsListing = () => {
+  const [posts, setPosts] = useState<any[]>([]);
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const data = await client.fetch(allPostsQuery);
+        setPosts(data);
+      } catch (error) {
+        console.error("Error fetching blogs:", error);
+      }
+    };
+    fetchData();
+  }, []);
+
+  const scroll = (direction: "left" | "right") => {
+    if (scrollRef.current) {
+      const scrollAmount = 350;
+      scrollRef.current.scrollBy({
+        left: direction === "left" ? -scrollAmount : scrollAmount,
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
-    <div className="bg-gray-100 text-black overflow-hidden p-8 pt-32 flex flex-col items-center ">
-      <h1 className="font-bold text-2xl sm:text-3xl text-center my-12">Recent Blogs</h1>
-      <div className="flex flex-wrap justify-center gap-4 w-full max-w-6xl ">
-        {posts.map((post: any) => (
-          <div
-            key={post._id}
-            className="border border-[#3C73DA] shadow-md rounded-lg bg-white flex flex-col  w-[90%] sm:w-[300px] md:w-[260px] lg:w-[240px] h-auto transition-transform hover:scale-105"
-          >
-            {post.image && (
-              <div className="w-full h-[180px] flex justify-center">
-                <Image
-                  src={urlFor(post.image).url()}
-                  alt={post.title}
-                  width={250}
-                  height={180}
-                  className="rounded-md object-fit"
-                />
+    <div className="bg-gray-100 text-black py-12 flex flex-col items-center">
+      <h1 className="font-bold text-3xl text-center mb-8 text-gray-800">Latest Blogs</h1>
+
+      <div className="relative w-full max-w-7xl flex items-center">
+       
+        <button
+          onClick={() => scroll("left")}
+          className="absolute left-0 z-10 p-3 bg-white shadow-md text-gray-700 rounded-full hidden lg:flex hover:scale-110 transition-transform"
+        >
+          <ChevronLeft size={32} />
+        </button>
+
+        
+        <div
+          ref={scrollRef}
+          className="flex gap-6 overflow-x-auto scroll-smooth no-scrollbar w-full px-12"
+        >
+          {posts.map((post: any) => (
+            <div
+              key={post._id}
+              className="bg-white rounded-lg shadow-lg flex-shrink-0 w-[90%] sm:w-[320px] md:w-[300px] lg:w-[280px] transition-transform hover:scale-105 overflow-hidden"
+            >
+            
+              {post.image && (
+                <div className="w-full h-[200px]">
+                  <Image
+                    src={urlFor(post.image).url()}
+                    alt={post.title}
+                    width={350}
+                    height={200}
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+              )}
+
+             
+              <div className="p-5">
+                <h2 className="text-lg font-semibold text-gray-900">
+                  <Link href={`/${post.slug.current}`} className="hover:text-blue-600">
+                    {post.title.length > 35 ? post.title.slice(0, 35) + "..." : post.title}
+                  </Link>
+                </h2>
+                <p className="text-gray-600 text-sm mt-2">
+                  {post.description.length > 100 ? post.description.slice(0, 100) + "..." : post.description}
+                </p>
               </div>
-            )}
-            <h2 className="font-medium text-lg mt-3 mx-3">
-              <Link href={`/${post.slug.current}`} className="hover:text-[#3C73DA]">
-                {post.title}
-              </Link>
-            </h2>
-            <p className="text-gray-700 text-sm mt-1 mx-3 ">{post.description}</p>
-          </div>
-        ))}
+            </div>
+          ))}
+        </div>
+
+        <button
+          onClick={() => scroll("right")}
+          className="absolute right-0 z-10 p-3 bg-white shadow-md text-gray-700 rounded-full hidden lg:flex hover:scale-110 transition-transform"
+        >
+          <ChevronRight size={32} />
+        </button>
       </div>
     </div>
   );

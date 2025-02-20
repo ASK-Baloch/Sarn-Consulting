@@ -8,7 +8,7 @@ import MeetingShedule from "../components/Services/MeetinShedule";
 import ServicesBoxes from "../components/ServicesBoxes";
 import ContactForm from "../components/ContactForm";
 import FactsAndStats from "../components/FactsAndFigures";
-import TestimonialCard from "../components/testing";
+
 
 const page = () => {
   return (
@@ -20,7 +20,6 @@ const page = () => {
       <Softwares />
       <MeetingShedule />
       <Testimonial />
-    {/* <TestimonialCard/> */}
       <BlogsListing />
       <FactsAndStats/>
       <ContactForm/>
