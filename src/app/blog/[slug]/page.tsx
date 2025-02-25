@@ -1,4 +1,3 @@
-export const revalidate = 30;
 
 import { client, urlFor } from '../../../../sanity.client'
 import { alltitleQuery, singlePostQuery } from '../../../../sanity.query'

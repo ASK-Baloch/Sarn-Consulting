@@ -23,9 +23,10 @@ const page = () => {
       <Testimonial />
       <BlogsListing />
       <FactsAndStats/>
-      {/* <ContactForm/> */}
+      <ContactForm/>
     </div>
   );
 };
 
 export default page;
+ 

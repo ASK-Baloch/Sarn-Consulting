@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5.6.1",
+    "@emailjs/browser": "^4.4.1",
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@portabletext/react": "^3.2.1",
     "@radix-ui/react-slot": "^1.1.2",
@@ -28,7 +29,7 @@
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
     "sanity": "^3.75.0",
-    "tailwind-merge": "^3.0.1",
+    "tailwind-merge": "^3.0.2",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {

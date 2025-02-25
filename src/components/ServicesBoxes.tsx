@@ -7,7 +7,7 @@ const ServicesBoxes = () => {
         <section className="bg-gray-50 py-12 px-4 sm:px-6 lg:px-12">
             <div className="max-w-6xl mx-auto mb-16">
 
-  
+
                 <div className="text-center md:text-left">
                     <span className="inline-block bg-blue-100 text-blue-600 font-semibold text-sm uppercase px-4 py-2 rounded-full">
                         WHAT WE OFFER

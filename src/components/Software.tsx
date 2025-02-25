@@ -26,9 +26,9 @@ const Softwares = () => {
 
   return (
     <div className="w-full bg-gray-200 text-center p-24 shadow-sm">
-  
+
       <div className="mx-auto max-w-screen-lg flex flex-col items-center">
-  
+
         <h1 className="text-2xl md:text-4xl font-bold mb-6 mt-10 relative text-gray-800 inline-block">
           <span className="relative z-10 font-normal">SOFTWARES WE USE FOR ACCOUNTING</span>
           <div
@@ -49,9 +49,8 @@ const Softwares = () => {
                 key={index}
                 src={img.src}
                 alt={img.alt}
-                className={`logo w-36 h-auto transition-opacity duration-500 transform ${
-                  index === 5 ? "opacity-0" : "opacity-100"
-                }`}
+                className={`logo w-36 h-auto transition-opacity duration-500 transform ${index === 5 ? "opacity-0" : "opacity-100"
+                  }`}
               />
             ))}
           </div>

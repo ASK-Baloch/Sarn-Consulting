@@ -1,73 +1,108 @@
 "use client";
 
-import React from "react";
-import { Carousel } from "antd";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
+import React, { useState, useEffect } from "react";
 
-export default function HeroCarousel() {
+const slides = [
+    {
+        type: "image",
+        src: "/red-2.jpg",
+        caption: "We Are SARN CONSULTING",
+    },
+    {
+        type: "video",
+        src: "/tax-video.mp4",
+        caption: "Tax Consultants of Your Own",
+    },
+    {
+        type: "image",
+        src: "/red-8.jpg",
+        caption: "We Handle All Your Taxes",
+    },
+];
+
+const HeroCarousel = () => {
+    const [currentSlide, setCurrentSlide] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            handleNext();
+        }, 7000);
+        return () => clearInterval(interval);
+    }, []);
+
+    const handleNext = () => {
+        setCurrentSlide((prev) => (prev + 1) % slides.length);
+    };
+
+    const handlePrev = () => {
+        setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+    };
+
     return (
-        <div className="h-[calc(100vh-8.5vh)] overflow-hidden z-10">
-            <Carousel autoplay lazyLoad="ondemand">
-                <div className="relative h-screen w-full">
-                    <Image
-                        src="/red-2.jpg"
-                        alt="Slide 1"
-                        fill
-                        priority
-                        className="absolute inset-0 object-cover w-full h-full z-10 opacity-10"
-                    />
-                    <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
-                        <div className="flex flex-col items-center gap-4">
-                            <h3 className="text-3xl font-medium text-gray-100">
-                                We Handle All Your Taxes
-                            </h3>
-                            <span className="bg-orange-500 text-white px-4 py-2 rounded-full shadow-lg transform hover:scale-105 transition duration-300">
-                                BEST FINANCIAL ADVICE
-                            </span>
-                        </div>
-                        <button className="mt-5 bg-blue-600 text-orange-50 px-6 py-2 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300 hover:text-orange-500 flex items-center gap-2">
-                            <Image
-                                src="/icons/down-arrow.png"
-                                width={25}
-                                height={25}
-                                alt="Explore More"
-                                className="invert"
-                            />
-                            Explore More
-                        </button>
-                    </div>
-                </div>
+        <div className="relative w-full h-[calc(100vh-8.5vh)] overflow-hidden bg-black">
+            {/* Slides */}
+            <div
+                className="flex transition-transform duration-500"
+                style={{
+                    transform: `translateX(-${currentSlide * 100}%)`,
+                }}
+            >
+                {slides.map((slide, index) => (
+                    <div
+                        key={index}
+                        className="relative min-w-full h-[calc(100vh-8.5vh)] flex items-center justify-center"
+                    >
+                        {/* Dark Overlay */}
+                        <div className="absolute inset-0 bg-black bg-opacity-30"></div>
 
-                <div className="relative h-screen w-full">
-                    <Image
-                        src="/red-8.jpg"
-                        alt="Slide 2"
-                        fill
-                        priority
-                        className="absolute inset-0 object-cover w-full h-full z-10 opacity-10"
-                    />
-                    <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
-                        <div className="flex flex-col items-center gap-4">
-                            <h3 className="text-3xl font-medium text-gray-100">
-                                Tax Consultants of Your Own
-                            </h3>
-                            <span className="bg-orange-500 text-white px-4 py-2 rounded-full shadow-lg transform hover:scale-105 transition duration-300">
-                                Elite Financial Insights
-                            </span>
-                        </div>
-                        <button className="mt-5 bg-blue-600 text-orange-50 px-6 py-2 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300 hover:text-orange-500 flex items-center gap-2">
+                        {slide.type === "image" ? (
                             <Image
-                                src="/icons/down-arrow.png"
-                                width={25}
-                                height={25}
-                                alt="Explore More"
-                                className="invert"
+                                src={slide.src}
+                                alt={`Slide ${index + 1}`}
+                                fill
+                                className="object-cover opacity-30"
                             />
-                            Explore More
-                        </button>
+                        ) : (
+                            <video
+                                className="absolute inset-0 w-full h-full object-cover opacity-30"
+                                autoPlay
+                                loop
+                                muted
+                            >
+                                <source src={slide.src} type="video/mp4" />
+                            </video>
+                        )}
+
+                        {/* Caption */}
+                        <div className="absolute inset-0 flex items-center justify-center text-center">
+                            <h1
+                                className={`text-5xl font-bold ${index === 1 ? "text-red-500" : "text-gray-100"
+                                    }`}
+                            >
+                                {slide.caption}
+                            </h1>
+                        </div>
                     </div>
-                </div>
-            </Carousel>
+                ))}
+            </div>
+
+            {/* Navigation Buttons */}
+            <button
+                onClick={handlePrev}
+                className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/80 text-white p-3 rounded-full"
+            >
+                <ChevronLeft size={35} />
+            </button>
+            <button
+                onClick={handleNext}
+                className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black/80 text-white p-3 rounded-full"
+            >
+                <ChevronRight size={35} />
+            </button>
         </div>
     );
-}
+};
+
+export default HeroCarousel;

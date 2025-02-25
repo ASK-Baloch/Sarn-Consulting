@@ -25,7 +25,7 @@ export default function Navbar() {
                     <Link href="/" className="text-2xl  text-black">
 
                        <Image
-                       src={"/SARNLOGO.jpg"} 
+                       src={"/SARNLOGO.jpg"}                
                        alt="logo"
                        height={100}
                        width={100}
@@ -35,23 +35,10 @@ export default function Navbar() {
                 <div className="flex  mr-10">
                 <div className="flex  mr-16 justify-between gap-16 ">
 
-                        <Link href="/" className="text-black font-medium hover:text-[#3C73DA] hover:underline hover:scale-110  ">
+                        <Link href="/" className="text-black font-medium hover:text-[#3C73DA]  hover:scale-110  ">
                             Home
                         </Link>
-                        {/* <div className="relative  ml-3 cursor-pointer"
-                            onMouseEnter={() => setAboutCard(true)}
-                            onMouseLeave={() => setAboutCard(false)}>
-
-                        {/* <span className=" text-black font-medium hover:text-[#3C73DA]  hoverhover:scale-110">About</span> */}
-                          {/* {isAboutCard && (
-                                <div className="absolute left-0  py-2 w-56 rounded-md shadow-lg bg-white  text-black flex flex-col gap-1 :">
-                                    <Link href="#" className=" px-4 py-2 :bg-gray-200 hover:text-[#3C73DA] hover:underline hover:scale-110">Who We Are</Link>
-                                    <Link href="#" className=" px-4 py-2 :bg-gray-200 hover:text-[#3C73DA] hover:underline hover:scale-110">Our Approach</Link>
-                                
-                                </div>
-                          )}  */} 
-                          
-                        {/* </div> */}
+                       
                         <div className="relative ml-3 cursor-pointer"
                             onMouseEnter={() => setAboutCard(true)}
                             onMouseLeave={() => setAboutCard(false)}
@@ -65,7 +52,7 @@ export default function Navbar() {
                                     <Link
                                     key={about.slug}
                                     href={`/about/${about.slug}`}
-                                    className="px-4 py-2 hover:text-[#3C73DA] hover:underline hover:scale-110"
+                                    className="px-4 py-2 hover:text-[#3C73DA]  hover:scale-110"
                                     >
                                     {about.label}
                                     </Link>
@@ -74,28 +61,7 @@ export default function Navbar() {
                             )}
                             </div>
 
-                        {/* <div className="relative  ml-3 cursor-pointer"
-                            onMouseEnter={() => setServiceCard(true)}
-                            onMouseLeave={() => setServiceCard(false)}>
-
-                            <span className=" text-black font-medium hover:text-[#3C73DA]  hover:scale-110">Services</span>
-                            {isSerciceCard && (
-
-
-                                <div className="absolute left-0  py-2 w-56 rounded-md shadow-lg bg-white  text-black flex flex-col gap-1 :">
-                                    <Link href="#" className=" px-4 py-2 :bg-gray-200 hover:text-[#3C73DA] hover:underline hover:scale-110">Who We Are</Link>
-                                    <Link href="#" className=" px-4 py-2 :bg-gray-200 hover:text-[#3C73DA] hover:underline hover:scale-110">Our Approach</Link>
-                                    <Link href="#" className=" px-4 py-2 :bg-gray-200 hover:text-[#3C73DA] hover:underline hover:scale-110">Future as We See</Link>
-                                    <Link href="#" className=" px-4 py-2 :bg-gray-200 hover:text-[#3C73DA] hover:underline hover:scale-110">Range of Services</Link>
-                                    <Link href="#" className=" px-4 py-2 :bg-gray-200 hover:text-[#3C73DA] hover:underline hover:scale-110">Practice Area</Link>
-                                    <Link href="#" className=" px-4 py-2 :bg-gray-200 hover:text-[#3C73DA] hover:underline hover:scale-110">Sector Specialization</Link>
-                                    <Link href="#" className=" px-4 py-2 :bg-gray-200 hover:text-[#3C73DA] hover:underline hover:scale-110">Core Team</Link>
-                                </div>
-
-
-                            )}
-
-                        </div> */}
+                     
                         <div className="relative ml-3 cursor-pointer"
                             onMouseEnter={() => setServiceCard(true)}
                             onMouseLeave={() => setServiceCard(false)}
@@ -109,7 +75,7 @@ export default function Navbar() {
                                     <Link
                                     key={service.slug}
                                     href={`/services/${service.slug}`}
-                                    className="px-4 py-2 hover:text-[#3C73DA] hover:underline hover:scale-110"
+                                    className="px-4 py-2 hover:text-[#3C73DA]  hover:scale-110"
                                     >
                                     {service.label}
                                     </Link>
@@ -120,10 +86,10 @@ export default function Navbar() {
                         
 
 
-                        <Link href="/" className="text-black font-medium hover:text-[#3C73DA] hover:underline hover:scale-110  ml-3">
+                    <Link href="/blogPage" className="text-black font-medium hover:text-[#3C73DA]  hover:scale-110  ml-3">
                             Blog
                         </Link>
-                        <Link href="/" className="text-black font-medium hover:text-[#3C73DA] hover:underline hover:scale-110 ml-3 ">
+                    <Link href="/contact" className="text-black font-medium hover:text-[#3C73DA]  hover:scale-110 ml-3 ">
                             Contact
                         </Link>
                     </div>
