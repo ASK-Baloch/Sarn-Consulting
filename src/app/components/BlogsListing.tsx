@@ -42,7 +42,7 @@ const BlogsListing = () => {
        
         <button
           onClick={() => scroll("left")}
-          className="absolute left-0 z-10 p-3 bg-white shadow-md text-gray-700 rounded-full hidden lg:flex hover:scale-110 transition-transform"
+          className="absolute left-0 z-10 p-3 hover:border-blue-400 bg-white shadow-md text-gray-700 rounded-full hidden lg:flex hover:scale-110 transition-transform"
         >
           <ChevronLeft size={32} />
         </button>
