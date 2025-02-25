@@ -71,7 +71,7 @@ const ContactForm = () => {
                                     className="border rounded-md border-[#3C73DA] p-2 h-10 w-full mt-2 focus:outline-none"
                                     placeholder="Enter your phone number"
                                     value={phone}
-                                    name="form_phone"
+                                    name="from_phone"
                                     onChange={(e) => setPhone(e.target.value)}
                                 />
                             </div>
