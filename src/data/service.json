@@ -1,57 +1,2384 @@
 {
-    "services": [
-      { "label": "Business Registration", "slug": "business-registration" },
-      { "label": "Company Formation", "slug": "company-formation" },
-      { "label": "Partnership Forum", "slug": "partnership-forum" },
-      { "label": "Private Limited Company", "slug": "private-limited-company" },
-      { "label": "Taxation", "slug": "taxation" },
-      { "label": "Bookkeeping", "slug": "bookkeeping" },
-      { "label": "License and Others", "slug": "license-and-others" },
-      { "label": "IPO Services", "slug": "ipo-services" },
-      { "label": "Legal Services", "slug": "legal-services" },
-      { "label": "HR", "slug": "hr" }
-    ],
-    "content": {
-      "business-registration": {
-        "title": "Business Registration",
-        "description": "Simplify your business registration process with our expert guidance.",
-        "content": [
-          {
-            "type": "paragraph",
-            "text": "We help entrepreneurs and businesses register their entities quickly and efficiently."
-          },
-          {
+  "services": [
+    { "label": "Accounting & Audit", "slug": "Accounting-and-Audit" },
+    { "label": "Tax Services", "slug": "Tax-Services" },
+    {
+      "label": "Business Registration & Licensing",
+      "slug": "Business-Registration-and-Licensing",
+      "subItems": [
+        { "label": "Micro Finance Bank and Electronic Money Institution", "slug": "Micro-Finance-Bank-and-Electronic-Money-Institution" },
+        { "label": "Registration & Licensing", "slug": "Registration-and-Licensing" },
+        { "label": "SECP Licensing Services", "slug": "SECP-Licensing-Services" },
+        { "label": "SECP-Related Services in Pakistan", "slug": "SECP-Related-Services-in-Pakistan" }
+      ]
+    },
+    {
+      "label": "Business Advisory & Consulting Services",
+      "slug": "Business-Advisory-and-Consulting-Services",
+      "subItems": [
+        { "label": "Management Consulting", "slug": "Management-Consulting" },
+        { "label": "Intellectual Property", "slug": "Intellectual-Property" },
+        { "label": "HR Consulting and Trainings", "slug": "HR-Consulting-and-Trainings" },
+        { "label": "Corporate Finance Services", "slug": "Corporate-Finance-Services" },
+        { "label": "ISO Consulting", "slug": "ISO-Consulting" }
+      ]
+    },
+    {
+      "label": "Legal & Corporate Law Advisory",
+      "slug": "Legal-and-Corporate-Law-Advisory"
+    },
+    {
+      "label": "Business Process Automation & Technology Consulting",
+      "slug": "Business-Process-Automation-and-Technology-Consulting",
+      "subItems": [
+        { "label": "cyber security", "slug": "cyber-security" },
+        { "label": "erp", "slug": "erp" }
+      ]
+    },
+    {
+      "label": "Import & Export Advisory",
+      "slug": "Import-Export-Advisory-Services"
+    },
+    {
+      "label": "Outsourced Accounting & Back-Office Support",
+      "slug": "Outsourced-Accounting-and-Back-Office-Support"
+    }
+  ],
+  "content": {
+    "Accounting-and-Audit": {
+      "title": "Audit and Accounting",
+      "description": "Independent, quality financial statement audits and comprehensive accounting services.",
+      "content": [
+        {
+          "type": "section",
+          "heading": "Audit and Accounting Services in Pakistan",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "At SARN Consulting, we provide comprehensive audit and accounting services tailored to businesses in Islamabad and across Pakistan. Our expertise ensures compliance with local regulations, IFRS, and GAAP, helping businesses maintain financial transparency and operational efficiency."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Financial Statement Audits",
+          "content": [
+            {
               "type": "bullet_points",
               "items": [
-                  "Step-by-step assistance in business registration",
-                  "Ensuring compliance with legal requirements",
-                  "Quick and hassle-free processing"
-                ]
+                "Financial Statement Audits – Comprehensive audits ensuring compliance with IFRS and Pakistan’s regulatory framework.",
+                "Cost Audit – Evaluation of cost records to ensure accuracy and adherence to industry benchmarks.",
+                "Financial Statement Reviews – Limited assurance engagements providing insights into financial reporting accuracy.",
+                "Financial Statement Compilation – Assistance in preparing accurate financial reports for businesses.",
+                "Agreed-Upon Procedures – Customized audit engagements to address specific client needs.",
+                "Attestation Services – Verification of financial data for compliance with relevant laws.",
+                "Other Assurance Services – Risk assessment and compliance-driven services for financial transparency."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Accounting Services",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Bookkeeping – Maintaining accurate financial records, transactions, and ledgers.",
+                "Policy of Accounting – Establishing standardized accounting procedures for organizations.",
+                "Digitization of Books of Accounts – Converting manual records into cloud-based and digital formats for better accessibility.",
+                "IAS & IFRS Compliance – Ensuring adherence to international accounting standards for transparent reporting.",
+                "Generally Accepted Accounting Principles (GAAP) – Applying industry-standard accounting methodologies to improve financial management."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Payroll Services",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Employee salary processing",
+                "Tax and compliance management",
+                "Provident fund and EOBI calculations",
+                "Payroll reporting and payslip generation"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Internal Audit",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Our internal audit services help businesses in Pakistan strengthen their internal controls, risk management, and financial compliance. We identify operational inefficiencies and provide solutions to optimize financial governance."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Forecasting",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Revenue projections",
+                "Expense management",
+                "Investment planning",
+                "Financial growth strategies"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Regulatory Compliance Reporting",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Filing tax returns and statutory reports",
+                "Preparing regulatory financial disclosures",
+                "Ensuring sales tax and income tax compliance",
+                "Risk assessment for financial non-compliance"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Choose SARN Consulting?",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "✅ Experienced Accountants and Auditors",
+                "✅ Compliance with IFRS, GAAP, and Pakistan’s legal framework",
+                "✅ Tailored solutions for businesses in Islamabad and nationwide",
+                "✅ Advanced accounting software for accurate financial management"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Contact Us",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "📞 Get in touch with us today! For expert audit and accounting services in Islamabad and Pakistan, contact SARN Consulting now!"
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "📧 Email: info@sarnconsulting.com",
+                "📧 Email: partner@sarnconsulting.com",
+                "📍 Location: Islamabad, Pakistan",
+                "📞 Phone: +923370646536",
+                "☎ LandLine: 051-2741610",
+                "☎ Phone:  051-2741611"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Tax-Services": {
+      "title": "TAXATION SERVICES",
+      "content": [
+        {
+          "type": "section",
+          "heading": "Service List",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Tax Registrations",
+                "Income Tax Return Filing",
+                "Monthly Federal / Provincial Sales Tax Return Filing",
+                "Quarterly Withholding Statements Tax Filing",
+                "Wealth Compliance",
+                "Revision of Returns",
+                "Correspondence with FBR and Provincial Tax Authorities/Boards",
+                "  ⚫ Commissioner Appeals",
+                "  ⚫ ATIR",
+                "  ⚫ FTO",
+                "Tax Exemption",
+                "Reduced Tax Rate",
+                "Tax Planning",
+                "Income/Sales Tax Planning and Compliance Services",
+                "General Sales Tax (GST) Planning and Compliance Service",
+                "International Tax Advisory",
+                "Representation in Tax Audit",
+                "Tax Due Diligence",
+                "Tax Refund",
+                "De-registration"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "TAXATION SERVICES IN PAKISTAN",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "At SARN Consulting, we specialize in comprehensive taxation services in Pakistan, offering expert guidance to businesses, salaried individuals, freelancers, and corporate entities. Whether you need income tax registration, monthly and annual tax return filing, tax audit representation, or international tax advisory, our team of seasoned tax professionals ensures compliance with FBR (Federal Board of Revenue) and provincial tax authorities while helping you optimize your tax position."
             },
             {
               "type": "paragraph",
-              "text": "We help entrepreneurs and businesses register their entities quickly and efficiently."
+              "text": "Our approach is proactive and client-focused, ensuring that your tax obligations are met efficiently and accurately. We assist in tax planning, audits, refunds, exemptions, and appeals, providing seamless solutions tailored to your business needs."
             }
-        ]
-      },
-      "company-formation": {
-        "title": "Company Formation",
-        "description": "Start your company with the right structure and legal compliance.",
-        "content": [
-          {
-            "type": "paragraph",
-            "text": "Our team provides end-to-end support in setting up your company legally and efficiently."
-          },
-          {
-            "type": "bullet_points",
-            "items": [
-              "Legal documentation and filing",
-              "Company structure consultation",
-              "Government registration assistance"
-            ]
-          }
-        ]
-      }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Our Taxation Services",
+          "content": [
+            {
+              "type": "section",
+              "heading": "1. Tax Registrations",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Getting registered with the FBR and provincial tax authorities is the first step toward tax compliance. We help individuals and businesses with:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ National Tax Number (NTN) registration",
+                    "✔ Sales Tax Registration (STRN)",
+                    "✔ Withholding Tax Registration",
+                    "✔ Corporate Tax Registration",
+                    "✔ Professional Tax Registration",
+                    "✔ Tax Registration for Startups & SMEs"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "By ensuring timely and accurate tax registration, we help you avoid penalties and legal complications."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "2. Income Tax Return Filing",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Filing an income tax return in Pakistan is mandatory for salaried individuals, business owners, freelancers, and corporate entities. Our tax professionals:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Prepare and file income tax returns with accuracy",
+                    "✔ Ensure maximum tax deductions and rebates",
+                    "✔ Optimize tax liabilities under FBR tax regulations",
+                    "✔ Handle tax audits and inquiries from tax authorities"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "We ensure timely tax return filing to help you maintain a clean tax profile and avoid penalties or notices."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "3. Monthly Federal / Provincial Sales Tax Return Filing",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Sales tax compliance is crucial for businesses, manufacturers, and service providers. We provide:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Monthly sales tax return filing with FBR, PRA, SRB, KPKRA, and BRA",
+                    "✔ Sales tax reconciliation and compliance",
+                    "✔ Handling input/output tax adjustments",
+                    "✔ Sales tax audit support"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Our experts help you avoid unnecessary fines by ensuring accurate and timely reporting."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "4. Quarterly Withholding Statements Tax Filing",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Businesses in Pakistan are required to deduct and deposit withholding tax on payments such as salaries, rent, contracts, and services. We assist with:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Preparation and submission of quarterly withholding tax statements",
+                    "✔ Compliance with tax deduction rules",
+                    "✔ Advisory on reduced withholding tax rates",
+                    "✔ Representation in withholding tax audits"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Avoid penalties and ensure full compliance with withholding tax laws."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "5. Wealth Compliance",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "FBR requires individuals and businesses to disclose their wealth in tax returns. Our tax professionals assist with:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Wealth statement preparation and filing",
+                    "✔ Tax-efficient wealth structuring",
+                    "✔ Handling FBR wealth reconciliation notices"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Ensure that your assets, income, and liabilities are accurately reported."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "6. Revision of Returns",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "If you've made an error in your tax return, we help revise it efficiently. Our services include:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Correction of errors in income tax and sales tax returns",
+                    "✔ Revised return submission to FBR",
+                    "✔ Resolving tax discrepancies"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "We ensure that your tax records remain accurate and compliant."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "7. Correspondence with FBR and Provincial Tax Authorities/Boards",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Tax matters often involve notices, legal proceedings, and compliance challenges. We handle:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ FBR inquiries and notices",
+                    "✔ Provincial tax board correspondence",
+                    "✔ Clarifications on tax disputes"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "We represent you in all tax-related matters to ensure quick resolution and legal compliance."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "8. Income Tax and Sales Tax Appeals",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "If you face a tax dispute, our tax experts provide legal representation in:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Commissioner Appeals – Resolving tax disputes at the initial stage",
+                    "✔ Appellate Tribunal Inland Revenue (ATIR) – Handling complex tax cases",
+                    "✔ Federal Tax Ombudsman (FTO) – Addressing complaints against tax authorities"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "We ensure fair representation and strong defense in tax matters."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "9. Tax Exemption",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Certain businesses and organizations qualify for income tax and sales tax exemptions. We assist in:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Application for tax exemptions under FBR laws",
+                    "✔ Corporate tax exemption for non-profits",
+                    "✔ Exemption handling for exporters and specific industries"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Get the maximum tax benefits you're entitled to."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "10. Reduced Tax Rate",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "We help businesses and individuals apply for reduced tax rates where applicable under:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Double Taxation Avoidance Agreements",
+                    "✔ Industry-specific tax reliefs",
+                    "✔ Withholding tax reductions"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Save money legally by ensuring you pay only the tax you owe."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "11. Tax Planning",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Effective tax planning helps you minimize tax liabilities while staying compliant. We provide:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Tax-efficient business structuring",
+                    "✔ Personal income tax planning",
+                    "✔ Corporate tax optimization strategies"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "A well-planned tax strategy ensures financial growth and sustainability."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "12. Income/Sales Tax Planning and Compliance Services",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "We ensure your income tax and sales tax filings are in line with:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ FBR regulations",
+                    "✔ Provincial tax laws",
+                    "✔ Latest amendments in tax rules"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "13. General Sales Tax (GST) Planning and Compliance Service",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "GST compliance is crucial for businesses. We provide:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ GST registration & return filing",
+                    "✔ Input/output tax adjustments",
+                    "✔ GST audit support"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "14. International Tax Advisory",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "For businesses with international operations, we assist in:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Cross-border tax planning",
+                    "✔ Transfer pricing compliance",
+                    "✔ Double taxation treaties"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Ensure global tax compliance with expert guidance."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "15. Representation in Tax Audit",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "If you are selected for a tax audit, we offer:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Audit preparation and documentation",
+                    "✔ Representation before FBR & tax auditors",
+                    "✔ Negotiation of tax liabilities"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Avoid penalties and ensure a smooth audit process."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "16. Tax Due Diligence",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "We conduct tax due diligence for:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Mergers & acquisitions",
+                    "✔ Business transactions",
+                    "✔ Investment decisions"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Our reports help businesses mitigate tax risks."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "18. Tax Refund",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "We assist in claiming tax refunds from FBR for:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Income tax overpayments",
+                    "✔ Sales tax refunds",
+                    "✔ Withholding tax adjustments"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Ensure quick processing of tax refunds."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "19. De-registration",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "If you need to close your tax registration, we provide:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ De-registration from NTN & Sales Tax",
+                    "✔ Clearance of outstanding liabilities",
+                    "✔ Legal compliance with FBR"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Choose SARN Consulting for Taxation Services?",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "✅ Expertise in Pakistan’s Tax Laws",
+                "✅ Strong Representation Before FBR & Tax Authorities",
+                "✅ Minimized Tax Liabilities Through Legal Planning",
+                "✅ Hassle-Free Tax Filing & Compliance",
+                "✅ Fast & Efficient Tax Refund Services"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Contact Us",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "📞 Get in touch with us today! For expert audit and accounting services in Islamabad and Pakistan, contact SARN Consulting now!"
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "📧 Email: info@sarnconsulting.com",
+                "📧 Email: partner@sarnconsulting.com",
+                "📍 Location: Islamabad, Pakistan",
+                "📞 Phone: +923370646536",
+                "☎ LandLine: 051-2741610",
+                "☎ Phone:  051-2741611"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Micro-Finance-Bank-and-Electronic-Money-Institution": {
+      "title": "Licensing Services for Financial Institutions in Pakistan",
+      "description": "At SARN Consulting, we provide professional guidance for businesses and entrepreneurs looking to establish Microfinance Banks (MFBs) and Electronic Money Institutions (EMIs) in Pakistan. Our expert consultants help clients navigate complex regulatory frameworks, ensuring compliance with the State Bank of Pakistan (SBP), the Securities and Exchange Commission of Pakistan (SECP), and other financial authorities.",
+      "content": [
+        {
+          "type": "section",
+          "heading": "Microfinance Bank (MFB) License in Pakistan",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Microfinance Banks (MFBs) play a crucial role in financial inclusion, providing banking services to underserved communities. The State Bank of Pakistan (SBP) regulates the licensing, operation, and supervision of MFBs under the Microfinance Institutions Ordinance, 2001."
+            },
+            {
+              "type": "section",
+              "heading": "Licensing Authority",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The State Bank of Pakistan (SBP) is the sole authority for:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Licensing Microfinance Banks (MFBs)",
+                    "✔ Regulating microfinance banking operations",
+                    "✔ Supervising MFB compliance with financial laws"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "No entity or individual can operate an MFB without an official SBP license."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Eligibility Criteria for MFB License",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "To establish an MFB in Pakistan, applicants must meet SBP’s eligibility standards, which include:"
+            },
+            {
+              "type": "section",
+              "heading": "1. Institutional Eligibility",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Entities with proven experience in microfinance, locally or internationally.",
+                    "✔ Companies with strong distribution networks or technological expertise for financial services."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "2. Individual or Group Eligibility",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Pakistani or foreign individuals/groups must first operate a Microfinance Institution (MFI) for at least three years before applying for an MFB license.",
+                    "✔ In exceptional cases, individuals with significant experience in Microfinance, Agriculture, or SME Finance may qualify directly for an MFB license."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Disqualification Criteria for Sponsors",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Individuals cannot sponsor an MFB if they:"
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "🚫 Have been convicted of a criminal offense in Pakistan or abroad.",
+                "🚫 Have engaged in illegal financial activities, especially violations of banking and corporate laws.",
+                "🚫 Have defaulted on financial obligations to banks or financial institutions."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Capital Requirements for Microfinance Banks",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Nationwide MFB Operations – Minimum paid-up capital of PKR 500 million.",
+                "✔ Province-wide MFB Operations – Minimum paid-up capital of PKR 250 million.",
+                "✔ District-wide MFB Operations – Minimum paid-up capital of PKR 100 million."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Sponsors must subscribe to at least 51% of the minimum capital, which is held by the SBP in custody. These shares cannot be transferred or encumbered without SBP’s prior written approval."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Application Process for MFB License",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Applicants must submit a detailed business proposal that includes:"
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ A comprehensive feasibility study.",
+                "✔ A business model demonstrating financial sustainability.",
+                "✔ A commitment to providing inclusive banking services.",
+                "✔ A plan for mobilizing funds for portfolio growth."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 SBP evaluates applications based on:"
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Sponsors' financial & managerial capacity.",
+                "✔ Business plan viability.",
+                "✔ Adherence to SBP’s regulatory framework."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📞 Need assistance with your MFB license? Contact SARN Consulting for expert guidance on meeting SBP requirements!"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Electronic Money Institution (EMI) License in Pakistan",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The State Bank of Pakistan (SBP) regulates the Electronic Money Institutions (EMIs) to ensure secure and efficient digital financial transactions. Obtaining an EMI license allows companies to provide e-wallets, online payments, and digital financial services."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Step-by-Step Process for Obtaining an EMI License",
+          "content": [
+            {
+              "type": "section",
+              "heading": "1. Company Incorporation",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Register a Limited Liability Company (LLC) with the Securities and Exchange Commission of Pakistan (SECP).",
+                    "✔ Choose between a Private or Public Limited Company structure."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "2. Submission of EMI License Application",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Applicants must submit the following documents to SBP:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Certificate of Incorporation from SECP.",
+                    "✔ Memorandum & Articles of Association.",
+                    "✔ Non-refundable application fee of PKR 200,000.",
+                    "✔ Detailed business feasibility report, including:\n    - Five-year financial projections.\n    - Operational plans for e-money issuance & redemption.\n    - Delivery channels for digital payment services.",
+                    "✔ Customer fund protection plan, including:\n    - Trust agreement with trustees for fund security.",
+                    "✔ Internal compliance mechanisms for:\n    - Anti-Money Laundering (AML) compliance.\n    - Countering Financing of Terrorism (CFT) regulations.",
+                    "✔ List of key personnel, including:\n    - Sponsor shareholders, directors, CEO, and executives.",
+                    "✔ Audited financial statements (if applicable)."
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "📌 All submitted documents must comply with SBP's Electronic Money Institution (EMI) Regulations."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "3. Licensing Stages for EMI Approval",
+              "content": [
+                {
+                  "type": "section",
+                  "heading": "Stage 1: In-Principle Approval",
+                  "content": [
+                    {
+                      "type": "bullet_points",
+                      "items": [
+                        "✔ SBP reviews the application and grants initial approval.",
+                        "✔ The applicant must fulfill all conditions outlined by SBP before moving to the next phase."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "Stage 2: Pilot Operations",
+                  "content": [
+                    {
+                      "type": "bullet_points",
+                      "items": [
+                        "✔ After meeting initial requirements, the EMI is allowed to conduct real transactions on a limited scale.",
+                        "✔ This phase helps test operational systems and validate processes before full-scale launch."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "Stage 3: Commercial Operations",
+                  "content": [
+                    {
+                      "type": "bullet_points",
+                      "items": [
+                        "✔ Upon successful pilot testing, SBP grants final authorization.",
+                        "✔ The EMI can now start full-scale commercial activities in Pakistan's digital financial ecosystem."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "4. Compliance & Operational Requirements for EMIs",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "To maintain regulatory compliance, EMIs must adhere to:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Financial Resource Requirements\n    - Maintain sufficient financial resources to support operations.\n    - Implement risk management policies for secure transactions.",
+                    "✔ IT & Cybersecurity Systems\n    - Use secure IT infrastructure for digital payments.\n    - Ensure data protection and fraud prevention mechanisms.\n    - Follow SBP’s Payment Systems and Electronic Fund Transfers Act, 2007.",
+                    "✔ Customer Fund Safeguarding\n    - Maintain a Trust Account with a licensed bank.\n    - Ensure customer funds remain protected from operational risks.",
+                    "✔ AML/CFT Compliance\n    - Develop internal controls for anti-money laundering compliance.\n    - Prevent financial crimes by adhering to SBP’s AML & CFT regulations."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Choose SARN Consulting for Licensing Services?",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Expert Guidance – Our team specializes in SBP licensing procedures.",
+                "✔ Hassle-Free Compliance – We handle the entire application process.",
+                "✔ Regulatory Advisory – Stay ahead with updated SBP regulations.",
+                "✔ Efficient Processing – We streamline approvals to reduce delays.",
+                "✔ Tailored Solutions – We design customized business plans to meet SBP requirements."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Get Started Today!",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Want to establish a Microfinance Bank (MFB) or an Electronic Money Institution (EMI) in Pakistan?\n📞 Call us at [Your Contact Number]\n📩 Email us at [Your Email Address]\n🚀 Let SARN Consulting help you navigate the regulatory landscape and secure your financial institution license with ease!"
+            }
+          ]
+        }
+      ]
+    },
+    "business-registration": {
+      "title": "Business Registration",
+      "description": "Simplify your business registration process with our expert guidance.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We help entrepreneurs and businesses register their entities quickly and efficiently."
+        },
+        {
+          "type": "bullet_points",
+          "items": [
+            "Step-by-step assistance in business registration",
+            "Ensuring compliance with legal requirements",
+            "Quick and hassle-free processing"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "We help entrepreneurs and businesses register their entities quickly and efficiently."
+        }
+      ]
+    },
+    "company-formation": {
+      "title": "Company Formation",
+      "description": "Start your company with the right structure and legal compliance.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Our team provides end-to-end support in setting up your company legally and efficiently."
+        },
+        {
+          "type": "bullet_points",
+          "items": [
+            "Legal documentation and filing",
+            "Company structure consultation",
+            "Government registration assistance"
+          ]
+        }
+      ]
+    },
+    "Registration-and-Licensing": {
+      "title": "Registrations and Licensing",
+      "description": "",
+      "content": [
+        {
+          "type": "section",
+          "heading": "Business Registrations",
+          "content": [
+            {
+              "type": "section",
+              "heading": "Sole Proprietorship Registration",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Looking to register a sole proprietorship in Pakistan? SARN Consulting offers expert sole proprietorship registration services tailored for Pakistani entrepreneurs. We handle everything from document preparation to compliance with FBR (Federal Board of Revenue) and local regulations, ensuring a smooth and hassle-free process. Our team provides personalized guidance to help you establish your business quickly and efficiently. Whether you're starting a new venture or formalizing an existing one, trust SARN Consulting for reliable and affordable business registration services in Pakistan. Focus on growing your business while we take care of the legalities!"
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Documents required:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Scanned CNIC of the proprietor",
+                    "Business Name / Letterhead",
+                    "Business Address / Letterhead",
+                    "E-mail ID and mobile number that have not been previously used for any NTN registration."
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Cost: Rs. 2,500"
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Timeline: 1 to 2 working days"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Partnership Firm Registration",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Registered AOP (With Form C)",
+                    "Un-registered AOP (Without Form C)"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "SARN Consulting provides comprehensive Partnership Firm Registration services in Pakistan, catering to both Registered AOP (Association of Persons) and Unregistered AOP structures. Whether you need to register your partnership firm with Form C for tax compliance or prefer an unregistered setup, our expert team ensures a seamless process."
+                },
+                {
+                  "type": "paragraph",
+                  "text": "We assist with documentation, FBR (Federal Board of Revenue) requirements, and legal formalities, making it easy for you to establish your partnership firm. Trust SARN Consulting for reliable, efficient, and affordable business registration services in Pakistan. Let us handle the complexities while you focus on building your business!"
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Documents required for registered AOP:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Scanned copies of CNICs of all the Partners",
+                    "Nature of the business",
+                    "Business Address",
+                    "Letterhead of the AOP",
+                    "Rent agreement/ownership docs of Office premises",
+                    "Latest paid electricity bill",
+                    "Phone Numbers & E-mail IDs of all the partners"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Timeline: 10 to 15 working days"
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Cost: Rs. 35,000"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Company Registration",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Private Limited Company",
+                    "Single Member Private Limited Company",
+                    "Limited Liability Partnership (LLP)",
+                    "Public Limited Company",
+                    "Branch Office or Liaison Office of Foreign Company"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "SARN Consulting offers end-to-end solutions for all types of business registrations in Pakistan, ensuring compliance with SECP (Securities and Exchange Commission of Pakistan) and FBR (Federal Board of Revenue) regulations. Our services include:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "a) Private Limited Company Registration – Establish a Private Limited Company with ease. We handle name reservation, documentation, SECP registration, and tax compliance, providing a seamless setup for your business.",
+                    "b) Single Member Private Limited Company Registration – Ideal for solo entrepreneurs, we guide you through the process of registering a Single Member Private Limited Company, ensuring legal compliance and a hassle-free experience.",
+                    "c) Limited Liability Partnership (LLP) Registration – Protect your personal assets while enjoying the benefits of a partnership. We assist with LLP registration, documentation, and compliance with regulatory requirements.",
+                    "d) Public Limited Company Registration – For businesses planning to raise capital from the public, we provide expert support for Public Limited Company registration, including SECP compliance and statutory requirements.",
+                    "e) Branch Office or Liaison Office of Foreign Company – Expand your international business into Pakistan. We help foreign companies register their Branch Office or Liaison Office, ensuring compliance with local laws and regulations."
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Trust SARN Consulting for reliable, efficient, and professional company registration services in Pakistan. Let us handle the legalities while you focus on growing your business!"
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Documents required:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Scanned CNICs of all shareholders & Directors",
+                    "CEO name",
+                    "Company name and address",
+                    "Email IDs and Mobile Numbers of all shareholders & Directors",
+                    "Shareholding percentage",
+                    "Nature of the business",
+                    "Capital (Authorized & Paid-up)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Call Centre, Software House and Freelancers Registration with PSEB",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "SARN Consulting offers comprehensive registration services for Call Centres, Software Houses, and Freelancers in Pakistan. Whether you're setting up a call centre, launching a software house, or formalizing your freelancing business, our expert team ensures a seamless process. We handle PTA (Pakistan Telecommunication Authority) compliance for call centres, PSEB (Pakistan Software Export Board) registration for software houses, and FBR (Federal Board of Revenue) tax registration for freelancers. With SARN Consulting, you get reliable, efficient, and affordable business registration services in Pakistan. Focus on your core operations while we take care of the legal and regulatory requirements!"
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Documents required For Call Centers and software house:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Brief company profile on the company letterhead / printed corporate brochure.",
+                    "Copies of CNICs or Passport of all Directors/Shareholders/Partners/Proprietor.",
+                    "Attested copy of Memorandum and Articles of Association including the copy Incorporation certificate. (For SECP Companies only).",
+                    "Attested copy of the Partnership Deed, (In case of Partnership firm).",
+                    "Certificate of Registration, Registrar Office certified copy (for registered firm).",
+                    "Bank Statement of the preceding six months. OR Bank Account Certificate (In case of new account) only"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Timeline: 2 weeks"
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Cost: For Call Center, Rs. 35,000 | For Software House, Rs. 25,000"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "NGO/NPO Registration",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Registration u/s 42",
+                    "ICT Charity",
+                    "Societies Registration Act. 1860",
+                    "Trust Registration with Registrar",
+                    "Registration of NPOs/ Charities/ Trusts with Punjab Charity Commission",
+                    "Certification from Pakistan Centre of Philanthropy",
+                    "FBR NPO Approval",
+                    "Registration of Provident Fund",
+                    "Registration of Gratuity Fund",
+                    "Recognition of Provident Fund / Gratuity Fund with FBR",
+                    "EAD MoU"
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "I. Registration Under Section 42 of the Companies Act, 2017",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "text": "Register a Non-Profit Organization (NPO) under Section 42 of the Companies Act, 2017, to legally operate as a non-profit company in Pakistan. Our expert services include preparing and filing all required documents with the Securities and Exchange Commission of Pakistan (SECP), obtaining necessary approvals, and ensuring compliance with regulatory authorities. Get your NPO registered seamlessly to secure legal status, tax exemptions, and credibility for donations."
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "II. ICT Charity Registration",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "text": "Register your charity in Islamabad Capital Territory (ICT) to operate legally under the ICT Trust Act. We assist in drafting legal documents, preparing applications, and ensuring compliance with the ICT administration, enabling you to run a transparent and legally recognized charitable organization. Secure your NGO, welfare trust, or foundation status with ease."
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "III. Societies Registration Under the Societies Registration Act, 1860",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "text": "Establish a society in Pakistan under the Societies Registration Act, 1860 with our end-to-end registration services. Whether you're setting up a welfare society, educational institution, or cultural association, we handle documentation, submission, and approval processes with the Registrar of Societies. Ensure legal status for your social welfare initiatives today."
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "IV. Trust Registration with the Registrar",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "text": "Register a trust in Pakistan with the relevant authorities to ensure legal recognition and tax benefits. We assist in drafting trust deeds, obtaining approvals, and complying with regulatory requirements. Whether you are setting up a charitable trust, family trust, or public trust, our expertise ensures a hassle-free registration process."
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "V. Registration of NPOs/Charities/Trusts with Punjab Charity Commission",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "text": "Ensure compliance with the Punjab Charity Commission (PCC) by registering your Non-Profit Organization (NPO), charity, or trust. Our services include application submission, documentation preparation, and legal assistance to help you gain recognition and operational legitimacy under Punjab’s charity laws."
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "VI. Certification from Pakistan Centre of Philanthropy (PCP)",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "text": "Obtain Pakistan Centre of Philanthropy (PCP) certification to enhance your NPO’s credibility and secure tax exemptions from the Federal Board of Revenue (FBR). We guide you through the certification process, document preparation, and compliance requirements, helping your charity or non-profit organization gain donor trust and legal benefits."
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "VII. FBR NPO Approval",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "text": "Secure Non-Profit Organization (NPO) approval from the Federal Board of Revenue (FBR) to avail of tax exemptions and legal benefits. Our experts handle the entire approval process, ensuring that your organization complies with FBR regulations, including filing necessary forms and preparing required financial statements."
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "VIII. Registration of Provident Fund",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "text": "Establish a legally recognized Provident Fund for your employees and ensure compliance with Pakistan's labor laws. Our services include fund registration, documentation, and regulatory approvals, helping businesses set up a retirement benefits scheme that provides financial security to employees."
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "IX. Registration of Gratuity Fund",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "text": "Set up a Gratuity Fund in Pakistan to provide structured retirement benefits to employees. Our services cover gratuity trust formation, regulatory approval, and documentation, ensuring compliance with Pakistan’s tax and labor laws while securing tax benefits for employers."
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "X. Recognition of Provident Fund / Gratuity Fund with FBR",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "text": "Get your Provident Fund or Gratuity Fund recognized by the Federal Board of Revenue (FBR) to avail tax benefits and exemptions. We assist in preparing trust deeds, financial reports, and regulatory filings to ensure your fund meets FBR compliance standards."
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "XI. Economic Affairs Division (EAD) Memorandum of Understanding (MoU) Registration",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "text": "Obtain an MoU from the Economic Affairs Division (EAD) to legally receive foreign funding for your NGO, trust, or non-profit organization. We assist in preparing the required documents, compliance reports, and application submissions, ensuring a smooth approval process."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Licensing",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Travel Company License",
+                "Hajj & Umrah Company",
+                "Overseas Employment License",
+                "Pakistan Engineering Council (PEC) Registration",
+                "Chamber of Commerce Membership",
+                "Capital Market License",
+                "Registration of Commodity Brokers",
+                "   ⚫  Licensing of Central Depositories",
+                "   ⚫  Licensing of Clearing Houses",
+                "   ⚫  Licensing of Securities Brokers",
+                "   ⚫  Licensing of Debt Securities Trustees",
+                "   ⚫  Licensing of Share Registrars and Balloters",
+                "   ⚫  Licensing of Underwriters",
+                "   ⚫  Licensing of Credit Rating Agencies",
+                "   ⚫  Establishment of Special Purpose Vehicles",
+                "   ⚫  Licensing of Stock Exchanges",
+                "   ⚫  Licensing of Securities and Futures Advisors",
+                "NBFC License",
+                "   ⚫  Establishment of REIT Management Companies",
+                "   ⚫  Establishment of Private Fund Management Companies:",
+                "   ⚫  Establishment of Asset Management Companies",
+                "   ⚫  Establishment of Investment Advisory Services",
+                "   ⚫  Establishment of Leasing Companies",
+                "   ⚫  Establishment of Housing Finance Services",
+                "   ⚫  Establishment of Voluntary Pension Funds",
+                "   ⚫  Establishment of Modarabas",
+                "   ⚫  Establishment of Investment Finance Services",
+                "Insurance Company License",
+                "   ⚫  Establishment of Insurance Companies",
+                "Becoming an Authorized Surveying Officer",
+                "   ⚫  Establishment of Insurance Brokerage Firms",
+                "   ⚫  Establishment of Insurance Surveyor Companies",
+                "   ⚫  Establishment of Third Party Administrators",
+                "   ⚫  Establishment of Window Takaful Operations",
+                "Money Market License",
+                "   ⚫  EMI License",
+                "   ⚫  Micro Finance Banking"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Tax Registrations Services",
+          "content": [
+            {
+              "type": "section",
+              "heading": "I. NTN Registration",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Get your National Tax Number (NTN) for tax compliance in Pakistan. We assist in registration for:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Individuals – Salaried persons, freelancers, professionals.",
+                    "✔ Sole Proprietors – Business owners operating as individuals.",
+                    "✔ AOP (Association of Persons) – Partnerships and joint ventures.",
+                    "✔ Companies & LLPs – Private limited, public limited, and LLP structures.",
+                    "✔ NGOs – Non-profit organizations and charitable institutions."
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "📌 Ensure legal tax compliance and avoid penalties with expert NTN registration services."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "II. Sales Tax / STRN / GST Registration",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Register for Sales Tax (STRN) / GST to legally operate in Pakistan. We handle registration for:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Sole Proprietors",
+                    "✔ AOPs (Partnership Firms)",
+                    "✔ Companies & LLPs",
+                    "✔ NGOs (Tax-Registered Charities & NPOs)"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "📌 Get your STRN/GST registration and ensure compliance with Pakistan’s tax regulations."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "III. PRA Registration (Punjab Revenue Authority)",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Register for Punjab Revenue Authority (PRA) Sales Tax to operate in service sectors across Punjab."
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ For Sole Proprietors",
+                    "✔ For AOPs (Partnership Firms)",
+                    "✔ For Companies & LLPs",
+                    "✔ For NGOs"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "📌 Avoid provincial tax issues by registering with PRA today!"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "IV. SRB Registration (Sindh Revenue Board)",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Secure SRB Sales Tax Registration for businesses operating in Sindh’s service sector."
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ For Sole Proprietors",
+                    "✔ For AOPs (Partnership Firms)",
+                    "✔ For Companies & LLPs",
+                    "✔ For NGOs"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "📌 Ensure compliance with Sindh’s sales tax regulations."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "V. PSW Registration (Pakistan Single Window)",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Pakistan Single Window (PSW) is a government initiative to streamline trade and business operations. Businesses involved in import, export, and customs clearance must register with PSW."
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ For Sole Proprietors",
+                    "✔ For AOPs (Partnership Firms)",
+                    "✔ For Companies & LLPs",
+                    "✔ For NGOs"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "📌 Simplify international trade and customs operations with PSW registration."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Other Regulatory and Compliance Registrations",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Board of Investment (BOI) Registration – Secure foreign investment approvals.",
+                    "EOBI, Social Security & Related Registrations – Ensure labor law compliance.",
+                    "ISO Certification – Get internationally recognized quality and safety certifications.",
+                    "PCP Certification – Obtain credibility for NGOs with Pakistan Centre of Philanthropy.",
+                    "Tax Exemptions – Secure exemptions for NPOs, trusts, and welfare organizations.",
+                    "Facilitation/Liaoning in banking sector – Assistance in corporate banking relationships.",
+                    "Business Plans & Feasibility Studies – Get professional business documentation.",
+                    "Company Liquidation – Legally dissolve companies and settle obligations."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Licensing Services",
+          "content": [
+            {
+              "type": "section",
+              "heading": "I. Travel Company License",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Obtain a Travel Company License in Pakistan to operate legally as a tour operator, travel agency, or ticketing business. We assist in documentation, approvals, and compliance with the Department of Tourist Services (DTS), ensuring smooth registration."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "II. Hajj & Umrah Company License",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Register your Hajj & Umrah Company in Pakistan and become an authorized service provider. Our experts assist in securing a license from the Ministry of Religious Affairs (MORA), ensuring compliance with regulations for pilgrimage services."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "III. Overseas Employment License",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Establish a recruitment agency for overseas employment with an Overseas Employment Promoter (OEP) License from the Bureau of Emigration & Overseas Employment (BEOE). We handle documentation, compliance, and approvals to help you legally send workers abroad."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "IV. Pakistan Engineering Council (PEC) Registration",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Register your engineering firm with the Pakistan Engineering Council (PEC) to operate legally in construction, consultancy, and engineering projects. We assist in the application process, document preparation, and approvals."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "V. Chamber of Commerce Membership",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Obtain a Chamber of Commerce Membership for your business and gain access to trade benefits, networking opportunities, and government incentives. We facilitate membership registration with relevant business chambers across Pakistan."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "VI. Capital Market License",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "a) Commodity Brokers Registration – License for trading commodities on Pakistan Mercantile Exchange (PMEX).",
+                    "b) Licensing of Central Depositories – Registration for managing securities and financial assets.",
+                    "c) Licensing of Clearing Houses – License to clear and settle capital market transactions.",
+                    "d) Licensing of Securities Brokers – Legal approval for stock market brokerage firms.",
+                    "e) Licensing of Debt Securities Trustees – Registration for handling debt security transactions.",
+                    "f) Licensing of Share Registrars and Balloters – Approval for share management services.",
+                    "g) Licensing of Underwriters – License for public issue underwriting.",
+                    "h) Licensing of Credit Rating Agencies – Registration for credit rating agencies in Pakistan.",
+                    "i) Special Purpose Vehicle (SPV) Establishment – License for structured finance and asset securitization.",
+                    "j) Licensing of Stock Exchanges – Approval for establishing stock exchange operations.",
+                    "k) Licensing of Securities and Futures Advisors – Legal approval for investment advisory services."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "VII. NBFC License (Non-Banking Financial Companies License)",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "a) Establishment of REIT Management Companies – License for managing Real Estate Investment Trusts (REITs).",
+                    "b) Establishment of Private Fund Management Companies – Establish a private equity or venture capital fund.",
+                    "c) Establishment of Asset Management Companies – License for mutual fund and investment portfolio management.",
+                    "d) Establishment of Investment Advisory Services – Register for financial advisory and asset management services.",
+                    "e) Establishment of Leasing Companies – License for vehicle and equipment leasing businesses.",
+                    "f) Establishment of Housing Finance Services – Approval for mortgage and home financing companies.",
+                    "g) Establishment of Voluntary Pension Funds – Registration for managing pension and retirement funds.",
+                    "h) Establishment of Modarabas – License for Shariah-compliant financial business operations.",
+                    "i) Establishment of Investment Finance Services – License for structured finance and investment banking."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "VIII. Insurance Company License",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "a) Establishment of Insurance Companies – License to operate a life or general insurance company.",
+                    "b) Becoming an Authorized Surveying Officer – Approval to work as a certified insurance surveyor.",
+                    "c) Insurance Brokerage Firms – License for selling insurance policies and services.",
+                    "d) Insurance Surveyor Companies – Approval for firms conducting damage and loss assessment.",
+                    "e) Establishment of Third Party Administrators – License for health and medical claim processing.",
+                    "f) Establishment of Window Takaful Operations – License to operate Islamic insurance (Takaful) services."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "IX. Money Market License",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "a) EMI License – Obtain an Electronic Money Institution (EMI) License for digital wallets and online payments.",
+                    "b) Micro Finance Banking – Register a microfinance bank to provide small loans and financial services."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Tax Registrations and Compliance Services in Pakistan",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "At SARN Consulting, we provide comprehensive tax registration services for individuals, businesses, NGOs, and corporate entities in Pakistan. Our experts ensure a hassle-free registration process with the FBR (Federal Board of Revenue), provincial tax authorities, and other regulatory bodies. Whether you are a startup, SME, corporation, or NGO, we help you navigate the complex tax registration requirements and ensure full compliance with Pakistan’s tax laws."
+            },
+            {
+              "type": "section",
+              "heading": "I. NTN Registration",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "An NTN (National Tax Number) is essential for filing income tax returns, opening corporate bank accounts, and conducting business legally in Pakistan. We assist in obtaining NTN for:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Individuals – Salaried persons, freelancers, professionals.",
+                    "✔ Sole Proprietors – Business owners operating as individuals.",
+                    "✔ AOP (Association of Persons) – Partnerships and joint ventures.",
+                    "✔ Companies & LLPs – Private limited, public limited, and LLP structures.",
+                    "✔ NGOs – Non-profit organizations and charitable institutions."
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "📌 Ensure legal tax compliance and avoid penalties with expert NTN registration services."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "II. Sales Tax / STRN / GST Registration",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Register for Sales Tax (STRN) / GST to legally operate in Pakistan. We handle registration for:"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ Sole Proprietors",
+                    "✔ AOPs (Partnership Firms)",
+                    "✔ Companies & LLPs",
+                    "✔ NGOs (Tax-Registered Charities & NPOs)"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "📌 Get your STRN/GST registration and ensure compliance with Pakistan’s tax regulations."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "III. PRA Registration (Punjab Revenue Authority)",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Register for Punjab Revenue Authority (PRA) Sales Tax to operate in service sectors across Punjab."
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ For Sole Proprietors",
+                    "✔ For AOPs (Partnership Firms)",
+                    "✔ For Companies & LLPs",
+                    "✔ For NGOs"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "📌 Avoid provincial tax issues by registering with PRA today!"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "IV. SRB Registration (Sindh Revenue Board)",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Secure SRB Sales Tax Registration for businesses operating in Sindh’s service sector."
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ For Sole Proprietors",
+                    "✔ For AOPs (Partnership Firms)",
+                    "✔ For Companies & LLPs",
+                    "✔ For NGOs"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "📌 Ensure compliance with Sindh’s sales tax regulations."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "V. PSW Registration (Pakistan Single Window)",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Pakistan Single Window (PSW) is a government initiative to streamline trade and business operations. Businesses involved in import, export, and customs clearance must register with PSW."
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "✔ For Sole Proprietors",
+                    "✔ For AOPs (Partnership Firms)",
+                    "✔ For Companies & LLPs",
+                    "✔ For NGOs"
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "📌 Simplify international trade and customs operations with PSW registration."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Other Regulatory and Compliance Registrations",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Board of Investment (BOI) Registration – Secure foreign investment approvals.",
+                    "EOBI, Social Security & Related Registrations – Ensure labor law compliance.",
+                    "ISO Certification – Get internationally recognized quality and safety certifications.",
+                    "PCP Certification – Obtain credibility for NGOs with Pakistan Centre of Philanthropy.",
+                    "Tax Exemptions – Secure exemptions for NPOs, trusts, and welfare organizations.",
+                    "Facilitation/Liaoning in banking sector – Assistance in corporate banking relationships.",
+                    "Business Plans & Feasibility Studies – Get professional business documentation.",
+                    "Company Liquidation – Legally dissolve companies and settle obligations."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Legal-and-Corporate-Law-Advisory": {
+      "title": "Comprehensive Legal Services for Individuals & Businesses",
+      "description": "At SARN Consulting, we provide expert legal solutions tailored to meet the diverse needs of our clients. Whether you need corporate legal support, tax appeals, regulatory compliance, or consumer protection, our highly skilled legal team ensures a smooth and hassle-free legal experience.",
+      "content": [
+        {
+          "type": "section",
+          "heading": "Legal Appeals & Regulatory Compliance",
+          "content": [
+            {
+              "type": "section",
+              "heading": "1. SECP Appeals – Corporate Legal Support",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Need to challenge an SECP decision? Our corporate legal experts assist in filing appeals under the SECP (Appellate Bench Procedure) Rules, 2003, ensuring compliance and strategic representation before the appellate bench."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "2. Income Tax Appeals – Representation Before FBR & Courts",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Disagree with an income tax order? Our tax lawyers help businesses and individuals file appeals under Section 127 of the Income Tax Ordinance, 2001, representing you before the Commissioner Inland Revenue (Appeals) for fair tax assessment."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "3. Sales Tax Appeals – Resolution for Disputed Tax Assessments",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "We assist in challenging unfair sales tax assessments before the Collector of Sales Tax (Appeals), ensuring that your rights are protected."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "4. Customs Appeals – Legal Representation in Trade & Import Disputes",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Facing customs-related penalties or trade disputes? Our legal experts provide customs appeal filing and representation in line with the Revised Kyoto Convention (RKC), ensuring fair resolution."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "5. Federal Tax Ombudsman (FTO) Matters – Fight Tax Maladministration",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "If you’ve faced unfair tax treatment by the FBR, we file complaints with the Federal Tax Ombudsman (FTO) to resolve disputes fairly and efficiently."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "6. Banking Appeals – Legal Support for Banking Disputes",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Our experts assist in resolving banking sector disputes through the Bank Appeals Process, ensuring fair treatment in cases of loan defaults, regulatory actions, or banking malpractice."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Intellectual Property & Business Law",
+          "content": [
+            {
+              "type": "section",
+              "heading": "8. Intellectual Property Law – Trademark, Patent & Copyright Protection",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Protect your brand, patents, and copyrights with our intellectual property legal services, covering registration, litigation, and enforcement in Pakistan and internationally."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "9. Contract Drafting & Legal Documentation",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Our expert contract drafters ensure legally sound agreements, helping businesses structure partnership contracts, NDAs, and business deals for risk-free transactions."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "10. Fraud Detection & Legal Analysis",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Our fraud analysts specialize in detecting financial fraud, misappropriations, and corporate misconduct, safeguarding your business interests."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "11. Legal Writing & Research Services",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Need a legal research expert or document drafting services? Our skilled legal writers and researchers ensure accurate legal content, including case studies, reports, and policy documentation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Consumer Protection & Regulatory Affairs",
+          "content": [
+            {
+              "type": "section",
+              "heading": "12. Consumer Court Petitions – File Complaints & Seek Compensation",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Facing defective products or unfair business practices? We offer consumer court petition filing services to protect your consumer rights."
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Filing consumer complaints before Consumer Courts",
+                    "Legal representation in hearings",
+                    "Negotiation & dispute resolution with vendors",
+                    "Claiming compensation for damages"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "13. Federal Ombudsman Application – Resolve Complaints Against Government Departments",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "If you’re facing bureaucratic delays, unfair treatment, or administrative negligence by federal institutions, we help file complaints with the Federal Ombudsman for fair resolution."
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application drafting & submission",
+                    "Follow-up with the Ombudsman’s office",
+                    "Legal representation in hearings",
+                    "Resolution of disputes related to public services"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Choose SARN Consulting?",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "✅ Holistic Legal Support – A one-stop solution for corporate, tax, and business law services.",
+                "✅ Expert Legal Team – Highly qualified lawyers, tax experts, and compliance specialists.",
+                "✅ Proven Track Record – Successfully handling cases before SECP, FBR, Consumer Courts & Federal Ombudsman.",
+                "✅ Client-Centric Approach – We provide tailored legal strategies to meet your business needs.",
+                "✅ Confidentiality & Integrity – Your legal matters are handled with the utmost professionalism and discretion.",
+                "✅ Cost-Effective Solutions – Affordable legal support without compromising quality."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Contact",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "🚀 Need professional legal assistance? Contact SARN Consulting today for expert legal solutions!"
+            }
+          ]
+        }
+      ]
+    },
+    "cyber-security": {
+      "title": "Cybersecurity Services Offered by SARN Consulting",
+      "description": "SARN Consulting can leverage its expertise in compliance, risk management, and business advisory to offer a comprehensive range of cybersecurity services in Pakistan. These services can help businesses protect their digital assets, prevent cyber threats, and comply with international security standards like ISO 27001, GDPR, NIST, and SOC 2.",
+      "content": [
+        {
+          "type": "section",
+          "heading": "1. Cybersecurity Compliance & Certification Services",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "ISO 27001 Compliance & Certification – Assist businesses in achieving ISO 27001 certification, ensuring a robust Information Security Management System (ISMS).",
+                "SOC 2 Compliance – Help service providers meet SOC 2 Type I & Type II requirements for data security, availability, and privacy.",
+                "GDPR & Data Protection Compliance – Ensure businesses handling EU customer data meet the General Data Protection Regulation (GDPR).",
+                "NIST Cybersecurity Framework Implementation – Assist organizations in aligning with the NIST CSF for risk management."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "2. Cybersecurity Risk Assessment & Penetration Testing",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Cybersecurity Risk Assessments – Evaluate an organization's IT infrastructure, applications, and policies to identify potential vulnerabilities.",
+                "Penetration Testing (Ethical Hacking) – Simulate cyberattacks to identify weaknesses in networks, web applications, and cloud environments.",
+                "Cloud Security Assessment – Review AWS, Azure, and Google Cloud security settings to prevent data breaches.",
+                "IoT & Industrial Cybersecurity Audits – Identify and mitigate cybersecurity risks in smart devices, industrial control systems (ICS), and SCADA environments."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "3. Cybersecurity Consulting & Strategy Development",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Cybersecurity Policy & Governance Development – Help businesses create IT security policies, incident response plans, and access control mechanisms.",
+                "Third-Party Vendor Risk Management – Assess the security posture of third-party vendors and suppliers.",
+                "Business Continuity & Disaster Recovery Planning (BCP/DRP) – Develop strategies to ensure business continuity in case of cyber incidents.",
+                "Zero Trust Architecture Consulting – Implement Zero Trust Network Access (ZTNA) to enhance security against insider threats."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "4. Security Operations & Threat Management",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Managed Security Services (MSSP) – Offer 24/7 security monitoring and threat detection using SIEM (Security Information & Event Management) solutions.",
+                "Endpoint Security & Device Management – Protect desktops, laptops, mobile devices, and IoT devices from malware and unauthorized access.",
+                "Incident Response & Forensic Investigation – Provide rapid incident response and forensic analysis in case of cyber breaches.",
+                "Dark Web Monitoring & Threat Intelligence – Monitor the dark web for leaked corporate data, credentials, and potential threats."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "5. Cybersecurity Awareness & Training",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Employee Cybersecurity Awareness Training – Conduct anti-phishing, password hygiene, and secure browsing training.",
+                "Executive Cyber Risk Workshops – Educate business leaders on cyber risks and compliance obligations.",
+                "Red Team vs. Blue Team Exercises – Simulate real-world cyberattacks to improve an organization's defense mechanisms.",
+                "Social Engineering & Phishing Simulations – Test employees with simulated phishing attacks and social engineering exercises."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Choose SARN Consulting for Cybersecurity?",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Expertise in Cybersecurity Compliance – Specialization in ISO 27001, NIST, GDPR, and SOC 2 compliance.",
+                "✔ End-to-End Security Solutions – From risk assessment to threat detection and response.",
+                "✔ Cost-Effective & Scalable Services – Tailored cybersecurity services for small businesses, enterprises, and startups.",
+                "✔ Industry-Specific Solutions – Cybersecurity solutions for finance, healthcare, government, and e-commerce sectors.",
+                "✔ Proactive & Strategic Approach – Helping businesses stay ahead of cyber threats rather than reacting to incidents."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Industries SARN Consulting Can Serve",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Banking & Financial Services",
+                "E-Commerce & Retail",
+                "IT & Software Development Companies",
+                "Healthcare & Pharmaceuticals",
+                "Government & Public Sector",
+                "Education & Research Institutions",
+                "Manufacturing & Industrial Enterprises"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "erp": {
+      "title": "ERP-Related Services by SARN Consulting",
+      "description": "SARN Consulting can offer a comprehensive range of ERP-related services to businesses in Pakistan and internationally. Given your expertise in accounting, taxation, compliance, and business advisory, your firm can specialize in ERP implementation, customization, integration, and compliance services tailored to businesses of all sizes.",
+      "content": [
+        {
+          "type": "section",
+          "heading": "1. ERP Consulting & Implementation",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "ERP Selection Advisory – Help businesses choose the right ERP software (SAP, Oracle NetSuite, Microsoft Dynamics 365, QuickBooks Enterprise, Odoo, Zoho, etc.).",
+                "ERP Implementation & Deployment – Manage end-to-end ERP implementation, from planning and configuration to deployment.",
+                "Customization & Module Development – Customize ERP solutions to align with business-specific workflows.",
+                "Process Reengineering & ERP Optimization – Assess existing business processes and optimize them for greater efficiency using ERP."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "2. ERP Integration Services",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Accounting & Financial System Integration – Connect ERP with QuickBooks, Xero, Wave, Sage, and other accounting software.",
+                "CRM & Sales Automation Integration – Integrate ERP with HubSpot, Salesforce, or Zoho CRM for sales tracking and customer management.",
+                "E-commerce & Payment Gateway Integration – Link ERP with Shopify, WooCommerce, PayPal, Stripe, and local banking systems.",
+                "HR & Payroll System Integration – Connect ERP with HRMS, attendance tracking, and payroll management solutions.",
+                "Third-Party API & Custom Software Integration – Ensure ERP works seamlessly with custom applications, logistics systems, and industry-specific tools."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "3. ERP Accounting & Tax Compliance Services",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "ERP-Based Financial Reporting & Analysis – Generate automated financial statements, profit & loss reports, and tax summaries.",
+                "Sales Tax & Withholding Tax Compliance – Implement ERP tax modules to comply with Pakistani tax laws and US GAAP/IFRS requirements.",
+                "Audit & Compliance Management – Ensure financial transparency and adherence to regulatory frameworks using ERP.",
+                "Bank Reconciliation & Cash Flow Management – Automate bank feeds, reconciliations, and cash flow forecasting within ERP."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "4. ERP Support, Maintenance & Training",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "ERP System Troubleshooting & Performance Optimization – Resolve ERP software issues, improve speed, and optimize databases.",
+                "User Training & Documentation – Provide customized ERP training programs for employees and management.",
+                "ERP Upgrades & Migrations – Upgrade outdated ERP versions or migrate from legacy systems to modern cloud-based ERP solutions.",
+                "Ongoing Support & Helpdesk Services – Provide 24/7 technical support and maintenance to keep ERP running smoothly."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "5. Industry-Specific ERP Solutions",
+          "content": [
+            {
+              "type": "section",
+              "heading": "For Accounting & Finance",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Automate ledger management, financial reporting, tax calculations, and compliance tracking.",
+                    "Integrate with external accounting tools and banking systems."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "For Manufacturing & Supply Chain",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Implement inventory management, warehouse tracking, and procurement automation.",
+                    "Optimize logistics, order processing, and vendor management."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "For E-Commerce & Retail",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Integrate ERP with online stores, inventory tracking, and payment systems.",
+                    "Provide real-time stock updates and sales analytics."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "For Healthcare & Pharmaceuticals",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Implement patient data management, billing automation, and compliance tracking.",
+                    "Ensure regulatory compliance with ISO, HIPAA, and local healthcare laws."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "For IT & Professional Services",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Automate project management, billing, and service tracking.",
+                    "Enhance resource planning and client management through ERP dashboards."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Choose SARN Consulting for ERP Services?",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Industry Expertise – Specialized in finance, tax, IT, and business process automation.",
+                "✔ ERP Agnostic Approach – Expertise in SAP, Oracle, Microsoft Dynamics, Odoo, QuickBooks Enterprise, and Zoho ERP.",
+                "✔ Customized Solutions – Tailored ERP services to fit small businesses, mid-sized firms, and large enterprises.",
+                "✔ End-to-End ERP Support – From consultation to implementation, integration, and maintenance.",
+                "✔ Data Security & Compliance – Ensuring ERP aligns with financial laws, tax regulations, and cybersecurity best practices."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Import-Export-Advisory-Services": {
+      "title": "Import & Export Advisory Services",
+      "description": "Expand your business globally with our expert Import & Export Advisory Services. We provide end-to-end guidance on customs regulations, trade compliance, duty structures, and import/export licensing in Pakistan. Our services ensure that businesses optimize costs, minimize risks, and comply with FBR, PSW, and SBP regulations for smooth international trade.",
+      "content": [
+        {
+          "type": "section",
+          "heading": "Our Import & Export Services Include",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Import & Export Licensing – Assistance in obtaining Importer/Exporter Registration (IER), WEBOC Registration, and PSW compliance.",
+                "Customs Duties & Tariff Advisory – Guidance on HS Code classification, customs duty exemptions, and tax-efficient imports.",
+                "Trade Compliance & Documentation – Support with Bill of Lading (B/L), Letter of Credit (L/C), and export documentation.",
+                "Regulatory Approvals & Certifications – Assistance in obtaining licenses from FBR, PSW, SBP, and Ministry of Commerce.",
+                "Free Trade Agreements (FTA) & Preferential Trade Agreements (PTA) – Advisory on duty reductions and trade benefits.",
+                "Export Subsidies & Incentives – Guidance on Duty Drawback, Export Refinance, and Zero-Rated Exports.",
+                "Pakistan Single Window (PSW) Registration & Compliance – Assistance in digital trade facilitation and customs clearance.",
+                "Dispute Resolution & Customs Audit Representation – Legal support for customs disputes, audits, and clearance delays."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Choose Us?",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Experienced Trade Consultants – Decades of experience in international trade laws and customs regulations.",
+                "Cost Optimization Strategies – Reduce import/export costs through tax exemptions, FTAs, and efficient trade structuring.",
+                "End-to-End Trade Support – From documentation to customs clearance and compliance, we handle everything."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Outsourced-Accounting-and-Back-Office-Support": {
+      "title": "Outsourced Accounting & Back-Office Support – Scalable & Cost-Effective Solutions",
+      "description": "Looking for professional accounting, bookkeeping, and financial management services without the overhead cost of hiring an in-house team? SARN Consulting provides outsourced accounting and back-office support for businesses in the USA, UK, and Pakistan. We ensure accurate financial reporting, regulatory compliance, and seamless bookkeeping so you can focus on growing your business.",
+      "content": [
+        {
+          "type": "section",
+          "heading": "Accounting & Bookkeeping Outsourcing",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Streamline your financial records with expert bookkeeping services tailored for U.S., UK, and Pakistani businesses. Our experienced accountants handle:"
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "Day-to-Day Bookkeeping – Recording transactions, reconciling accounts, and managing ledgers.",
+                "Financial Reporting – Preparing profit & loss statements, balance sheets, and cash flow statements.",
+                "Bank & Credit Card Reconciliation – Ensuring accuracy in financial records.",
+                "Accounts Payable & Receivable Management – Handling invoicing, payments, and collections."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Keywords: outsourced bookkeeping services, remote accounting support, QuickBooks/Xero bookkeeping, financial reporting outsourcing"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Virtual CFO Services",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Gain high-level financial expertise without hiring a full-time CFO. Our Virtual CFO services provide:"
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "Financial Strategy & Forecasting – Helping businesses make informed decisions.",
+                "Budgeting & Cost Control – Optimizing expenses and improving cash flow.",
+                "Performance Analysis – Assessing financial health and identifying growth opportunities.",
+                "Investor & Board Reporting – Professional insights for stakeholders."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Keywords: virtual CFO services, outsourced financial planning, fractional CFO, CFO for small businesses"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "HR & Payroll Outsourcing",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Reduce administrative burden with our HR and payroll outsourcing services, ensuring accurate payroll processing and tax compliance."
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "Payroll Processing – Managing salary disbursement, tax deductions, and payslip generation.",
+                "Employee Tax & Compliance – Handling EOBI, Social Security, and withholding tax filings.",
+                "HR Management – Overseeing employee onboarding, benefits, and legal documentation.",
+                "Multi-Country Payroll – Managing payroll for employees in Pakistan, the U.S., and the UK."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Keywords: outsourced payroll services, HR management outsourcing, employee tax compliance, multi-country payroll solutions"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "ERP & Accounting Software Consulting",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Leverage advanced accounting and ERP solutions for improved financial management and automation. Our experts assist with:"
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "ERP Implementation & Customization – SAP, Oracle, and other enterprise solutions.",
+                "QuickBooks & Xero Consulting – Setup, integration, and training.",
+                "Financial Data Migration – Securely transferring accounting records to new systems.",
+                "Automation & AI-Driven Accounting – Optimizing workflows and reducing errors."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Keywords: ERP consulting services, QuickBooks advisor, Xero accounting expert, SAP financial solutions"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Choose SARN Consulting for Outsourced Accounting & Back-Office Support?",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Industry-Specific Accounting Expertise – Specialized accounting solutions for e-commerce, healthcare, retail, and service industries.",
+                "Global Compliance & Tax Knowledge – Expertise in U.S. GAAP, IFRS, and local tax regulations.",
+                "Secure & Confidential Data Handling – Protecting client financial data with advanced security protocols.",
+                "Cost-Effective & Scalable Solutions – Flexible packages to match your business needs.",
+                "24/7 Support & Dedicated Accountants – Professional assistance anytime, anywhere."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "🚀 Optimize your accounting and business operations with our outsourcing solutions! Contact us today!"
+            }
+          ]
+        }
+      ]
     }
   }
-  
+}

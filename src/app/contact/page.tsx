@@ -121,7 +121,7 @@ const ContactForm = () => {
         {/* Buttons below the map */}
         <div className="mt-8 flex flex-col sm:flex-row justify-around gap-2">
           <a
-            href="https://wa.me/1234567890" // Replace with your WhatsApp number in international format
+            href="https://wa.me/+923331283168"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 text-white px-12 py-2 rounded-md text-center hover:bg-green-600"
@@ -129,7 +129,7 @@ const ContactForm = () => {
             WhatsApp
           </a>
           <a
-            href="https://www.linkedin.com/in/yourprofile" // Replace with your LinkedIn profile
+            href="https://www.linkedin.com/company/sarncon"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-900 text-white px-10 py-2 rounded-md text-center hover:bg-blue-600"
@@ -137,7 +137,7 @@ const ContactForm = () => {
             LinkedIn
           </a>
           <a
-            href="mailto:contact@example.com" // Replace with your email address
+            href="mailto:info@sarnconsulting.com" 
             className="bg-red-500 text-white px-8 py-2 rounded-md text-center hover:bg-red-600"
           >
             Email
