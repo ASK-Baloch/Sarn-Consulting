@@ -35,8 +35,10 @@ const BlogsListing = () => {
   };
 
   return (
-    <div className="bg-gray-100 text-black py-12 flex flex-col items-center">
-      <h1 className="font-bold text-3xl text-center mb-8 text-gray-800">Latest Blogs</h1>
+    <div className="bg-gray-100 text-black py-20 flex flex-col items-center ">
+     <h1 className="font-extrabold text-blue-500 text-4xl md:text-5xl text-center mb-10 drop-shadow-lg">
+        Checkout our Latest Blogs
+      </h1>
 
       <div className="relative w-full max-w-7xl flex items-center">
        

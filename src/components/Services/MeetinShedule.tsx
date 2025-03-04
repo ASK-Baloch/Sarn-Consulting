@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const MeetingSchedule = () => {
     return (
         <div className="bg-white py-10 px-4 sm:px-6 lg:py-16">
@@ -16,9 +18,11 @@ const MeetingSchedule = () => {
                     your accounting/tax business
                 </p>
                 <div className="mt-8">
-                    <button className="inline-block bg-[#3C73DA] text-white px-6 py-2 rounded-lg text-base font-medium hover:bg-[#3C73DA] transition-colors duration-200 sm:px-8 sm:py-3 sm:text-lg">
+                    <Link href="/contact">
+                    <button type="button" className="inline-block bg-[#3C73DA] text-white px-6 py-2 rounded-lg text-base font-medium hover:bg-[#3C73DA] transition-colors duration-200 sm:px-8 sm:py-3 sm:text-lg">
                         Schedule a Call
                     </button>
+                    </Link>
                 </div>
             </div>
         </div>

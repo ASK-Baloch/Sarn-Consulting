@@ -12,8 +12,12 @@ export async function generateStaticParams() {
 }
 
 export default async function PostPage({ params }: { params: { slug: string } }) {
-  const { slug } = await Promise.resolve(params);
-  const post = await client.fetch(singlePostQuery, { slug })
+  // const  params  =  props.params;
+  // const { slug } = params;
+  // const post = await client.fetch(singlePostQuery, { slug });
+  // const recentBlogs = await client.fetch(alltitleQuery); 
+  const { slug } = params;
+  const post = await client.fetch(singlePostQuery, { slug });
   const recentBlogs = await client.fetch(alltitleQuery); 
 
   if (!post) return notFound()

@@ -6,10 +6,22 @@
       "label": "Business Registration & Licensing",
       "slug": "Business-Registration-and-Licensing",
       "subItems": [
-        { "label": "Micro Finance Bank and Electronic Money Institution", "slug": "Micro-Finance-Bank-and-Electronic-Money-Institution" },
-        { "label": "Registration & Licensing", "slug": "Registration-and-Licensing" },
-        { "label": "SECP Licensing Services", "slug": "SECP-Licensing-Services" },
-        { "label": "SECP-Related Services in Pakistan", "slug": "SECP-Related-Services-in-Pakistan" }
+        {
+          "label": "Micro Finance Bank and Electronic Money Institution",
+          "slug": "Micro-Finance-Bank-and-Electronic-Money-Institution"
+        },
+        {
+          "label": "Registration & Licensing",
+          "slug": "Registration-and-Licensing"
+        },
+        {
+          "label": "SECP Licensing Services",
+          "slug": "SECP-Licensing-Services"
+        },
+        {
+          "label": "SECP-Related Services in Pakistan",
+          "slug": "SECP-Related-Services-in-Pakistan"
+        }
       ]
     },
     {
@@ -18,8 +30,14 @@
       "subItems": [
         { "label": "Management Consulting", "slug": "Management-Consulting" },
         { "label": "Intellectual Property", "slug": "Intellectual-Property" },
-        { "label": "HR Consulting and Trainings", "slug": "HR-Consulting-and-Trainings" },
-        { "label": "Corporate Finance Services", "slug": "Corporate-Finance-Services" },
+        {
+          "label": "HR Consulting and Trainings",
+          "slug": "HR-Consulting-and-Trainings"
+        },
+        {
+          "label": "Corporate Finance Services",
+          "slug": "Corporate-Finance-Services"
+        },
         { "label": "ISO Consulting", "slug": "ISO-Consulting" }
       ]
     },
@@ -1759,6 +1777,2121 @@
                     "Company Liquidation – Legally dissolve companies and settle obligations."
                   ]
                 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+   "SECP-Licensing-Services": {
+      "title": "SECP Licensing Services",
+      "description": "",
+      "content": [
+        {
+          "type": "section",
+          "heading": "Introduction",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers comprehensive assistance for businesses seeking to register with the Securities and Exchange Commission of Pakistan (SECP). Our expert team ensures a seamless registration process, allowing you to focus on your business growth."
+            },
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting specializes in guiding businesses through the SECP licensing process for commodity exchanges and brokers in Pakistan. Our expertise ensures a streamlined experience, allowing you to focus on your core operations."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Licensing of Commodity Exchanges:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Under Section 5 of the Futures Market Act, 2016, establishing a commodity exchange requires SECP licensing. This process involves meeting specific eligibility criteria and adhering to regulatory standards."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Registration of Commodity Brokers:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "All commodity brokers must register with the SECP to offer brokerage services. The Commodity Exchange and Futures Contracts (CEFC) Rules, 2005, outline the eligibility conditions, registration procedures, and the obligations of brokers."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Documents Required for Registration:",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Application Form: Completed and signed application as per SECP guidelines.",
+                "Proof of Eligibility: Documents demonstrating compliance with eligibility criteria under Rule 11 of the CEFC Rules, 2005.",
+                "Non-Refundable Fee Receipt: Evidence of payment of the prescribed application fee.",
+                "Additional Information: Any further details or clarifications as requested by the SECP during the review process."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Time Required for Registration:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The registration process's duration depends on the completeness and accuracy of the submitted documents. Timely submission of all required information can expedite the process."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Licensing of Central Depositories:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in obtaining licenses as central depositories in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Under Part IV of the Securities Act, 2015, any entity aiming to function as a central depository must secure a license from the SECP. The Central Depositories (Licensing and Operations) Regulations, 2016, detail the eligibility criteria and procedural requirements for applicants."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application Form: Duly completed as per SECP guidelines.",
+                    "Memorandum and Articles of Association: Defining the company's objectives and governance structure.",
+                    "Business Plan: Outlining operational strategies, financial projections, and compliance measures.",
+                    "Proof of Capital Adequacy: Evidence demonstrating sufficient financial resources to operate as a central depository.",
+                    "Directors' and Key Officers' Profiles: Detailed resumes highlighting relevant experience and qualifications.",
+                    "Internal Control Procedures: Documentation of systems in place to ensure compliance with regulatory standards."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The licensing process's duration varies based on the application's completeness and adherence to SECP requirements. Prompt submission of accurate documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Licensing of Clearing Houses:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in obtaining licenses as clearing houses in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Under Section 24 of the Securities Act, 2015, any entity aiming to function as a clearing house must secure a license from the SECP. The Clearing Houses (Licensing and Operations) Regulations, 2016, detail the eligibility criteria and procedural requirements for applicants."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application Form: Duly completed as per SECP guidelines.",
+                    "Memorandum and Articles of Association: Defining the company's objectives and governance structure.",
+                    "Business Plan: Outlining operational strategies, financial projections, and compliance measures.",
+                    "Proof of Capital Adequacy: Evidence demonstrating sufficient financial resources to operate as a clearing house.",
+                    "Directors' and Key Officers' Profiles: Detailed resumes highlighting relevant experience and qualifications.",
+                    "Internal Control Procedures: Documentation of systems in place to ensure compliance with regulatory standards."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The licensing process's duration varies based on the application's completeness and adherence to SECP requirements. Prompt submission of accurate documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Licensing of Securities Brokers:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist individuals and entities in obtaining licenses as securities brokers in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Under the Securities Act, 2015, all securities brokers are required to be licensed with the SECP to offer brokerage services to the general public. The licensing process is governed by the Securities Brokers (Licensing and Operations) Regulations, 2016, which outline the eligibility conditions, licensing procedures, and the obligations of securities brokers."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application Form: Duly completed as per SECP guidelines.",
+                    "Memorandum and Articles of Association: Defining the company's objectives and governance structure.",
+                    "Business Plan: Outlining operational strategies, financial projections, and compliance measures.",
+                    "Proof of Capital Adequacy: Evidence demonstrating sufficient financial resources to operate as a securities broker.",
+                    "Directors' and Key Officers' Profiles: Detailed resumes highlighting relevant experience and qualifications.",
+                    "Internal Control Procedures: Documentation of systems in place to ensure compliance with regulatory standards."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The licensing process's duration varies based on the application's completeness and adherence to SECP requirements. Prompt submission of accurate documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Licensing of Debt Securities Trustees:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in obtaining licenses as Debt Securities Trustees (DSTs) in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Under the Securities Act, 2015, acting as a Debt Securities Trustee is a regulated activity. The SECP's Debt Securities Trustee Regulations, 2017, provide a comprehensive framework for licensing and regulating DSTs. These regulations outline the eligibility criteria, licensing procedures, and the duties and responsibilities of DSTs."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application Form (Form A): Duly completed as per SECP guidelines.",
+                    "Memorandum and Articles of Association: Defining the company's objectives and governance structure.",
+                    "Business Plan: Outlining operational strategies, financial projections, and compliance measures.",
+                    "Proof of Capital Adequacy: Evidence demonstrating sufficient financial resources to operate as a DST.",
+                    "Directors' and Key Officers' Profiles: Detailed resumes highlighting relevant experience and qualifications.",
+                    "Internal Control Procedures: Documentation of systems in place to ensure compliance with regulatory standards.",
+                    "Non-Refundable Fee Receipt: Evidence of payment of the prescribed application fee."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The licensing process's duration varies based on the application's completeness and adherence to SECP requirements. Prompt submission of accurate documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Licensing of Share Registrars and Balloters:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in obtaining licenses as Share Registrars and Balloters in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Under the Securities Act, 2015, providing services as a Share Registrar and Balloter is a regulated activity. The SECP's Share Registrars and Balloters Regulations, 2017, provide a comprehensive framework for licensing and regulating these service providers. These regulations outline the eligibility criteria, licensing procedures, and the duties and responsibilities of Share Registrars and Balloters."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application Form (Form A): Duly completed as per SECP guidelines.",
+                    "Memorandum and Articles of Association: Defining the company's objectives and governance structure.",
+                    "Business Plan: Outlining operational strategies, financial projections, and compliance measures.",
+                    "Proof of Capital Adequacy: Evidence demonstrating sufficient financial resources to operate as a Share Registrar and Balloter.",
+                    "Directors' and Key Officers' Profiles: Detailed resumes highlighting relevant experience and qualifications.",
+                    "Internal Control Procedures: Documentation of systems in place to ensure compliance with regulatory standards.",
+                    "Non-Refundable Fee Receipt: Evidence of payment of the prescribed application fee."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The licensing process's duration varies based on the application's completeness and adherence to SECP requirements. Prompt submission of accurate documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Licensing of Underwriters:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in obtaining licenses as Underwriters in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Underwriting is a regulated securities activity under the Securities Act, 2015. The SECP has promulgated the Public Offering (Regulated Securities Activities Licensing) Regulations, 2017, which prescribe the eligibility conditions, registration procedures, and duties of underwriters."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application Form (Form A): Duly completed as per SECP guidelines.",
+                    "Memorandum and Articles of Association: Defining the company's objectives and governance structure.",
+                    "Business Plan: Outlining operational strategies, financial projections, and compliance measures.",
+                    "Proof of Capital Adequacy: Evidence demonstrating sufficient financial resources to operate as an underwriter.",
+                    "Directors' and Key Officers' Profiles: Detailed resumes highlighting relevant experience and qualifications.",
+                    "Internal Control Procedures: Documentation of systems in place to ensure compliance with regulatory standards.",
+                    "Non-Refundable Fee Receipt: Evidence of payment of the prescribed application fee."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The licensing process's duration varies based on the application's completeness and adherence to SECP requirements. Prompt submission of accurate documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Licensing of Credit Rating Agencies:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in obtaining licenses as Credit Rating Agencies (CRAs) in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Operating as a Credit Rating Agency in Pakistan requires adherence to the SECP's regulatory framework. The Credit Rating Companies Regulations, 2016, provide comprehensive guidelines for the licensing and operation of CRAs, detailing eligibility criteria, application procedures, and operational requirements."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application Form: Duly completed as per SECP guidelines.",
+                    "Memorandum and Articles of Association: Defining the company's objectives and governance structure.",
+                    "Business Plan: Outlining operational strategies, financial projections, and compliance measures.",
+                    "Proof of Capital Adequacy: Evidence demonstrating sufficient financial resources to operate as a CRA.",
+                    "Directors' and Key Officers' Profiles: Detailed resumes highlighting relevant experience and qualifications.",
+                    "Internal Control Procedures: Documentation of systems in place to ensure compliance with regulatory standards.",
+                    "Non-Refundable Fee Receipt: Evidence of payment of the prescribed application fee."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The duration of the licensing process varies based on the completeness and accuracy of the submitted application. Timely submission of all required documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Establishment of Special Purpose Vehicles:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in establishing Special Purpose Vehicles (SPVs) in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Special Purpose Vehicles are integral to securitization transactions, facilitating the issuance of Term Finance Certificates (TFCs) or other instruments to raise funds. These funds are utilized to acquire receivables or other assets from the originator, thereby enabling efficient capital market operations."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Registration:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application Form: Duly completed as per SECP guidelines.",
+                    "Memorandum and Articles of Association: Defining the SPV's objectives and governance structure.",
+                    "Business Plan: Outlining operational strategies, financial projections, and compliance measures.",
+                    "Proof of Capital Adequacy: Evidence demonstrating sufficient financial resources to operate as an SPV.",
+                    "Directors' and Key Officers' Profiles: Detailed resumes highlighting relevant experience and qualifications.",
+                    "Internal Control Procedures: Documentation of systems in place to ensure compliance with regulatory standards.",
+                    "Non-Refundable Fee Receipt: Evidence of payment of the prescribed application fee."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Registration:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The registration process's duration varies based on the application's completeness and adherence to SECP requirements. Prompt submission of accurate documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Licensing of Stock Exchanges:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in obtaining licenses as Stock Exchanges in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Operating a stock exchange in Pakistan requires a license from the SECP under Section 5 of the Securities Act, 2015. The SECP has established the Securities Exchanges (Licensing and Operations) Regulations, 2016, which outline the eligibility criteria, application procedures, and operational requirements for stock exchanges."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application Form: Duly completed as per SECP guidelines.",
+                    "Memorandum and Articles of Association: Defining the company's objectives and governance structure.",
+                    "Business Plan: Outlining operational strategies, financial projections, and compliance measures.",
+                    "Proof of Capital Adequacy: Evidence demonstrating sufficient financial resources to operate as a stock exchange.",
+                    "Directors' and Key Officers' Profiles: Detailed resumes highlighting relevant experience and qualifications.",
+                    "Internal Control Procedures: Documentation of systems in place to ensure compliance with regulatory standards.",
+                    "Non-Refundable Fee Receipt: Evidence of payment of the prescribed application fee."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The duration of the licensing process varies based on the completeness and accuracy of the submitted application. Timely submission of all required documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Licensing of Securities and Futures Advisors:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist individuals and entities in obtaining licenses as Securities Advisors and Futures Advisors in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Under the Securities Act, 2015, and the Futures Market Act, 2016, providing investment advice as a Securities Advisor or Futures Advisor is a regulated activity. The SECP's Securities and Futures Advisors (Licensing and Operations) Regulations, 2017, outline the eligibility criteria, licensing procedures, and operational requirements for these roles."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application Form: Duly completed as per SECP guidelines.",
+                    "Memorandum and Articles of Association: Defining the company's objectives and governance structure.",
+                    "Business Plan: Outlining operational strategies, financial projections, and compliance measures.",
+                    "Proof of Capital Adequacy: Evidence demonstrating sufficient financial resources to operate as an advisor.",
+                    "Directors' and Key Officers' Profiles: Detailed resumes highlighting relevant experience and qualifications.",
+                    "Internal Control Procedures: Documentation of systems in place to ensure compliance with regulatory standards.",
+                    "Non-Refundable Fee Receipt: Evidence of payment of the prescribed application fee."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The licensing process's duration varies based on the application's completeness and adherence to SECP requirements. Prompt submission of accurate documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Licensing of Credit Rating Agencies:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in obtaining licenses as Credit Rating Agencies (CRAs) in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Operating as a Credit Rating Agency in Pakistan requires adherence to the SECP's regulatory framework. The Credit Rating Companies Regulations, 2016, provide comprehensive guidelines for the licensing and operation of CRAs, detailing eligibility criteria, application procedures, and operational requirements."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application Form: Duly completed as per SECP guidelines.",
+                    "Memorandum and Articles of Association: Defining the company's objectives and governance structure.",
+                    "Business Plan: Outlining operational strategies, financial projections, and compliance measures.",
+                    "Proof of Capital Adequacy: Evidence demonstrating sufficient financial resources to operate as a CRA.",
+                    "Directors' and Key Officers' Profiles: Detailed resumes highlighting relevant experience and qualifications.",
+                    "Internal Control Procedures: Documentation of systems in place to ensure compliance with regulatory standards.",
+                    "Non-Refundable Fee Receipt: Evidence of payment of the prescribed application fee."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The duration of the licensing process varies based on the completeness and accuracy of the submitted application. Timely submission of all required documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Establishment of Investment Advisory Services:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in establishing Investment Advisory Services in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "An Investment Adviser (IA) is a Non-Banking Finance Company (NBFC) licensed by the SECP to provide investment advisory services in accordance with Part VIII-A of the Companies Ordinance, 1984, and the NBFC & NE Regulations, 2008. The process involves obtaining permission to form an NBFC, incorporating the company, and securing a license to operate as an IA."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application for Permission to Form an NBFC: Form I of the NBFC Rules, 2003, along with all relevant supporting documents.",
+                    "Payment of the fee as per Schedule II of the Regulations.",
+                    "Compliance with the Fit and Proper criteria outlined in the NBFC Regulations, along with all relevant supporting documents.",
+                    "Incorporation Documents: Memorandum and Articles of Association defining the company's objectives and governance structure. Proof of incorporation as a public limited company under the Companies Ordinance, 1984.",
+                    "Application for License to Operate as an IA: Form II of the NBFC Rules, 2003, along with all relevant supporting documents. Payment of the licensing fee as per Schedule II of the NBFC & NE Regulations."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The duration of the licensing process varies based on the completeness and accuracy of the submitted application. Timely submission of all required documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Establishment of Leasing Companies:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in obtaining licenses to undertake Leasing Business in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "A Leasing Company is a Non-Banking Finance Company (NBFC) licensed by the SECP to carry out leasing business in accordance with Part VIII-A of the Companies Ordinance, 1984, and the Non-Banking Finance Companies & Notified Entities Regulations, 2008. The process involves obtaining permission to form an NBFC, incorporating the company, and securing a license to operate as a Leasing Company."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application for Permission to Form an NBFC: Form I of the NBFC Rules, 2003, along with all relevant supporting documents.",
+                    "Payment of the fee as per Schedule II of the NBFC & NE Regulations.",
+                    "Compliance with the Fit and Proper criteria outlined in the NBFC Regulations, along with all relevant supporting documents.",
+                    "Incorporation Documents: Memorandum and Articles of Association defining the company's objectives and governance structure. Proof of incorporation as a public limited company under the Companies Ordinance, 1984.",
+                    "Application for License to Undertake Leasing Business: Form II of the NBFC Rules, 2003, along with all relevant supporting documents. Payment of the licensing fee as per Schedule II of the NBFC & NE Regulations."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The duration of the licensing process varies based on the completeness and accuracy of the submitted application. Timely submission of all required documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Establishment of Housing Finance Services:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in establishing Housing Finance Services (HFS) in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Housing Finance Services are provided by Non-Banking Finance Companies (NBFCs) licensed by the SECP to offer housing finance solutions in accordance with Part VIII-A of the Companies Ordinance, 1984, and the Non-Banking Finance Companies & Notified Entities Regulations, 2008. The process involves obtaining permission to form an NBFC, incorporating the company, and securing a license to operate as an HFS provider."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application for Permission to Form an NBFC: Form I of the NBFC Rules, 2003, along with all relevant supporting documents.",
+                    "Payment of the fee as per Schedule II of the NBFC & NE Regulations.",
+                    "Compliance with the Fit and Proper criteria outlined in the NBFC Regulations, along with all relevant supporting documents.",
+                    "Incorporation Documents: Memorandum and Articles of Association defining the company's objectives and governance structure. Proof of incorporation as a public limited company under the Companies Ordinance, 1984.",
+                    "Application for License to Undertake Housing Finance Services: Form II of the NBFC Rules, 2003, along with all relevant supporting documents. Payment of the licensing fee as per Schedule II of the NBFC & NE Regulations."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The duration of the licensing process varies based on the completeness and accuracy of the submitted application. Timely submission of all required documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Establishment of Voluntary Pension Funds:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in establishing Voluntary Pension Funds (VPFs) in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Voluntary Pension Funds are established under the Voluntary Pension System (VPS) Rules, 2005, allowing Asset Management Companies (AMCs) and Life Insurance Companies to act as Pension Fund Managers (PFMs). The process involves multiple stages, including registration as a PFM, authorization of the pension fund, and approval of public invitation documents."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Stage I: Registration as Pension Fund Manager"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application in Form I of the VPS Rules, 2005, along with all required documents.",
+                    "Non-refundable processing fee of PKR 50,000.",
+                    "Compliance with the Fit and Proper criteria specified by SECP."
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Stage II: Authorization of the Pension Fund"
+                },
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Submission of information as per Form III of the VPS Rules, 2005.",
+                    "Draft trust deed of the proposed pension fund containing information as set out in Schedule II of the VPS Rules, 2005.",
+                    "Non-refundable application fee of PKR 100,000."
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Stage III: Approval of Public Invitation Documents"
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Submission of public invitation documents to SECP for approval."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The duration of the licensing process varies based on the completeness and accuracy of the submitted application. Timely submission of all required documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Establishment of Modarabas:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in establishing Modarabas in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "A Modaraba is a unique Islamic financial institution in Pakistan, operating under the Modaraba Companies and Modaraba (Floatation and Control) Ordinance, 1980. It involves a partnership where one party provides capital, and the other manages the venture, sharing profits as per agreed ratios. The SECP oversees the registration and regulation of Modarabas to ensure adherence to Shariah principles and regulatory standards."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Registration:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application for Registration as a Modaraba Company: Duly filled application form as prescribed by the SECP.",
+                    "Memorandum and Articles of Association outlining the company's objectives and governance structure.",
+                    "Details of promoters, directors, and key management personnel, including their profiles and compliance with the Fit and Proper Criteria.",
+                    "Business plan detailing the proposed Modaraba operations, including financial projections and compliance measures.",
+                    "Evidence of the paid-up capital meeting the minimum requirement as specified by the SECP.",
+                    "Non-refundable processing fee as per SECP's prescribed schedule.",
+                    "Application for Authorization to Float a Modaraba: Prospectus or offering document containing detailed information about the Modaraba scheme, investment objectives, and risk factors.",
+                    "Trust deed executed between the Modaraba Company and the trustee, outlining the terms and conditions of the Modaraba.",
+                    "Consent letters from the proposed trustee and Shariah advisor.",
+                    "Proof of compliance with the SECP's guidelines on advertising and investor solicitation."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Registration:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The registration process's duration varies based on the completeness and accuracy of the submitted application. Timely submission of all required documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Establishment of Investment Finance Services:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in establishing Investment Finance Services (IFS) in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Investment Finance Services are provided by Non-Banking Finance Companies (NBFCs) licensed by the SECP to offer investment financing solutions in accordance with Part VIII-A of the Companies Ordinance, 1984, and the Non-Banking Finance Companies & Notified Entities Regulations, 2008. The process involves obtaining permission to form an NBFC, incorporating the company, and securing a license to operate as an IFS provider."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application for Permission to Form an NBFC: Form I of the NBFC Rules, 2003, along with all relevant supporting documents.",
+                    "Payment of the fee as per Schedule II of the NBFC & NE Regulations.",
+                    "Compliance with the Fit and Proper criteria outlined in the NBFC Regulations, along with all relevant supporting documents.",
+                    "Incorporation Documents: Memorandum and Articles of Association defining the company's objectives and governance structure. Proof of incorporation as a public limited company under the Companies Ordinance, 1984.",
+                    "Application for License to Undertake Investment Finance Services: Form II of the NBFC Rules, 2003, along with all relevant supporting documents.",
+                    "Payment of the licensing fee as per Schedule II of the NBFC & NE Regulations."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The duration of the licensing process varies based on the completeness and accuracy of the submitted application. Timely submission of all required documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Establishment of Insurance Companies:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in establishing Insurance Companies in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Operating an insurance company in Pakistan requires adherence to the Insurance Ordinance, 2000, and related SECP guidelines. The process involves incorporation, meeting capital requirements, and obtaining the necessary licenses to operate as an insurer."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "section",
+                  "heading": "Incorporation Documents:",
+                  "content": [
+                    {
+                      "type": "bullet_points",
+                      "items": [
+                        "Certified true copy of the Certificate of Incorporation attested by the concerned Company Registration Office (CRO).",
+                        "Certified true copy of the Memorandum and Articles of Association attested by the concerned CRO."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "Financial Evidence:",
+                  "content": [
+                    {
+                      "type": "bullet_points",
+                      "items": [
+                        "Auditor's certificate confirming the paid-up capital of the company.",
+                        "A recent statement from the State Bank of Pakistan reflecting the statutory deposit made under Section 29 of the Insurance Ordinance, 2000."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "Reinsurance Arrangements:",
+                  "content": [
+                    {
+                      "type": "bullet_points",
+                      "items": [
+                        "Copies of reinsurance treaty arrangements under Section 41 of the Insurance Ordinance, 2000, with only \"A\" rated reinsurers being acceptable."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "Corporate Governance:",
+                  "content": [
+                    {
+                      "type": "bullet_points",
+                      "items": [
+                        "Form 29 under the Companies Ordinance, 1984, detailing any changes in directorship after incorporation.",
+                        "Profiles of directors and key management personnel, ensuring compliance with SECP's Fit and Proper criteria."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "Operational Plans:",
+                  "content": [
+                    {
+                      "type": "bullet_points",
+                      "items": [
+                        "Business plan outlining expected premium income, expenses, and financial projections for at least ten years.",
+                        "Marketing literature and internal training materials for sales personnel to ensure they contain no misrepresentations."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "Policy Documentation:",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "text": "For non-life insurance: Certified copies of the published prospectus, standard policy forms, and statements of rates, advantages, terms, and conditions."
+                    },
+                    {
+                      "type": "paragraph",
+                      "text": "For life insurance: Detailed statements of policy terms, including surrender value calculations and, for investment-linked policies, descriptions of linked investments and benefit determinations."
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "Actuarial Statements (for Life Insurance):",
+                  "content": [
+                    {
+                      "type": "bullet_points",
+                      "items": [
+                        "Statement by the appointed actuary confirming the soundness and workability of proposed life insurance contracts.",
+                        "Actuarial validation that the business plan is based on reasonable and sound principles."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "heading": "Time Required for Licensing:",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "text": "The duration of the licensing process varies based on the completeness and accuracy of the submitted application. Timely submission of all required documents can facilitate a more efficient review process."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Becoming an Authorized Surveying Officer:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist individuals in becoming Authorized Surveying Officers (ASOs) in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "An Authorized Surveying Officer is a professional certified by the SECP to conduct insurance surveys across various classes of insurance business. The certification process involves meeting specific eligibility criteria, submitting the required documentation, and obtaining registration from the SECP."
+            },
+            {
+              "type": "section",
+              "heading": "Eligibility Criteria:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Educational Qualification: A Bachelor's Degree in any discipline from a recognized university.",
+                    "Experience: A minimum of three years of practical experience in insurance surveying within the specific class or classes for which registration is sought. This experience should be either under the supervision of a licensed insurance surveyor or as an employee of an insurance company."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Registration:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application Form: Duly completed application under Rule 21 of the Insurance Rules, 2002, specifying the class or classes of insurance surveying for registration.",
+                    "Educational Certificates: Attested copies of academic qualifications.",
+                    "Experience Certificates: Proof of the required practical experience, such as letters from previous employers or supervisors.",
+                    "Declaration: A declaration on stamp paper, signed in the presence of a witness (who is not a related party) and attested by a Notary Public, confirming compliance with the SECP's requirements.",
+                    "Registration Fee: Paid challan of PKR 1,000 for each class of insurance surveying."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Examination Requirement:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Prospective ASOs are required to pass a licensing examination conducted by the Pakistan Insurance Institute (PII). The examination covers various classes of business, including Fire, Marine, Motor, and Miscellaneous/Machinery Breakdown. Details regarding registration, examination schedules, and fees are available on the PII's official website."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "License Validity and Renewal:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The ASO registration is valid for one year and must be renewed annually. The renewal process involves submitting an application along with the requisite fee and updated documents as specified by the SECP."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Establishment of Insurance Brokerage Firms:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in establishing Insurance Brokerage Firms in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "An insurance broker acts as an intermediary between clients and insurance companies, providing advice and facilitating the procurement of insurance policies. In Pakistan, the SECP regulates the licensing and operation of insurance brokers to ensure industry standards and protect policyholders."
+            },
+            {
+              "type": "section",
+              "heading": "Eligibility Criteria:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Corporate Structure: Only companies incorporated under the Companies Act, 2017, are eligible to apply for an insurance broker license.",
+                    "Capital Requirements:",
+                    "Local Brokers: Minimum paid-up share capital of PKR 10 million.",
+                    "Foreign Brokers: Minimum paid-up share capital equivalent to USD 0.3 million.",
+                    "Statutory Deposit: A statutory deposit of PKR 0.5 million must be maintained with the State Bank of Pakistan.",
+                    "Professional Indemnity Insurance: Coverage of at least PKR 10 million for any single occurrence is mandatory."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application Form: Duly completed application as prescribed by the SECP.",
+                    "Corporate Documents: Certified copies of the Certificate of Incorporation and Memorandum & Articles of Association.",
+                    "Financial Evidence: Auditor's certificate confirming the paid-up capital and proof of the statutory deposit with the State Bank of Pakistan.",
+                    "Insurance Coverage: Evidence of professional indemnity insurance meeting the required coverage.",
+                    "Fit and Proper Criteria: Profiles of directors and key management personnel demonstrating compliance with SECP's fit and proper criteria.",
+                    "Business Plan: Detailed business plan outlining the proposed brokerage operations, including target market, services offered, and financial projections."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Licensing Period and Renewal:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Initial License: Issued for a period of one year.",
+                    "Renewal: The license may be renewed annually upon submission of the prescribed application and fulfillment of SECP requirements."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Establishment of Insurance Surveyor Companies:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in establishing Insurance Surveyor Companies in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Insurance surveyors play a crucial role in assessing and evaluating insurance claims, acting as independent intermediaries between insurers and policyholders. In Pakistan, the SECP regulates the licensing and operation of insurance surveyor companies to maintain industry standards and protect stakeholders' interests."
+            },
+            {
+              "type": "section",
+              "heading": "Eligibility Criteria:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Corporate Structure: Only companies incorporated under the Companies Act, 2017, are eligible to apply for an insurance surveyor license.",
+                    "Paid-up Capital: A minimum paid-up share capital of PKR 1 million is required.",
+                    "Professional Indemnity Insurance: The company must maintain a minimum professional indemnity insurance coverage of PKR 1 million for any single event, extending to the body corporate and all directors or officers acting as Authorized Surveying Officers.",
+                    "Chief Executive Officer (CEO) Qualifications: The CEO must possess at least a Bachelor's Degree in any discipline from a recognized university."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application Form: Duly completed application under sub-rule (1) of Rule 19 of the Insurance Rules, 2002, specifying the class or classes of insurance surveying for which the license is sought.",
+                    "Corporate Documents: Certified true copy of the Certificate of Incorporation and Memorandum and Articles of Association attested by the CRO.",
+                    "Financial Evidence: Statement showing the breakup of the paid-up capital, verified by a Chartered Accountant.",
+                    "Personnel Details: List of employees, including their complete names, addresses, and other relevant particulars.",
+                    "Declaration: A declaration on stamp paper, signed by at least two directors in the presence of a witness and attested by a Notary Public, confirming compliance with SECP's requirements.",
+                    "Application Fee: Paid challan of PKR 2,000 for each class of insurance surveying for which the license is sought."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Classes of Insurance Surveying:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Fire & Property Damage",
+                    "Marine, Aviation, and Transport",
+                    "Motor Third Party Compulsory Business",
+                    "Liability Business",
+                    "Workers' Compensation Business",
+                    "Credit & Suretyship Business",
+                    "Accident & Health Business",
+                    "Agriculture Insurance, including Crop Insurance",
+                    "Miscellaneous Business"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "License Validity and Renewal:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The license to act as an insurance surveyor is valid for one year. Renewal requires submission of an application along with the requisite fee and updated documents as specified by the SECP."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Establishment of Third Party Administrators:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in establishing Third Party Administrator (TPA) for Health Insurance operations in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "A Third Party Administrator (TPA) serves as an intermediary between insurance companies and policyholders, managing administrative functions such as claims processing, customer service, and network management for health insurance policies. In Pakistan, the SECP regulates the licensing and operation of TPAs to ensure industry standards and protect policyholders' interests."
+            },
+            {
+              "type": "section",
+              "heading": "Eligibility Criteria:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Corporate Structure: The applicant must be registered as a private or public limited company under the Companies Ordinance, 1984.",
+                    "Capital Requirements:",
+                    "Paid-up Capital: Minimum of PKR 50 million.",
+                    "Shareholder’s Equity: Minimum of PKR 30 million."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application Form: Duly completed application as per Form I of the TPA for Health Insurance Regulations, 2014.",
+                    "Corporate Documents: Certified copies of the Memorandum and Articles of Association.",
+                    "Promoters' Details: Information on sponsors/promoters, including names, addresses, nationalities, share contributions, proposed positions, educational qualifications, and work experience.",
+                    "Business Plan: A comprehensive plan for the initial three financial years, detailing the services and facilities to be provided.",
+                    "Draft Agreements: Copies of proposed agreements between the TPA and insurance companies, self-funded pools, or medical service providers.",
+                    "Undertaking: A declaration affirming the completeness and accuracy of the provided information.",
+                    "Application Fee: Evidence of payment of PKR 50,000 for initial registration."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "License Validity and Renewal:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Validity: The TPA license is valid for one year.",
+                    "Renewal: Renewal requires submission of an application along with a fee of PKR 25,000 and updated documents as specified by the SECP."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Establishment of Window Takaful Operations:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist conventional insurers in establishing Window Takaful Operations (WTO) in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Window Takaful allows conventional insurance companies to offer Shariah-compliant insurance (Takaful) products alongside their existing conventional offerings. This enables insurers to cater to a broader market segment seeking Islamic financial services. The SECP regulates the authorization and operation of Window Takaful Operators to ensure adherence to Shariah principles and industry standards."
+            },
+            {
+              "type": "section",
+              "heading": "Eligibility Criteria:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Regulatory Approval: Conventional insurers must obtain authorization from the SECP to commence Window Takaful Operations.\nDedicated Capital: A deposit of PKR 50 million is required in a separate bank account designated for Window Takaful business."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Authorization:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application Form: Completed application as per Annexure – I of Circular 8 of 2014.",
+                    "Company Profile: Comprehensive overview of the company's history, mission, and services.",
+                    "Ownership and Organizational Structure: Details of the current and proposed shareholding and organizational hierarchy.",
+                    "Corporate Documents: Copies of the Certificate of Incorporation under the Companies Ordinance, 1984, and the Certificate of Registration under the Insurance Ordinance, 2000.",
+                    "Board Resolutions: Minutes of the Board of Directors meeting resolving to commence Window Takaful Operations and seeking SECP approval.",
+                    "Memorandum and Articles of Association: Documents reflecting the inclusion of Window Takaful Operations in the company's objectives.",
+                    "Re-Takaful Arrangements: Proposed treaties with re-takaful (Islamic reinsurance) providers.",
+                    "Statutory Fund Statements (for Family Takaful): Details of the statutory funds to be established.",
+                    "Participant Takaful Fund Policies: Policies governing the management and operation of the Takaful funds.",
+                    "Financial Evidence: Certificate from a statutory auditor confirming the transfer of PKR 50 million for Window Takaful Operations.",
+                    "Board Undertakings: Resolution affirming the utilization of the PKR 50 million deposit exclusively for Window Takaful Operations.",
+                    "Key Personnel Details: CVs of the proposed Shariah Advisor, Shariah Compliance Officer, and Head of Window Takaful Operations, along with declarations in line with the Insurance Companies (Sound and Prudent Management) Regulations, 2012.",
+                    "Shariah Compliance Auditor: Name, address, consent, and profile of the appointed Shariah Compliance Auditor.",
+                    "Financial Statements: Latest audited annual financial statements of the applicant.",
+                    "Business Plan: Projections of Takaful business and cash flows: Life Insurer: Projections for at least ten years. Non-Life Insurer: Projections for at least three years.",
+                    "Corporate Governance Compliance: Statement of adherence to the Code of Corporate Governance.",
+                    "Shariah Compliance Declaration: Board declaration ensuring all Takaful undertakings align with Shariah principles.",
+                    "Additional Information: Any other documents or information as specified by the SECP."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Authorization:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The duration of the authorization process varies based on the completeness and accuracy of the submitted application. Timely submission of all required documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Establishment of REIT Management Companies:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in establishing Real Estate Investment Trust (REIT) Management Companies (RMCs) in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "A REIT Management Company (RMC) is a Non-Banking Finance Company (NBFC) licensed by the SECP to provide REIT management services in accordance with the Real Estate Investment Trust Regulations, 2015. The process involves obtaining permission to form an NBFC, incorporating the company, and securing a license to operate as an RMC."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application for Permission to Form an NBFC: Form I of the NBFC Rules, 2003, along with all relevant supporting documents. Payment of the fee as per Schedule III of the REIT Regulations, 2015. Compliance with the Fit and Proper criteria outlined in the REIT Regulations, 2015, with all necessary supporting documents.",
+                    "Incorporation Documents: Memorandum and Articles of Association defining the company's objectives and governance structure. Proof of incorporation as a public limited company under the Companies Ordinance, 1984.",
+                    "Application for License to Operate as an RMC: Form II of the NBFC Rules, 2003, along with all relevant supporting documents. Payment of the licensing fee as per Schedule III of the REIT Regulations, 2015."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The duration of the licensing process varies based on the completeness and accuracy of the submitted application. Timely submission of all required documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Establishment of Private Fund Management Companies:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in establishing Private Fund Management Companies (PFMCs) in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "A Private Fund Management Company (PFMC) is a Non-Banking Finance Company (NBFC) licensed by the SECP to provide Private Equity and Venture Capital (PE & VC) fund management services. The process involves obtaining permission to form an NBFC, incorporating the company, and securing a license to operate as a PFMC."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application for Permission to Form an NBFC: Form I of the NBFC Rules, 2003, along with all relevant supporting documents. Payment of the fee as per Schedule II of the NBFC Regulations and Schedule I of the Private Fund Regulations. Compliance with the Fit and Proper criteria outlined in the NBFC Regulations, along with all relevant supporting documents.",
+                    "Incorporation Documents: Memorandum and Articles of Association defining the company's objectives and governance structure. Proof of incorporation as a public limited company under the Companies Ordinance, 1984.",
+                    "Application for License to Operate as a PFMC: Form II of the NBFC Rules, 2003, along with all relevant supporting documents. Payment of the licensing fee as per Schedule I of the Private Fund Regulations."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The duration of the licensing process varies based on the completeness and accuracy of the submitted application. Timely submission of all required documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Establishment of Asset Management Companies:",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SARN Consulting offers specialized services to assist entities in establishing Asset Management Companies (AMCs) in Pakistan, ensuring compliance with the Securities and Exchange Commission of Pakistan (SECP) regulations."
+            },
+            {
+              "type": "paragraph",
+              "text": "An Asset Management Company (AMC) is a Non-Banking Finance Company (NBFC) licensed by the SECP to provide asset management services in accordance with Part VIII-A of the Companies Ordinance, 1984, and the NBFC & NE Regulations, 2008. The process involves obtaining permission to form an NBFC, incorporating the company, and securing a license to operate as an AMC."
+            },
+            {
+              "type": "section",
+              "heading": "Documents Required for Licensing:",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Application for Permission to Form an NBFC: Form I of the NBFC Rules, 2003, along with all relevant supporting documents. Payment of the fee as per Schedule II of the Regulations. Compliance with the Fit and Proper criteria outlined in the NBFC Regulations, along with all relevant supporting documents.",
+                    "Incorporation Documents: Memorandum and Articles of Association defining the company's objectives and governance structure. Proof of incorporation as a public limited company under the Companies Ordinance, 1984.",
+                    "Application for License to Operate as an AMC: Form II of the NBFC Rules, 2003, along with all relevant supporting documents. Payment of the licensing fee as per Schedule II of the Regulations."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Time Required for Licensing:",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The duration of the licensing process varies based on the completeness and accuracy of the submitted application. Timely submission of all required documents can facilitate a more efficient review process."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SECP-Related-Services-in-Pakistan": {
+      "title": "SECP-Related Services in Pakistan",
+      "description": "At SARN Consulting, we specialize in providing SECP compliance and corporate advisory services to businesses across Pakistan. Our corporate legal experts assist organizations in ensuring full compliance with SECP (Securities and Exchange Commission of Pakistan) regulations, helping them navigate company incorporation, corporate governance, regulatory approvals, public offerings, and financial compliance.\nWith a client-centric approach, we offer end-to-end corporate solutions that enable businesses to operate legally, efficiently, and transparently in Pakistan’s dynamic corporate environment.",
+      "content": [
+        {
+          "type": "section",
+          "heading": "1. Company Incorporation and Registration",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Starting a business in Pakistan? Our SECP registration experts handle the entire incorporation process, ensuring a smooth and legally compliant setup."
+            },
+            {
+              "type": "paragraph",
+              "text": "Our Services Include:"
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Company Incorporation – Registering Private Limited Companies, Public Limited Companies, Single-Member Companies (SMCs), and Not-for-Profit Organizations (NGOs & NPOs).",
+                "✔ Preparation of Incorporation Documents – Drafting and filing the Memorandum of Association (MOA) and Articles of Association (AOA).",
+                "✔ Business Name Reservation – Securing a unique company name with SECP."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 We ensure that your company is legally registered and compliant with SECP regulations."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "2. Corporate Compliance and Filings",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Corporate compliance is mandatory for all registered businesses. We help companies meet their SECP filing obligations to avoid penalties and legal issues."
+            },
+            {
+              "type": "paragraph",
+              "text": "Our Compliance Services:"
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Annual Returns Filing – Preparing and filing Form A (Annual Return of a Company) and Form 29 (Particulars of Directors and Officers).",
+                "✔ Statutory Registers Maintenance – Maintaining registers of members, directors, and debentures.",
+                "✔ Event-Based Filings – Managing shareholding changes, director appointments/resignations, and changes in the registered office address."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Stay compliant with SECP regulations and maintain smooth business operations!"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "3. Corporate Governance Advisory",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Strong corporate governance enhances business credibility and investor trust. We help organizations implement best practices in corporate management and governance."
+            },
+            {
+              "type": "paragraph",
+              "text": "We Provide Expert Advice On:"
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Board Structure & Policies – Optimizing board composition, governance committees, and leadership policies.",
+                "✔ Compliance with SECP’s Code of Corporate Governance – Ensuring that public listed companies and large private firms follow governance rules.",
+                "✔ Secretarial Services – Managing board meetings, resolutions, and legal compliance."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Enhance your corporate governance framework with our expert advisory services."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "4. Share Capital and Equity Management",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Managing your company’s share structure and capital adjustments is critical for corporate growth. Our experts handle all SECP-related share capital filings."
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Increase in Share Capital – Assisting in authorized and paid-up capital enhancement.",
+                "✔ Issuance of Shares – Managing issuance of rights and bonus shares.",
+                "✔ Share Transfers & Allotments – Processing share transfers and allotments in compliance with SECP regulations."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Ensure seamless share management and maintain regulatory compliance."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "5. License and Certification Services",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Certain businesses require special SECP licenses before they can operate legally. We assist with obtaining regulatory licenses and certifications."
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Licensing for Specialized Entities – SECP licenses for NGOs, Mutual Funds, Insurance Companies, and Modarabas.",
+                "✔ Shariah Compliance Certification – Certification assistance for Islamic financial institutions."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Get licensed and start operating legally with our expert support."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "6. Mergers, Acquisitions, and Restructuring",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Our legal and financial experts provide end-to-end M&A advisory services for corporate restructuring, ensuring regulatory approvals and SECP compliance."
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Due Diligence – Conducting financial and legal due diligence for mergers, acquisitions, and takeovers.",
+                "✔ Scheme of Arrangement – Filing mergers, demergers, and corporate restructuring applications with SECP.",
+                "✔ Regulatory Approvals – Facilitating SECP approval for capital reductions, amalgamations, and restructuring activities."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Ensure a smooth M&A process with expert regulatory support."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "7. Compliance with Public Offering Regulations",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Planning to list your company on the stock exchange? We assist businesses in IPO (Initial Public Offering) compliance and capital raising procedures."
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ IPO and Capital Raising Advisory – Preparing prospectuses and required filings for IPOs.",
+                "✔ Post-IPO Compliance – Ensuring compliance with SECP and Pakistan Stock Exchange (PSX) regulations."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Take your business public with confidence and regulatory compliance."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "8. Liquidation and Winding Up Services",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "When closing a company, businesses must follow SECP’s legal winding-up procedures. We assist in dissolving companies legally and efficiently."
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Voluntary Winding Up – Managing documentation for voluntary company dissolution.",
+                "✔ Court-Ordered Liquidation – Guiding companies through court-mandated winding-up.",
+                "✔ Strike-Off Services – Assisting dormant companies in getting delisted from SECP’s register."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Close your company legally with expert liquidation support."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "9. Compliance with Specialized SECP Regulations",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Non-Banking Finance Companies (NBFCs) – Licensing & compliance support.",
+                "✔ Insurance Companies – Ensuring regulatory compliance.",
+                "✔ Modarabas & Leasing Companies – Advisory on SECP-governed financial entities."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Specialized compliance services for financial businesses."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "10. Reporting and Disclosure Obligations",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Financial Statements Preparation – Ensuring reports meet SECP and IFRS standards.",
+                "✔ Mandatory Disclosures – Drafting and filing required disclosures and material changes."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Stay compliant with SECP’s financial reporting standards."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "11. SECP Regulatory Approvals and Liaison",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Liaison with SECP – Acting as a bridge between businesses and SECP.",
+                "✔ Regulatory Permissions – Assisting in obtaining permissions for inter-corporate financing, debentures, and other activities."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Navigate regulatory approvals with ease."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "12. Advisory on AML/CFT Compliance",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Anti-Money Laundering (AML) Compliance – Meeting SECP’s financial crime prevention guidelines.",
+                "✔ Policy Development – Helping businesses create AML and CFT frameworks."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Protect your business against financial crimes and regulatory violations."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "13. Training and Capacity Building",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Corporate Law Training – Training sessions on SECP regulations and corporate governance.",
+                "✔ Workshops on SECP Updates – Regular updates on SECP regulatory changes."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "📌 Empower your team with corporate law expertise."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Choose SARN Consulting for SECP-Related Services?",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Expert Regulatory Knowledge – Deep expertise in SECP corporate regulations.",
+                "✔ Hassle-Free Compliance – Managing complex regulatory filings.",
+                "✔ Fast & Efficient Licensing – Ensuring quick approvals from SECP.",
+                "✔ Customized Corporate Solutions – Tailored services for startups, SMEs, and large enterprises."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Get Expert SECP Compliance Services Today!",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "📧 Email: info@sarnconsulting.com",
+                "📧 Email: partner@sarnconsulting.com",
+                "📍 Location: Islamabad, Pakistan",
+                "📞 Phone: +923370646536",
+                "☎ LandLine: 051-2741610",
+                "☎ Phone:  051-2741611"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Management-Consulting": {
+      "title": "Management Consulting",
+      "description": "",
+      "content": [
+        {
+          "type": "section",
+          "heading": "Business Proposal",
+          "content": []
+        },
+        {
+          "type": "section",
+          "heading": "Business Plans/Feasibility Study",
+          "content": []
+        },
+        {
+          "type": "section",
+          "heading": "Financial Consulting",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Unleash the full potential of your finances with our expert financial consulting services. Our seasoned professionals offer strategic insights to optimize your financial health, aligning every monetary decision with your business objectives. From budgeting to investment strategies, we guide you towards fiscal excellence."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Business Strategy",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Elevate your business game with our cutting-edge business strategy services. We delve deep into market dynamics, competition, and industry trends to craft a bespoke strategy that propels your business forward. Our approach integrates innovation and practicality, ensuring your strategy aligns seamlessly with your vision and goals."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Risk Management",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Navigate the complex landscape of risks with confidence through our robust risk management solutions. We meticulously identify, assess, and mitigate risks that could impact your business. Our proactive approach ensures that your organization is well-prepared to face uncertainties, safeguarding both reputation and financial stability."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Marketing & Brand Consulting",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Transform your brand into a market leader with our integrated marketing and brand consulting services. From crafting compelling marketing strategies to refining your brand identity, we leverage data-driven insights for a powerful market presence. Our approach encompasses both traditional and digital channels, ensuring your brand resonates with your target audience."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Mergers and Acquisitions (M&A)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Navigate the intricate landscape of mergers and acquisitions with confidence. Our M&A experts provide strategic guidance throughout the process, from due diligence to post-merger integration. We maximize synergies and minimize risks, ensuring a seamless transition that propels your business towards new heights."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Digital Strategy & Technical Consultancy",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Embrace the digital era with our advanced digital strategy and technical consultancy services. We leverage technological advancements to align your business processes with industry trends. From digital transformation to technical integration, our experts ensure your business remains at the forefront of innovation."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Human Resources & Talent Management",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Cultivate a thriving workplace with our HR consulting and talent management services. From recruitment strategies to performance management, we optimize your human capital. Our approach focuses on nurturing talent, fostering a positive work culture, and ensuring your team aligns seamlessly with your business objectives."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Outsourcing & Operations Consulting",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Streamline your operations and boost efficiency through our outsourcing and operations consulting services. We identify areas for improvement, implement cost-effective solutions, and provide expert guidance on outsourcing non-core functions. Enhance productivity and focus on your core competencies while we handle the rest."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Additional Consulting Services",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Consulting",
+                "Business Advisory Services",
+                "Corporate Finance Advisory",
+                "Family business Planning",
+                "Human Resource Consulting",
+                "Outsourcing",
+                "Performance Management Services",
+                "Risk Advisory",
+                "Specialist Services",
+                "Technology and Management Consulting"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Intellectual-Property": {
+      "title": "Intellectual Property Services",
+      "description": "",
+      "content": [
+        {
+          "type": "section",
+          "heading": "Trademarks",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A Trademark is a word, phrase, symbol, and/or design that identifies and distinguishes the source of the goods of one party from those of others. A service mark is a word, phrase, symbol, and / or design that identifies and distinguishes the source of a service rather than goods."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Patents",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A patent is grant of exclusive rights for an invention to make, use and sell the invention for a limited period of 20 years. The patent grant excludes others from making, using, or selling the invention. Patent protection does not start until the actual grant of a patent."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Industrial Design",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "An industrial design is the ornamental or aesthetic aspect of an article. The design may consist of three-dimensional features, such as the shape or surface of an article, or of two dimensional features, such as patterns, lines or colour."
+            },
+            {
+              "type": "paragraph",
+              "text": "Industrial designs are applied to a wide variety of products of industry and handicraft: from technical and medical instruments to watches, jewellery and other luxury items; from house wares and electrical appliances to vehicles and architectural structures; from textile designs to leisure goods."
+            },
+            {
+              "type": "paragraph",
+              "text": "An industrial design is primarily of an aesthetic or visual nature, and does not relate to the technical features of an article."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Copyright",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Copyright is a legal instrument that provides the creator of a work of art or literature, or a work that conveys information or ideas, the right to control how the work is used. The intent of copyright is to advance the progress of knowledge by giving an author of a work an economic incentive to create new works."
+            },
+            {
+              "type": "bullet_points",
+              "items": [
+                "Literary works which includes Books, Magazines, Journals, Lectures, Dramas, Novels, Computer programmes/Software and compilation of data etc.",
+                "Artistic works like paintings, Maps, photographs, drawings, Charts, Calligraphies, Sculptures, Architectural Works, Label Designs, Logos, Monograms and other works alike.",
+                "Cinematographic works which includes movies, audio-visual works, documentaries etc; and",
+                "Record works which include sound recordings, musical works etc."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Geographical Indications",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A Geographical Indication (GI) is a sign used in relation to products that have a specific geographical origin and possess qualities or reputation essentially due to natural and human factors of place of origin e-g Basmati Rice, Sport goods of Sailkot, Sargodha Kinnow, Multan Mango."
+            },
+            {
+              "type": "paragraph",
+              "text": "Geographical indications are typically used for agricultural products, foodstuffs, wine and spirit drinks, handicrafts, and industrial products. A Geographical indication identifies a good as originating from a specific area while..."
+            }
+          ]
+        }
+      ]
+    },
+    "HR-Consulting-and-Trainings": {
+      "title": "HR Services an Accounting Firm Can Offer",
+      "description": "",
+      "content": [
+        {
+          "type": "section",
+          "heading": "1. Payroll Processing & Compliance",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Salary & Wage Calculation – Processing payroll, including deductions for taxes, benefits, and overtime.",
+                "Payroll Tax Filings – Ensuring payroll taxes (e.g., income tax, Social Security, and Medicare in the U.S.) are filed correctly and on time.",
+                "Direct Deposit Management – Setting up electronic payments for employees.",
+                "Compliance with Labor Laws – Ensuring compliance with local labor laws regarding minimum wage, overtime, and deductions.",
+                "Payroll Audits – Verifying payroll accuracy to prevent fraud or miscalculations."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "2. Employee Benefits Administration",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Managing Health Insurance & Retirement Plans – Assisting businesses in setting up and managing employee benefits.",
+                "Workers’ Compensation Administration – Ensuring compliance with workers’ compensation insurance.",
+                "Paid Leave & Vacation Tracking – Managing employee leave policies and tracking time off."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "3. Recruitment & Hiring Assistance",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Job Posting & Candidate Screening – Helping businesses find and vet potential hires.",
+                "Background Checks – Conducting criminal record checks, credit checks, and employment history verification.",
+                "Onboarding Support – Assisting with employee documentation, training schedules, and initial payroll setup."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "4. HR Compliance & Legal Support",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "Employment Contracts & Policies – Drafting and reviewing employment agreements, employee handbooks, and workplace policies.",
+                "Labor Law Compliance – Ensuring compliance with employment laws (e.g., FLSA in the U.S., ESA in Canada).",
+                "EEO & Anti-Discrimination Policies – Advising businesses on diversity, inclusion, and equal opportunity employment regulations."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "5. HR & Payroll Technology Implementation",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "HR Software Setup – Implementing and managing HR and payroll software like Gusto, ADP, QuickBooks Payroll, and Xero Payroll.",
+                "Time Tracking & Attendance Systems – Setting up biometric or software-based attendance tracking."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "6. Employee Performance Management",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "KPI & Performance Reviews – Developing key performance indicators (KPIs) and tracking employee progress.",
+                "Compensation & Incentive Planning – Helping businesses set up salary structures, bonuses, and performance-based incentives.",
+                "Training & Development – Identifying employee skill gaps and recommending professional development programs."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "7. HR Audits & Risk Management",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "HR Process Audits – Reviewing employee records, payroll systems, and compliance documentation.",
+                "Workplace Safety & OSHA Compliance – Ensuring businesses meet workplace safety regulations.",
+                "Dispute Resolution & Employee Relations – Helping resolve workplace conflicts and advising on terminations to avoid legal risks."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Should an Accounting Firm Offer HR Services?",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "✅ Additional Revenue Stream – Expands service offerings to existing clients.",
+                "✅ Enhances Client Retention – Provides an all-in-one solution for finance, tax, and HR needs.",
+                "✅ Leverages Accounting Expertise – Payroll and compliance naturally align with an accounting firm’s core services.",
+                "✅ Competitive Edge – Differentiates the firm from competitors that only offer traditional accounting and tax services."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ISO-Consulting": {
+      "title": "ISO Consulting",
+      "description": "Focusing on ISO 9001 (Quality Management System) and ISO 27001 (Information Security Management System) will allow SARN Consulting to provide high-value services to businesses in Pakistan. Here’s how your firm can structure its offerings:",
+      "content": [
+        {
+          "type": "section",
+          "heading": "ISO 9001 & ISO 27001 Services by SARN Consulting",
+          "content": []
+        },
+        {
+          "type": "section",
+          "heading": "1. ISO 9001:2015 – Quality Management System (QMS) Services",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ISO 9001 certification helps businesses improve quality, customer satisfaction, and operational efficiency. Your firm can offer the following services:"
+            },
+            {
+              "type": "section",
+              "heading": "Pre-Certification Services",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "ISO 9001 Readiness Assessment – Identify gaps in current processes and provide a roadmap for achieving certification.",
+                    "Process & Documentation Development – Assist in drafting required policies, procedures, SOPs, and work instructions.",
+                    "Training & Awareness Programs – Educate employees and management on ISO 9001 principles and quality management best practices.",
+                    "Internal Audits & Compliance Checks – Conduct audits to assess the organization's readiness before the final certification audit.",
+                    "Selection of Certification Body – Guide businesses in choosing an accredited certification body."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Post-Certification Services",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "ISO 9001 Maintenance & Compliance Audits – Conduct periodic audits to ensure continuous compliance.",
+                    "Process Optimization & Continuous Improvement – Implement quality control measures and enhance business processes.",
+                    "Corrective Action Support – Help businesses address non-conformities and implement corrective measures."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Industries to Target for ISO 9001",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Manufacturing & Industrial Sector",
+                    "IT & Software Companies",
+                    "Healthcare & Pharmaceuticals",
+                    "Education & Training Institutions",
+                    "Retail & Service Providers",
+                    "Logistics & Supply Chain Businesses"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "2. ISO 27001:2022 – Information Security Management System (ISMS) Services",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ISO 27001 helps organizations protect sensitive data, prevent cyber threats, and comply with information security regulations."
+            },
+            {
+              "type": "section",
+              "heading": "Pre-Certification Services",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "ISO 27001 Gap Analysis & Risk Assessment – Identify weaknesses in the company’s information security framework.",
+                    "Information Security Policy Development – Create security policies, access controls, and incident management plans.",
+                    "Employee & Management Training – Train employees on cybersecurity best practices and data protection.",
+                    "ISO 27001 Internal Audit & Risk Mitigation – Perform audits to detect security risks and recommend controls.",
+                    "Selection of Certification Body – Help organizations choose a reputable certification provider."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Post-Certification Services",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "Ongoing Compliance & Security Audits – Ensure that information security measures remain effective.",
+                    "Security Breach & Incident Response Planning – Develop action plans to manage and mitigate data breaches.",
+                    "Business Continuity & Disaster Recovery Planning – Establish strategies for maintaining operations during cyber threats.",
+                    "Regulatory Compliance & Legal Advisory – Align ISO 27001 with local and international data protection regulations."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "heading": "Industries to Target for ISO 27001",
+              "content": [
+                {
+                  "type": "bullet_points",
+                  "items": [
+                    "IT & Software Development Firms",
+                    "Financial Institutions & FinTech Companies",
+                    "Healthcare & Medical Data Management",
+                    "E-Commerce & Online Businesses",
+                    "Government & Public Sector Organizations",
+                    "Legal & Consulting Firms"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Choose SARN Consulting for ISO 9001 & ISO 27001?",
+          "content": [
+            {
+              "type": "bullet_points",
+              "items": [
+                "✔ Expertise in Compliance & Business Advisory – Your background in accounting, tax law, and business consulting makes you well-equipped to handle regulatory compliance.",
+                "✔ Cost-Effective ISO Solutions – Your Pakistani-based firm can offer premium consultancy at competitive rates.",
+                "✔ Industry-Specific Knowledge – Focus on businesses that require ISO certifications for legal and operational compliance.",
+                "✔ One-Stop Solution – Provide end-to-end services from gap analysis to certification and post-certification maintenance."
               ]
             }
           ]

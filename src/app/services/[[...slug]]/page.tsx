@@ -31,7 +31,7 @@ interface Props {
 
 export default async function ServicePage({ params }: Props) {
   const { slug } = await params;
-  const pageSlug = slug?.[0] || "business-registration";
+  const pageSlug = slug?.[0] || "Accounting-and-Audit";
   const serviceContent = serviceDataTyped.content[pageSlug];
   const recentBlogs = await client.fetch(alltitleQuery);
 

@@ -13,6 +13,49 @@ const MobileNavbar: React.FC = () => {
   const [isServiceCard, setServiceCard] = useState(false);
   const [isAboutCard, setAboutCard] = useState(false);
 
+  const DropdownItem = ({ service }: any) => {
+    const [isSubmenuOpen, setSubmenuOpen] = useState(false);
+
+    return (
+      <div className="flex flex-col">
+        {service.subItems ? (
+          <div
+            className="px-4 py-2 flex justify-between items-center text-black font-medium hover:text-[#3C73DA] hover:scale-110"
+            onClick={(e) => {
+              e.stopPropagation();
+              setSubmenuOpen(!isSubmenuOpen);
+            }}
+          >
+            <span>{service.label}</span>
+            <span className="ml-2">{isSubmenuOpen ? "▼" : "▶"}</span>
+          </div>
+        ) : (
+          <Link
+            href={`/services/${service.slug}`}
+            className="px-4 py-2 text-black font-medium hover:text-[#3C73DA] hover:scale-110"
+            onClick={() => setDrawerOpen(false)}
+          >
+            {service.label}
+          </Link>
+        )}
+        {service.subItems && isSubmenuOpen && (
+          <div className="pl-6 flex flex-col">
+            {service.subItems.map((subItem: any) => (
+              <Link
+                key={subItem.slug}
+                href={`/services/${subItem.slug}`}
+                className="px-4 py-2 text-black font-medium hover:text-[#3C73DA] hover:scale-110"
+                onClick={() => setDrawerOpen(false)}
+              >
+                {subItem.label}
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
+    );
+  };
+
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md drop-shadow-lg p-4">
       <div className="flex items-center px-5 p-2 justify-between">
@@ -74,7 +117,7 @@ const MobileNavbar: React.FC = () => {
           </div>
 
           {/* Services Dropdown */}
-          <div
+          {/* <div
             className="relative ml-3 cursor-pointer"
             onClick={() => setServiceCard(!isServiceCard)}
           >
@@ -95,6 +138,22 @@ const MobileNavbar: React.FC = () => {
                 ))}
               </div>
             )}
+          </div> */}
+          {/* Services Dropdown */}
+          <div
+            className="relative ml-3 cursor-pointer"
+            onClick={() => setServiceCard(!isServiceCard)}
+          >
+            <span className="text-black font-medium hover:text-[#3C73DA] hover:scale-110">
+              Services
+            </span>
+            {isServiceCard && (
+              <div className="mt-2 flex flex-col gap-1 z-50">
+                {servicesData.services.map((service: any) => (
+                  <DropdownItem key={service.slug} service={service} />
+                ))}
+              </div>
+            )}
           </div>
 
           <Link
@@ -106,11 +165,20 @@ const MobileNavbar: React.FC = () => {
           </Link>
 
           <Link
-            href="/contact"
-            className="text-black font-medium hover:text-[#3C73DA]  hover:scale-110 ml-3"
+            href="/taxcalculator"
+            className="text-black font-medium hover:text-[#3C73DA]  hover:scale-110 ml-3 "
             onClick={() => setDrawerOpen(false)}
           >
-            Contact
+            Tax Calulator
+          </Link>
+          <Link
+            href="/contact"
+            className="text-black font-medium hover:text-[#3C73DA]  hover:scale-110 ml-3  flex justify-end"
+            onClick={() => setDrawerOpen(false)}
+          >
+            <Button className="w-full  text-white bg-[#3C73DA]  font-medium hover:text-[#3C73DA]  hover:scale-110 ">
+              Contact Us
+            </Button>
           </Link>
         </div>
       </Drawer>

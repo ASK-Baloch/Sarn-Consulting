@@ -20,10 +20,10 @@ const Testimonial = () => {
   }
 
   return (
-   <div className = "w-full min-h-screen  bg-gray-100 shadow-sm flex flex-col p-3" >
+   <div className = "w-full  mt-10  bg-gray-200 shadow-sm flex flex-col p-3" >
 
 
-      <div className="flex p-4 ">     
+      <div className="flex p-4">     
         <div className="flex flex-col relative -top-32 ">
           <TestimonialCard
             
@@ -45,6 +45,13 @@ const Testimonial = () => {
         <div>
           <TestimonialCard
             heading="Great Service and Long-term Reliability"
+            quote="&quot;Recommended. Great service. Mr. Anees has been bookkeeping and filing tax records for my business since last 2 years. He and his team are very professional.Best tax consultant. We are using their services for the last 10 years and always found them honest and professional.&quot;"
+            name="Ahmed Hussain"
+            imagesrc="/person-3.jpg"
+            specialization="Blue Ocean Consultin"
+          />
+          <TestimonialCard
+            heading="Professional and Efficient Service"
             quote="&quot;Recommended. Great service. Mr. Anees has been bookkeeping and filing tax records for my business since last 2 years. He and his team are very professional.Best tax consultant. We are using their services for the last 10 years and always found them honest and professional.&quot;"
             name="Ahmed Hussain"
             imagesrc="/person-3.jpg"
