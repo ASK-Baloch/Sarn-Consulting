@@ -180,7 +180,7 @@ export default function Navbar() {
         About
       </span>
       {isAboutCard && (
-        <div className="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white text-black flex flex-col gap-1">
+        <div className="absolute left-0  w-56 rounded-md shadow-lg bg-white text-black flex flex-col gap-1">
           {aboutData.about.map((about) => (
             <Link
               key={about.slug}
@@ -204,7 +204,7 @@ export default function Navbar() {
         Services
       </span>
       {isServiceCard && (
-        <div className="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white text-black flex flex-col gap-1">
+        <div className="absolute left-0  w-56 rounded-md shadow-lg bg-white text-black flex flex-col gap-1">
           {servicesData.services.map((service) => (
             <DropdownItem key={service.slug} service={service} />
           ))}
