@@ -14,8 +14,8 @@ const ContactForm = () => {
     const sendEmail = (e: React.FormEvent) => {
         e.preventDefault();
         if (!form.current) return;
-        emailjs.sendForm('service_z6oge6j', 'template_x9d664r', form.current, {
-            publicKey: 'wCd6ziIag8aJOWwMh',
+        emailjs.sendForm('service_mttv9ym', 'template_8czcqpm', form.current, {
+          publicKey: '4qROg4me0HL6MyC2R',
         }).then(() => {
             setSuccess(true);
             setName('');

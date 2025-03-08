@@ -8,9 +8,9 @@ export default defineConfig({
   name: 'default',
   title: 'Sarn-Consulting',
 
-  projectId: 'bbokzn7y',
+  projectId: '9foiwkep',
   dataset: 'production',
-  apiVersion: '2023-01-01',
+  // apiVersion: '2023-01-01',
 
   plugins: [
     structureTool(),
