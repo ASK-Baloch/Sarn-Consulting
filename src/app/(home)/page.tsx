@@ -2,7 +2,6 @@ export const revalidate = 30;
 
 import HeroCarousel from "../../components/Craousal";
 import BlogsListing from "../../components/BlogsListing";
-import HeroSection from "../../components/hero/HeroSection";
 import Softwares from "../../components/Software";
 import Testimonial from "../../components/testimonial/Testimonial";
 import Services from "../../components/Services/Services";
@@ -15,7 +14,6 @@ const page = () => {
   return (
     <div className="">
       <HeroCarousel />
-      {/* <HeroSection /> */}
       <Services />
       <ServicesBoxes />
       <Softwares />

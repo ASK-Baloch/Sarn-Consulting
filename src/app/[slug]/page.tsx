@@ -18,6 +18,7 @@ export default async function PostPage({ params }: { params: { slug: string } })
   const posts = await client.fetch(allPostsQuery);
 
   return (
+    
     <main className="max-w-6xl mx-auto px-4 grid grid-cols-1 xl:grid-cols-[3fr_1fr] gap-6 mt-8 overflow-visible">
       <section className="ml-12 w-[80%]">
         <p className="text-sm text-gray-500 py-4">

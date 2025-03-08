@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import aboutData from "@/data/about.json";
 import servicesData from "@/data/service.json";
 
