@@ -76,7 +76,7 @@ const BlogsListing = () => {
              
               <div className="p-5">
                 <h2 className="text-lg font-semibold text-gray-900">
-                  <Link href={`/${post.slug.current}`} className="hover:text-blue-600">
+                  <Link href={`/blog/${post.slug.current}`} className="hover:text-blue-600">
                     {post.title.length > 35 ? post.title.slice(0, 35) + "..." : post.title}
                   </Link>
                 </h2>
