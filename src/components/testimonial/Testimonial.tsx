@@ -8,7 +8,7 @@ const Testimonial = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 1200);
+      setIsMobile(window.innerWidth < 700);
     };
 
     handleResize();     window.addEventListener("resize", handleResize);

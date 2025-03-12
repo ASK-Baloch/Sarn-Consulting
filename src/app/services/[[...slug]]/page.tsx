@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import CardLayout from "../../../components/CardLayout";
 import { alltitleQuery } from "../../../../sanity.query";
 import { client } from "../../../../sanity.client";
+import { ParsedUrlQuery } from "querystring";
 
 interface ContentItem {
   type: "paragraph" | "bullet_points" | "section" | "nested";
@@ -23,15 +24,28 @@ interface ServiceData {
   content: Record<string, ServiceContent>;
 }
 
-const serviceDataTyped = servicesData as ServiceData;
+const serviceDataTyped = servicesData  as ServiceData;
 
+// interface ServiceProps {
+//   params: { slug?: string[] };
+// }
+interface Params extends ParsedUrlQuery {
+  slug?: string[];
+}
+
+interface Params {
+  slug?: string[];
+}
+
+// Note: We allow params to be a promise (or a plain object) to satisfy Next.js’s internal type check.
 interface Props {
-  params: { slug?: string[] };
+  params: Params | Promise<Params>;
 }
 
 export default async function ServicePage({ params }: Props) {
-  const { slug } = await params;
-  const pageSlug = slug?.[0] || "Accounting-and-Audit";
+  const resolvedParams = await params;
+  const slug = resolvedParams?.slug || [];
+  const pageSlug = slug.length > 0 ? slug[0] : "Accounting-and-Audit";
   const serviceContent = serviceDataTyped.content[pageSlug];
   const recentBlogs = await client.fetch(alltitleQuery);
 

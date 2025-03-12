@@ -39,12 +39,12 @@ const TestimonialMobileView = () => {
     }, []);
 
     return (
-        <div className="w-full flex flex-col items-center justify-center bg-gray-100 py-10 px-4">
+        <div className="w-full flex flex-col items-center justify-center bg-gray-100 py-10 px-4 ">
             <h3 className="text-xl md:text-2xl font-bold mb-6 text-gray-800 text-center">
                 OUR GREAT CLIENTS
             </h3>
 
-            <div className="relative w-full max-w-lg overflow-hidden">
+            <div className="relative w-full max-w-lg overflow-hidden p-10">
                 <div
                     className="flex transition-transform duration-700 ease-in-out"
                     style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -52,18 +52,18 @@ const TestimonialMobileView = () => {
                     {testimonials.map((testimonial, index) => (
                         <div
                             key={index}
-                            className="min-w-full bg-white rounded-xl p-6 shadow-lg text-center relative"
+                            className="min-w-full bg-white rounded-xl p-6 shadow-lg text-center relative "
                         >
-                            <div className="absolute top-[-36px] left-1/2 transform -translate-x-1/2 bg-white p-2 rounded-full shadow-md">
+                            <div className="absolute top-[-36px] left-1/2 transform -translate-x-1/2 bg-white p-2 mb-2 rounded-full shadow-md">
                                 <Image 
                                     src={testimonial.imagesrc}
                                     height={80}
                                     width={80}
-                                    className="rounded-full border-2 border-gray-300"
+                                    className="rounded-full border-2 border-gray-300" 
                                     alt="image"
                                 />
                             </div>
-                            <p className="text-gray-700 mt-12 mb-4 font-medium italic">&quot;{testimonial.quote}&quot;</p>
+                            <p className="text-gray-700 mt-16 mb-4 font-medium italic">&quot;{testimonial.quote}&quot;</p>
                             <div className="flex flex-col justify-center items-center">
                                 <div className="font-semibold text-[#3C73DA] text-lg">{testimonial.name}</div>
                                 <div className="text-gray-700 text-sm">{testimonial.specialization}</div>

@@ -61,6 +61,7 @@ const HeroCarousel = () => {
                             <Image
                                 src={slide.src}
                                 alt={`Slide ${index + 1}`}
+                                priority
                                 fill
                                 className="object-cover opacity-30"
                             />

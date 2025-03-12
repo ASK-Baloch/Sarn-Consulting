@@ -62,7 +62,7 @@ const MobileNavbar: React.FC = () => {
         {/* Logo */}
         <div>
           <Link href="/" className="text-2xl text-black">
-            <Image src="/SARNLOGO.jpg" alt="logo" height={100} width={100} />
+            <Image src="/SARNLOGO.jpg" alt="logo" height={100} width={100}   className="w-auto h-auto" />
           </Link>
         </div>
 
