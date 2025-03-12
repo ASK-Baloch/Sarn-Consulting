@@ -12,6 +12,7 @@ const nextConfig: NextConfig = {
     // WARNING: This allows production builds with type errors.
     ignoreBuildErrors: true,
   },
+  output: "export",
 };
 
 export default nextConfig;
