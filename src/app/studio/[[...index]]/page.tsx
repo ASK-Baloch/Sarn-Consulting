@@ -1,17 +1,11 @@
-// src/app/studio/[[...index]]/page.tsx
-'use client'
+// Export generateStaticParams so Next.js knows what paths to generate.
+export async function generateStaticParams() {
+  return [{index: [] }];
+}
 
-import dynamic from 'next/dynamic'
-import config from '../../../../sanity/sanity.config'
-
-const Studio = dynamic(
-  () => import('next-sanity/studio').then((mod) => mod.NextStudio),
-  {
-    ssr: false,
-    loading: () => <div>Loading Studio...</div>
-  }
-)
+// Import and render the client component
+import ClientStudio from "./ClientStudio";
 
 export default function StudioPage() {
-  return <Studio config={config} />
+  return <ClientStudio />;
 }

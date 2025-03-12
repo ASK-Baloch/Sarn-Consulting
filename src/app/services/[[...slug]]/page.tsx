@@ -41,6 +41,11 @@ interface Params {
 interface Props {
   params: Params | Promise<Params>;
 }
+export async function generateStaticParams() {
+  // Get all available slugs from your about content.
+  const slugs = Object.keys(serviceDataTyped.content);
+  return slugs.map((slug) => ({ slug: [slug] }));
+}
 
 export default async function ServicePage({ params }: Props) {
   const resolvedParams = await params;

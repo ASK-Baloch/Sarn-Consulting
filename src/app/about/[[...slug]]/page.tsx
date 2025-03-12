@@ -33,7 +33,11 @@ interface Params {
 interface Props {
   params: Params | Promise<Params>;
 }
-
+export async function generateStaticParams() {
+  // Get all available slugs from your about content.
+  const slugs = Object.keys(aboutDataTyped.content);
+  return slugs.map((slug) => ({ slug: [slug] }));
+}
 export default async function AboutPage({ params }: Props) {
   // Await params in case it's a promise
   const resolvedParams = await params;
