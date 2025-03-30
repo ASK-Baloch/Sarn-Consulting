@@ -51,7 +51,7 @@ const TeamSection = () => {
     }, []);
 
     return (
-        <section className="py-16 bg-gradient-to-br from-[#3b4964] via-blue-700 to-[#3C73DA] text-white overflow-hidden">
+        <section id='team-section' className="py-16 bg-gradient-to-br from-[#3b4964] via-blue-700 to-[#3C73DA] text-white overflow-hidden">
             <div className="max-w-6xl mx-auto px-6 text-center relative">
                 <h2 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 via-blue-100 to-[#0c1d3b] drop-shadow-lg mb-4">
                     Meet Our Team

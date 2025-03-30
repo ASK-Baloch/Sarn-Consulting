@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   title: "Sarn Consulting",
   description: "A consulting firm",
   icons: {
-    icon: "/sarn.jpg",           // For browsers (favicon)
-    apple: "/sarn.jpg",          // For Apple devices
+    icon: "/fotorsarn.png",           // For browsers (favicon)
+    apple: "/fotorsarn.png",          // For Apple devices
   },
   openGraph: {
     title: "Sarn Consulting",
