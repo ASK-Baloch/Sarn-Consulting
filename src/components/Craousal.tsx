@@ -107,7 +107,7 @@ const HeroCarousel = () => {
               {index === 0 && (
                 <div className="mt-6 flex flex-col sm:flex-row gap-4">
                   <button
-                    onClick={() => router.push("/who-we-are")}
+                    onClick={() => router.push("/about/who-we-are")}
                     className="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700 transition w-full sm:w-auto"
                   >
                     Read About Us
