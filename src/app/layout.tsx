@@ -20,17 +20,17 @@ export const metadata: Metadata = {
   title: "Sarn Consulting",
   description: "A consulting firm",
   icons: {
-    icon: "/SARNLOGO.jpg",           // For browsers (favicon)
-    apple: "/SARNLOGO.jpg",          // For Apple devices
+    icon: "/sarn.jpg",           // For browsers (favicon)
+    apple: "/sarn.jpg",          // For Apple devices
   },
   openGraph: {
     title: "Sarn Consulting",
     description: "A consulting firm",
-    url: "https://yourdomain.com",
+    url: "https://sarnconsulting.com",
     siteName: "Sarn Consulting",
     images: [
       {
-        url: "https://yourdomain.com/SARNLOGO.jpg",
+        url: "https://sarnconsulting.com/sarn.jpg",
         width: 800,
         height: 600,
       },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sarn Consulting",
     description: "A consulting firm",
-    images: ["https://yourdomain.com/SARNLOGO.jpg"],
+    images: ["https://sarnconsulting.com/sarn.jpg"],
   },
 };
 

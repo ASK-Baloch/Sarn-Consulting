@@ -1,17 +1,16 @@
 "use client";
 
-import React from "react";
-import { Grid } from "antd";
-
-import Link from "next/link";
-import MobileNavbar from "./MobileNav";
 import { useState } from "react";
+import Link from "next/link";
 import Image from "next/image";
+import { Grid } from "antd";
+import MobileNavbar from "./MobileNav";
 import aboutData from "@/data/about.json";
 import servicesData from "@/data/service.json";
+
 const { useBreakpoint } = Grid;
 
-const DropdownItem = ({ service }: any) => {
+const DropdownItem = ({ service }) => {
   const [isSubmenuOpen, setSubmenuOpen] = useState(false);
 
   return (
@@ -21,25 +20,25 @@ const DropdownItem = ({ service }: any) => {
       onMouseLeave={() => setSubmenuOpen(false)}
     >
       {service.subItems ? (
-        <div className="px-4 py-4 flex justify-between items-center text-center text-black font-medium hover:text-[#3C73DA] hover:scale-110">
+        <div className="px-4 py-2 flex justify-between items-center text-black font-normal hover:bg-[#3C73DA] hover:text-white">
           {service.label}
           <span className="ml-2">&raquo;</span>
         </div>
       ) : (
         <Link
           href={`/services/${service.slug}`}
-          className="px-4 py-2 flex  text-center text-black font-medium hover:text-[#3C73DA] hover:scale-110 "
+          className="px-4 py-2 flex text-black font-normal hover:bg-[#3C73DA] hover:text-white"
         >
           {service.label}
         </Link>
       )}
       {service.subItems && isSubmenuOpen && (
-        <div className="absolute top-0 left-full ml-1 py-2 w-56 rounded-md shadow-lg bg-white text-black flex flex-col gap-1">
-          {service.subItems.map((subItem: any) => (
+        <div className="absolute top-0 left-full ml-1 py-2 w-56 rounded-md shadow-lg bg-white text-black flex flex-col">
+          {service.subItems.map((subItem) => (
             <Link
               key={subItem.slug}
               href={`/services/${subItem.slug}`}
-              className="px-4 py-2 hover:text-[#3C73DA] hover:scale-110"
+              className="px-4 py-2 hover:bg-[#3C73DA] hover:text-white"
             >
               {subItem.label}
             </Link>
@@ -56,182 +55,106 @@ export default function Navbar() {
   const [isAboutCard, setAboutCard] = useState(false);
 
   const renderDesktopNav = () => (
-    // <header className="sticky top-0 z-10 bg-white shadow-md drop-shadow-lg p-4 items-center justify-between flex ">
-    //   <div className="ml-16">
-    //     <Link href="/" className="text-2xl  text-black">
-    //       <Image src={"/SARNLOGO.jpg"} alt="logo" height={100} width={100} />
-    //     </Link>
-    //   </div>
-    //   <div className="flex  mr-10">
-    //     <div className="flex  mr-16 justify-between gap-16 ">
-    //       <Link
-    //         href="/"
-    //         className="text-black font-medium hover:text-[#3C73DA]  hover:scale-110  "
-    //       >
-    //         Home
-    //       </Link>
+    <header className="sticky top-0 z-10 bg-white shadow-md drop-shadow-lg p-4 flex items-center justify-between lg:px-16 md:px-12 sm:px-8 px-4">
+      {/* Logo */}
+      <div className="flex-shrink-0">
+        <Link href="/">
+          <Image
+            src="/sarn.jpg"
+            alt="logo"
+            height={100}
+            width={100}
+            className="w-auto h-auto"
+          />
+        </Link>
+      </div>
 
-    //       <div
-    //         className="relative ml-3 cursor-pointer"
-    //         onMouseEnter={() => setAboutCard(true)}
-    //         onMouseLeave={() => setAboutCard(false)}
-    //       >
-    //         <span className="text-black font-medium hover:text-[#3C73DA] hover:scale-110">
-    //           About
-    //         </span>
-    //         {isAboutCard && (
-    //           <div className="absolute left-0 py-2 w-56 rounded-md shadow-lg bg-white text-black flex flex-col gap-1">
-    //             {aboutData.about.map((about) => (
-    //               <Link
-    //                 key={about.slug}
-    //                 href={`/about/${about.slug}`}
-    //                 className="px-4 py-2 hover:text-[#3C73DA]  hover:scale-110"
-    //               >
-    //                 {about.label}
-    //               </Link>
-    //             ))}
-    //           </div>
-    //         )}
-    //       </div>
+      {/* Navigation */}
+      <nav className="hidden md:flex items-center">
+        <div className="flex space-x-1 lg:space-x-1">
+          <Link
+            href="/"
+            className="text-black font-medium hover:scale-110 px-4 py-2 hover:bg-[#3C73DA] hover:text-white rounded-md"
+          >
+            Home
+          </Link>
 
-    //       {/* <div className="relative ml-3 cursor-pointer"
-    //                         onMouseEnter={() => setServiceCard(true)}
-    //                         onMouseLeave={() => setServiceCard(false)}
-    //                         >
-    //                         <span className="text-black font-medium hover:text-[#3C73DA] hover:scale-110">
-    //                             Services
-    //                         </span>
-    //                         {isServiceCard && (
-    //                             <div className="absolute left-0 py-2 w-56 rounded-md shadow-lg bg-white text-black flex flex-col gap-1">
-    //                             {servicesData.services.map((service) => (
-    //                                 <Link
-    //                                 key={service.slug}
-    //                                 href={`/services/${service.slug}`}
-    //                                 className="px-4 py-2 hover:text-[#3C73DA]  hover:scale-110"
-    //                                 >
-    //                                 {service.label}
-    //                                 </Link>
-    //                             ))}
-    //                             </div>
-    //                         )}
-    //                     </div> */}
-    //       <div
-    //         className="relative ml-3 cursor-pointer"
-    //         onMouseEnter={() => setServiceCard(true)}
-    //         onMouseLeave={() => setServiceCard(false)}
-    //       >
-    //         <span className="text-black font-medium hover:text-[#3C73DA] hover:scale-110">
-    //           Services
-    //         </span>
-    //         {isServiceCard && (
-    //           <div className="absolute left-0 py-2 w-56 rounded-md shadow-lg bg-white text-black flex flex-col gap-1">
-    //             {servicesData.services.map((service) => (
-    //               <DropdownItem key={service.slug} service={service} />
-    //             ))}
-    //           </div>
-    //         )}
-    //       </div>
+          <div
+            className="relative cursor-pointer px-4 py-2"
+            onMouseEnter={() => setAboutCard(true)}
+            onMouseLeave={() => setAboutCard(false)}
+          >
+            <span className="text-black font-medium hover:text-[#3C73DA] hover:scale-110">
+              About
+            </span>
+            {isAboutCard && (
+              <div className="absolute left-0 w-56 rounded-md shadow-lg bg-white text-black flex flex-col">
+                {aboutData.about.map((about) => (
+                  <Link
+                    key={about.slug}
+                    href={`/about/${about.slug}`}
+                    className="px-4 py-2 hover:bg-[#3C73DA] hover:text-white"
+                  >
+                    {about.label}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
 
-    //       <Link
-    //         href="/blogPage"
-    //         className="text-black font-medium hover:text-[#3C73DA]  hover:scale-110  ml-3"
-    //       >
-    //         Blog
-    //       </Link>
-    //       <Link
-    //         href="/contact"
-    //         className="text-black font-medium hover:text-[#3C73DA]  hover:scale-110 ml-3 "
-    //       >
-    //         Contact
-    //       </Link>
-    //       <Link
-    //         href="/taxcalculator"
-    //         className="text-black font-medium hover:text-[#3C73DA]  hover:scale-110 ml-3 "
-    //       >
-    //         Tax Calulator
-    //       </Link>
-    //     </div>
-    //   </div>
-    // </header>
-    <header className="sticky top-0 z-10 bg-white shadow-md drop-shadow-lg p-4 flex items-center justify-between md:px-16">
-  {/* Logo */}
-  <div className="flex-shrink-0">
-    <Link href="/">
-      <Image src="/SARNLOGO.jpg" alt="logo" height={100} width={100}   className="w-auto h-auto" />
-    </Link>
-  </div>
+          <div
+            className="relative cursor-pointer px-4 py-2"
+            onMouseEnter={() => setServiceCard(true)}
+            onMouseLeave={() => setServiceCard(false)}
+          >
+            <span className="text-black font-medium hover:text-[#3C73DA] hover:scale-110">
+              Services
+            </span>
+            {isServiceCard && (
+              <div className="absolute left-0 w-56 rounded-md shadow-lg font-normal bg-white text-black flex flex-col">
+                {servicesData.services.map((service) => (
+                  <DropdownItem key={service.slug} service={service} />
+                ))}
+              </div>
+            )}
+          </div>
 
-  {/* Desktop Navigation */}
-  <nav className="hidden md:flex space-x-10">
-    <Link
-      href="/"
-      className="text-black font-medium hover:text-[#3C73DA] hover:scale-110"
-    >
-      Home
-    </Link>
-
-    {/* About Dropdown */}
-    <div
-      className="relative cursor-pointer"
-      onMouseEnter={() => setAboutCard(true)}
-      onMouseLeave={() => setAboutCard(false)}
-    >
-      <span className="text-black font-medium hover:text-[#3C73DA] hover:scale-110">
-        About
-      </span>
-      {isAboutCard && (
-        <div className="absolute left-0  w-56 rounded-md shadow-lg bg-white text-black flex flex-col gap-1">
-          {aboutData.about.map((about) => (
+          <Link
+            href="/blogPage"
+            className="px-4 py-2 text-black font-medium hover:bg-[#3C73DA] hover:text-white rounded-md"
+          >
+            Blog
+          </Link>
+          <Link
+            href="/contact"
+            className="px-4 py-2 text-black font-medium hover:bg-[#3C73DA] hover:text-white rounded-md"
+          >
+            Contact
+          </Link>
+          <div className="flex ">
             <Link
-              key={about.slug}
-              href={`/about/${about.slug}`}
-              className="px-4 py-2 hover:text-[#3C73DA] hover:scale-110"
+              href="/taxcalculator"
+              className="px-4 py-2 text-black font-medium hover:bg-[#3C73DA] hover:text-white rounded-md"
             >
-              {about.label}
+              Tax Calculator
             </Link>
-          ))}
+            <Link
+              href="/usaservices"
+              className="px-4 py-2 flex items-center space-x-1 bg-gradient-to-r from-blue-800 via-white to-red-800 text-transparent bg-clip-text text-lg font-bold rounded-md transition-all duration-300 hover:bg-clip-border hover:text-white "
+            >
+              <Image
+                src="/us-flag.png"
+                alt="US Flag"
+                width={24}
+                height={18}
+                className="w-auto h-auto rounded-lg border border-gray-300 shadow-sm"
+              />
+              <span>USA Services</span>
+            </Link>
+          </div>
         </div>
-      )}
-    </div>
-
-    {/* Services Dropdown */}
-    <div
-      className="relative cursor-pointer"
-      onMouseEnter={() => setServiceCard(true)}
-      onMouseLeave={() => setServiceCard(false)}
-    >
-      <span className="text-black font-medium hover:text-[#3C73DA] hover:scale-110">
-        Services
-      </span>
-      {isServiceCard && (
-        <div className="absolute left-0  w-56 rounded-md shadow-lg bg-white text-black flex flex-col gap-1">
-          {servicesData.services.map((service) => (
-            <DropdownItem key={service.slug} service={service} />
-          ))}
-        </div>
-      )}
-    </div>
-
-    <Link
-      href="/blogPage"
-      className="text-black font-medium hover:text-[#3C73DA] hover:scale-110"
-    >
-      Blog
-    </Link>
-    <Link
-      href="/contact"
-      className="text-black font-medium hover:text-[#3C73DA] hover:scale-110"
-    >
-      Contact
-    </Link>
-    <Link
-      href="/taxcalculator"
-      className="text-black font-medium hover:text-[#3C73DA] hover:scale-110"
-    >
-      Tax Calculator
-    </Link>
-  </nav>
-</header>
+      </nav>
+    </header>
   );
 
   return screens.md ? renderDesktopNav() : <MobileNavbar />;

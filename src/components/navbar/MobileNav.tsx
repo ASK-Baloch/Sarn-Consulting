@@ -20,7 +20,7 @@ const MobileNavbar: React.FC = () => {
       <div className="flex flex-col">
         {service.subItems ? (
           <div
-            className="px-4 py-2 flex justify-between items-center text-black font-medium hover:text-[#3C73DA] hover:scale-110"
+            className="px-4 py-2 flex justify-between items-center text-black font-normal hover:text-[#3C73DA] hover:scale-110"
             onClick={(e) => {
               e.stopPropagation();
               setSubmenuOpen(!isSubmenuOpen);
@@ -32,7 +32,7 @@ const MobileNavbar: React.FC = () => {
         ) : (
           <Link
             href={`/services/${service.slug}`}
-            className="px-4 py-2 text-black font-medium hover:text-[#3C73DA] hover:scale-110"
+            className="px-4 py-2 text-black font-normal hover:text-[#3C73DA] hover:scale-110"
             onClick={() => setDrawerOpen(false)}
           >
             {service.label}
@@ -44,7 +44,7 @@ const MobileNavbar: React.FC = () => {
               <Link
                 key={subItem.slug}
                 href={`/services/${subItem.slug}`}
-                className="px-4 py-2 text-black font-medium hover:text-[#3C73DA] hover:scale-110"
+                className="px-4 py-2 text-black font-normal hover:text-[#3C73DA] hover:scale-110"
                 onClick={() => setDrawerOpen(false)}
               >
                 {subItem.label}
@@ -62,7 +62,13 @@ const MobileNavbar: React.FC = () => {
         {/* Logo */}
         <div>
           <Link href="/" className="text-2xl text-black">
-            <Image src="/SARNLOGO.jpg" alt="logo" height={100} width={100}   className="w-auto h-auto" />
+            <Image
+              src="/sarn.jpg"
+              alt="logo"
+              height={100}
+              width={100}
+              className="w-auto h-auto"
+            />
           </Link>
         </div>
 
@@ -101,7 +107,7 @@ const MobileNavbar: React.FC = () => {
               About
             </span>
             {isAboutCard && (
-              <div className="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white text-black flex flex-col z-50">
+              <div className="absolute left-0 mt-2 w-56 font-normal rounded-md shadow-lg bg-white text-black flex flex-col z-50">
                 {aboutData.about.map((about) => (
                   <Link
                     key={about.slug}
@@ -144,11 +150,11 @@ const MobileNavbar: React.FC = () => {
             className="relative ml-3 cursor-pointer"
             onClick={() => setServiceCard(!isServiceCard)}
           >
-            <span className="text-black font-medium hover:text-[#3C73DA] hover:scale-110">
+            <span className="text-black  font-medium hover:text-[#3C73DA] hover:scale-110">
               Services
             </span>
             {isServiceCard && (
-              <div className="mt-2 flex flex-col gap-1 z-50">
+              <div className="mt-2 flex flex-col gap-1 z-50 font-normal">
                 {servicesData.services.map((service: any) => (
                   <DropdownItem key={service.slug} service={service} />
                 ))}
@@ -166,11 +172,26 @@ const MobileNavbar: React.FC = () => {
 
           <Link
             href="/taxcalculator"
-            className="text-black font-medium hover:text-[#3C73DA]  hover:scale-110 ml-3 "
+            className="text-black font-medium hover:text-[#3C73DA]  hover:scale-110 ml-3"
             onClick={() => setDrawerOpen(false)}
           >
             Tax Calulator
           </Link>
+          <Link
+            href="/usaservices"
+            className="p-2 flex space-x-1 bg-gradient-to-r from-blue-500 to-red-800 text-transparent bg-clip-text  rounded-md transition-all duration-300 bg-blue-800 "
+            onClick={() => setDrawerOpen(false)}
+          >
+            <Image
+              src="/us-flag.png"
+              alt="US Flag"
+              width={24}
+              height={18}
+              className="w-auto h-auto rounded-lg border border-gray-300 shadow-sm"
+            />
+            <span>USA Services</span>
+          </Link>
+
           <Link
             href="/contact"
             className="text-black font-medium hover:text-[#3C73DA]  hover:scale-110 ml-3  flex justify-end"

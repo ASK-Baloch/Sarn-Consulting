@@ -28,8 +28,8 @@ const recentBlogs = await client.fetch(alltitleQuery);
     <section className="lg:ml-12 lg:w-[80%] px-4 sm:px-8 mt-4">
   <p className="text-sm text-gray-500 sm:mx-8 mx-4 lg:ml-12">
         <a href="/" className="text-gray-700 font-semibold">Home</a> /
-        <a href="/blogPage" className="text-gray-700 font-semibold">Blog</a> /
-        <a className="text-red-500">{post.title}</a>
+        <a href="/blogPage" className="text-gray-700 font-semibold pl-1">Blog</a> /
+        <a className="text-[#3C73DA] font-semibold pl-1">{post.title}</a>
       </p>
       <CardLayout
         title={post.title}

@@ -9,6 +9,7 @@ import MeetingShedule from "../../components/Services/MeetinShedule";
 import ServicesBoxes from "../../components/ServicesBoxes";
 import ContactForm from "../../components/ContactForm";
 import FactsAndStats from "../../components/FactsAndFigures";
+import TeamSection from "@/components/Team";
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
       <Services />
       <ServicesBoxes />
       <Softwares />
+      <TeamSection />
       <MeetingShedule />
       <Testimonial />
       <BlogsListing />
