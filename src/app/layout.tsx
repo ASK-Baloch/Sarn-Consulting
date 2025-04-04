@@ -60,6 +60,13 @@ export default function RootLayout({
         <Navbar/>
         {children}
         <Footer/>
+        <SpeedInsights
+          projectId="sarnconsulting"
+          clientId="sarnconsulting"
+          clientSecret="sarnconsulting"
+          apiKey="sarnconsulting"
+          apiUrl="https://api.sarnconsulting.com" 
+          />
       </body>
     </html>
   );
