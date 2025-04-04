@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/Footer";
