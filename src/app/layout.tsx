@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/Footer";
@@ -60,6 +61,7 @@ export default function RootLayout({
         <Navbar/>
         {children}
         <Footer/>
+        <Analytics />
         <SpeedInsights />
       </body>
     </html>
